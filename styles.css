@@ -171,6 +171,35 @@ tbody td {
   font-size: 14px;
 }
 
+.wordcell {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.tts-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  cursor: pointer;
+  background: var(--panel-2);
+  font-size: 0.7em;
+  color: var(--muted);
+  flex-shrink: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.tts-btn:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
 .col-english {
   color: var(--muted);
 }

@@ -5,13 +5,14 @@ import os
 import re
 from collections import defaultdict
 
-from wordfreq import top_n_list
+from wordfreq import top_n_list, zipf_frequency
 import spacy
 from transformers import MarianMTModel, MarianTokenizer
 
 TOKEN_RE = re.compile(r"^[A-Za-zÀ-ÖØ-öø-ÿ'\-]+$")
 
 LEVEL_TARGETS = [500, 700, 700, 700, 650, 650, 600]
+MIN_ZIPF = 1.8
 
 POS_MAP = {
     'NOUN': 'noun',
@@ -45,6 +46,18 @@ def normalize_gloss(gloss):
     gloss = re.sub(r'\s+', ' ', gloss)
     return gloss
 
+def single_word_gloss(gloss):
+    gloss = normalize_gloss(gloss)
+    if not gloss:
+        return ''
+    # drop leading "to " for verbs
+    gloss = re.sub(r'^(to\s+)', '', gloss, flags=re.IGNORECASE)
+    # take first segment before punctuation
+    gloss = re.split(r'[;,/]', gloss)[0].strip()
+    # keep only first word if multiword remains
+    gloss = gloss.split()[0] if gloss else ''
+    return gloss
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -56,15 +69,14 @@ def main():
     parser.add_argument('--no-translate', action='store_true')
     args = parser.parse_args()
 
-    nlp = spacy.load('nl_core_news_sm')
+    nlp = spacy.load('nl_core_news_sm', disable=['parser', 'ner'])
 
     token_list = [t.lower() for t in top_n_list('nl', args.candidates) if TOKEN_RE.match(t)]
     total_tokens = len(token_list)
 
     lemma_stats = defaultdict(lambda: {'freq': 0.0, 'pos': None, 'tokens': set()})
 
-    for idx, token in enumerate(token_list):
-        doc = nlp(token)
+    for idx, (token, doc) in enumerate(zip(token_list, nlp.pipe(token_list, batch_size=1000))):
         if not doc:
             continue
         t = doc[0]
@@ -79,8 +91,11 @@ def main():
         if not TOKEN_RE.match(lemma):
             continue
 
-        rank_weight = (total_tokens - idx) / total_tokens
-        lemma_stats[lemma]['freq'] += rank_weight
+        # use zipf frequency for Dutch to prioritize correct spellings
+        z = zipf_frequency(lemma, 'nl')
+        if z < MIN_ZIPF:
+            continue
+        lemma_stats[lemma]['freq'] += z
         lemma_stats[lemma]['pos'] = pos
         lemma_stats[lemma]['tokens'].add(token)
 
@@ -134,7 +149,7 @@ def main():
 
         translated = translator.translate_batch(batch)
         for lemma_text, gloss in zip(batch, translated):
-            cache[lemma_text] = normalize_gloss(gloss)
+            cache[lemma_text] = single_word_gloss(gloss)
         with open(args.cache, 'w', encoding='utf-8') as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
 

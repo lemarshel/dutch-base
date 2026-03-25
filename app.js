@@ -54,13 +54,42 @@ function renderTable() {
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td>${item.rank}</td>
-      <td class="word">${item.lemma}</td>
+      <td class="word">
+        <div class="wordcell">
+          <button class="tts-btn" data-tts="${item.lemma}">▶</button>
+          <span>${item.lemma}</span>
+        </div>
+      </td>
       <td class="col-english">${state.showEnglish ? (item.english || '') : ''}</td>
       <td>${posLabels[item.pos] || item.pos}</td>
       <td>${item.level}</td>
     `;
     table.appendChild(tr);
   });
+
+  table.querySelectorAll('.tts-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const text = btn.getAttribute('data-tts');
+      if (!text) return;
+      speakDutch(text);
+    });
+  });
+}
+
+let dutchVoice = null;
+function loadDutchVoice() {
+  const voices = window.speechSynthesis.getVoices();
+  dutchVoice = voices.find(v => v.lang && v.lang.toLowerCase().startsWith('nl'));
+}
+
+function speakDutch(text) {
+  if (!window.speechSynthesis) return;
+  if (!dutchVoice) loadDutchVoice();
+  const utter = new SpeechSynthesisUtterance(text);
+  if (dutchVoice) utter.voice = dutchVoice;
+  utter.lang = dutchVoice ? dutchVoice.lang : 'nl-NL';
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utter);
 }
 
 function applyFilters() {
@@ -128,6 +157,10 @@ async function boot() {
   const data = await res.json();
   state.data = data;
   state.filtered = data;
+  if (window.speechSynthesis) {
+    window.speechSynthesis.onvoiceschanged = loadDutchVoice;
+    loadDutchVoice();
+  }
   initFilters();
   initSearch();
   renderStats();

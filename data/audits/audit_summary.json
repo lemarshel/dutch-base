@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "missing_english": 0,
+    "multiword_english": 0,
+    "low_zipf": 0,
+    "non_alpha": 0,
+    "duplicate_lemma": 0,
+    "level_counts": {
+      "1": 500,
+      "2": 700,
+      "3": 700,
+      "4": 700,
+      "5": 650,
+      "6": 650,
+      "7": 600
+    },
+    "pos_counts": {
+      "noun": 2481,
+      "verb": 1127,
+      "adjective": 827,
+      "pronoun": 19,
+      "numeral": 9,
+      "determiner": 5,
+      "adverb": 19,
+      "preposition": 12,
+      "conjunction": 1
+    }
+  },
+  "issues": {
+    "missing_english": [],
+    "multiword_english": [],
+    "low_zipf": [],
+    "non_alpha": [],
+    "duplicate_lemma": []
+  }
+}
