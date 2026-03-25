@@ -1,0 +1,6 @@
+wordfreq
+spacy
+stanza
+transformers
+sentencepiece
+torch

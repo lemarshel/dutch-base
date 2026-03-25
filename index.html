@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dutch Base — 4,500 Core Words</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div>
+        <h1>Dutch Base</h1>
+        <p class="subtitle">4,500 core lemmas • lemmatized • MVP</p>
+      </div>
+      <div class="search-wrap">
+        <input id="search" type="text" placeholder="Search Dutch / English" />
+        <button id="clearSearch" class="ghost">Clear</button>
+      </div>
+    </header>
+
+    <section class="stats" id="stats"></section>
+
+    <section class="filters">
+      <div class="filter-block">
+        <div class="filter-title">Levels</div>
+        <div class="filter-row" id="levelFilters"></div>
+      </div>
+      <div class="filter-block">
+        <div class="filter-title">POS</div>
+        <div class="filter-row" id="posFilters"></div>
+      </div>
+      <div class="filter-block">
+        <div class="filter-title">Display</div>
+        <div class="filter-row">
+          <button id="toggleEnglish" class="chip active">English gloss</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Word</th>
+            <th class="col-english">English</th>
+            <th>POS</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody id="wordTable"></tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
