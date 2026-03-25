@@ -8,6 +8,7 @@ const state = {
   slowAudio: false,
   spellAudio: false,
   voiceName: '',
+  ttsStyle: 'standard',
 };
 
 const posOrder = ['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'numeral', 'determiner', 'preposition', 'conjunction', 'interjection', 'other'];
@@ -27,6 +28,13 @@ const posLabels = {
 };
 
 const levelTargets = [1,2,3,4,5,6,7];
+const ttsStyles = [
+  { id: 'standard', label: 'Standard', rate: 1.0, pitch: 1.0, meSpeed: 170, mePitch: 50, wordgap: 0 },
+  { id: 'clear', label: 'Clear', rate: 0.95, pitch: 1.05, meSpeed: 155, mePitch: 60, wordgap: 2 },
+  { id: 'slow', label: 'Slow', rate: 0.85, pitch: 1.0, meSpeed: 130, mePitch: 50, wordgap: 3 },
+  { id: 'deep', label: 'Deep', rate: 0.95, pitch: 0.85, meSpeed: 150, mePitch: 35, wordgap: 1 },
+  { id: 'bright', label: 'Bright', rate: 1.05, pitch: 1.15, meSpeed: 180, mePitch: 70, wordgap: 1 }
+];
 
 function createChip(label, onClick, active = true) {
   const btn = document.createElement('button');
@@ -80,9 +88,28 @@ function renderTable() {
 }
 
 let dutchVoice = null;
+let hasSpeechVoices = false;
+let meSpeakReady = false;
+
+async function initMeSpeak() {
+  if (!window.meSpeak) return false;
+  return new Promise(resolve => {
+    try {
+      window.meSpeak.loadConfig('vendor/mespeak_config.json');
+      window.meSpeak.loadVoice('vendor/voices/nl.json', () => {
+        meSpeakReady = true;
+        resolve(true);
+      });
+    } catch (err) {
+      resolve(false);
+    }
+  });
+}
+
 function loadDutchVoice() {
   const voices = window.speechSynthesis.getVoices();
   const nlVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('nl'));
+  hasSpeechVoices = nlVoices.length > 0;
   if (!nlVoices.length) return;
   const preferred = nlVoices.find(v =>
     (v.lang && v.lang.toLowerCase() === 'nl-nl') &&
@@ -93,22 +120,37 @@ function loadDutchVoice() {
 }
 
 function speakDutch(text) {
-  if (!window.speechSynthesis) return;
+  const style = ttsStyles.find(s => s.id === state.ttsStyle) || ttsStyles[0];
+  const slowFactor = state.slowAudio ? 0.85 : 1.0;
   if (!dutchVoice) loadDutchVoice();
-  const voices = window.speechSynthesis.getVoices();
-  if (state.voiceName) {
-    const chosen = voices.find(v => v.name === state.voiceName);
-    if (chosen) dutchVoice = chosen;
-  }
   let speakText = text;
   if (state.spellAudio) {
     speakText = text.split('').join(' ');
   }
-  const utter = new SpeechSynthesisUtterance(text);
-  utter.text = speakText;
+
+  const wantsMeSpeak = state.voiceName === 'mespeak' || !window.speechSynthesis || !hasSpeechVoices;
+  if (wantsMeSpeak && window.meSpeak && meSpeakReady) {
+    window.meSpeak.stop();
+    window.meSpeak.speak(speakText, {
+      voice: 'nl',
+      speed: Math.round(style.meSpeed * slowFactor),
+      pitch: style.mePitch,
+      wordgap: style.wordgap + (state.spellAudio ? 2 : 0)
+    });
+    return;
+  }
+
+  if (!window.speechSynthesis) return;
+  const voices = window.speechSynthesis.getVoices();
+  if (state.voiceName && state.voiceName !== 'mespeak') {
+    const chosen = voices.find(v => v.name === state.voiceName);
+    if (chosen) dutchVoice = chosen;
+  }
+  const utter = new SpeechSynthesisUtterance(speakText);
   if (dutchVoice) utter.voice = dutchVoice;
   utter.lang = dutchVoice ? dutchVoice.lang : 'nl-NL';
-  utter.rate = state.slowAudio ? 0.85 : 1.0;
+  utter.rate = style.rate * slowFactor;
+  utter.pitch = style.pitch;
   window.speechSynthesis.cancel();
   window.speechSynthesis.speak(utter);
 }
@@ -177,6 +219,13 @@ function initFilters() {
       loadDutchVoice();
     });
   }
+
+  const styleSelect = document.getElementById('styleSelect');
+  if (styleSelect) {
+    styleSelect.addEventListener('change', () => {
+      state.ttsStyle = styleSelect.value;
+    });
+  }
 }
 
 function initSearch() {
@@ -193,6 +242,7 @@ function initSearch() {
 }
 
 async function boot() {
+  await initMeSpeak();
   const res = await fetch('data/words.json');
   const data = await res.json();
   state.data = data;
@@ -203,8 +253,8 @@ async function boot() {
       populateVoiceSelect();
     };
     loadDutchVoice();
-    populateVoiceSelect();
   }
+  populateVoiceSelect();
   initFilters();
   initSearch();
   renderStats();
@@ -213,10 +263,14 @@ async function boot() {
 
 function populateVoiceSelect() {
   const voiceSelect = document.getElementById('voiceSelect');
-  if (!voiceSelect || !window.speechSynthesis) return;
-  const voices = window.speechSynthesis.getVoices();
+  if (!voiceSelect) return;
+  const voices = window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
   const nlVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('nl'));
   voiceSelect.innerHTML = '';
+  const universal = document.createElement('option');
+  universal.value = 'mespeak';
+  universal.textContent = 'Universal (works everywhere)';
+  voiceSelect.appendChild(universal);
   nlVoices.forEach(v => {
     const opt = document.createElement('option');
     opt.value = v.name;
@@ -224,6 +278,24 @@ function populateVoiceSelect() {
     if (state.voiceName && v.name === state.voiceName) opt.selected = true;
     voiceSelect.appendChild(opt);
   });
+  if (!state.voiceName) {
+    state.voiceName = nlVoices.length ? nlVoices[0].name : 'mespeak';
+  }
+  if (state.voiceName === 'mespeak') {
+    voiceSelect.value = 'mespeak';
+  }
+
+  const styleSelect = document.getElementById('styleSelect');
+  if (styleSelect) {
+    styleSelect.innerHTML = '';
+    ttsStyles.forEach(style => {
+      const opt = document.createElement('option');
+      opt.value = style.id;
+      opt.textContent = style.label;
+      if (style.id === state.ttsStyle) opt.selected = true;
+      styleSelect.appendChild(opt);
+    });
+  }
 }
 
 boot();
