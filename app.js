@@ -5,10 +5,6 @@ const state = {
   levels: new Set(),
   pos: new Set(),
   showEnglish: true,
-  slowAudio: false,
-  spellAudio: false,
-  voiceName: '',
-  ttsStyle: 'standard',
   rate: 1.0,
   volume: 1.0,
 };
@@ -30,13 +26,8 @@ const posLabels = {
 };
 
 const levelTargets = [1,2,3,4,5,6,7];
-const ttsStyles = [
-  { id: 'standard', label: 'Standard', rate: 1.0, pitch: 1.0, meSpeed: 170, mePitch: 50, wordgap: 0 },
-  { id: 'clear', label: 'Clear', rate: 0.95, pitch: 1.05, meSpeed: 155, mePitch: 60, wordgap: 2 },
-  { id: 'slow', label: 'Slow', rate: 0.85, pitch: 1.0, meSpeed: 130, mePitch: 50, wordgap: 3 },
-  { id: 'deep', label: 'Deep', rate: 0.95, pitch: 0.85, meSpeed: 150, mePitch: 35, wordgap: 1 },
-  { id: 'bright', label: 'Bright', rate: 1.05, pitch: 1.15, meSpeed: 180, mePitch: 70, wordgap: 1 }
-];
+const audioCache = new Map();
+let currentAudio = null;
 
 function createChip(label, onClick, active = true) {
   const btn = document.createElement('button');
@@ -69,7 +60,7 @@ function renderTable() {
       <td>${item.rank}</td>
       <td class="word">
         <div class="wordcell">
-          <button class="tts-btn" data-tts="${item.lemma}">▶</button>
+          <button class="tts-btn" data-tts="${item.lemma}" data-rank="${item.rank}">▶</button>
           <span>${item.lemma}</span>
         </div>
       </td>
@@ -83,105 +74,36 @@ function renderTable() {
   table.querySelectorAll('.tts-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
       const text = btn.getAttribute('data-tts');
+      const rank = parseInt(btn.getAttribute('data-rank') || '0', 10);
       if (!text) return;
-      speakDutch(text);
+      playAudio(rank, text);
     });
   });
 }
 
-let dutchVoice = null;
-let hasSpeechVoices = false;
-let meSpeakReady = false;
-
-async function initMeSpeak() {
-  if (!window.meSpeak) return false;
-  if (meSpeakReady) return true;
-  try {
-    const [cfgRes, voiceRes] = await Promise.all([
-      fetch('vendor/mespeak_config.json'),
-      fetch('vendor/voices/nl.json')
-    ]);
-    if (!cfgRes.ok || !voiceRes.ok) throw new Error('fetch failed');
-    const cfg = await cfgRes.json();
-    const voice = await voiceRes.json();
-    window.meSpeak.loadConfig(cfg);
-    window.meSpeak.loadVoice(voice);
-    meSpeakReady = true;
-    return true;
-  } catch (err) {
-    return new Promise(resolve => {
-      try {
-        window.meSpeak.loadConfig('vendor/mespeak_config.json');
-        window.meSpeak.loadVoice('vendor/voices/nl.json', () => {
-          meSpeakReady = true;
-          resolve(true);
-        });
-      } catch (err2) {
-        resolve(false);
-      }
-    });
-  }
+function audioFilename(rank) {
+  const safeRank = String(rank || 0).padStart(4, '0');
+  return `audio/${safeRank}.mp3`;
 }
 
-function loadDutchVoice() {
-  const voices = window.speechSynthesis.getVoices();
-  const nlVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('nl'));
-  hasSpeechVoices = nlVoices.length > 0;
-  if (!nlVoices.length) return;
-  const preferred = nlVoices.find(v =>
-    (v.lang && v.lang.toLowerCase() === 'nl-nl') &&
-    /xander|frank|google|microsoft|netherlands|nederlands/i.test(v.name)
-  );
-  dutchVoice = preferred || nlVoices[0];
-  if (!state.voiceName) state.voiceName = dutchVoice.name;
-}
-
-function speakDutch(text) {
-  const style = ttsStyles.find(s => s.id === state.ttsStyle) || ttsStyles[0];
-  const slowFactor = state.slowAudio ? 0.85 : 1.0;
-  const rate = Math.max(0.6, Math.min(1.4, state.rate * slowFactor));
-  const volume = Math.max(0, Math.min(1, state.volume));
-  if (!dutchVoice) loadDutchVoice();
-  let speakText = text;
-  if (state.spellAudio) {
-    speakText = text.split('').join(' ');
+function playAudio(rank, text) {
+  const url = audioFilename(rank);
+  let audio = audioCache.get(url);
+  if (!audio) {
+    audio = new Audio(url);
+    audio.preload = 'auto';
+    audioCache.set(url, audio);
   }
-
-  const wantsMeSpeak = state.voiceName === 'mespeak' || !window.speechSynthesis || !hasSpeechVoices;
-  if (wantsMeSpeak) {
-    if (!meSpeakReady) {
-      initMeSpeak().then(ok => {
-        if (ok) speakDutch(text);
-      });
-      return;
-    }
-    if (window.meSpeak) {
-      window.meSpeak.stop();
-      window.meSpeak.speak(speakText, {
-        voice: 'nl',
-        speed: Math.round(style.meSpeed * rate),
-        pitch: style.mePitch,
-        wordgap: style.wordgap + (state.spellAudio ? 2 : 0),
-        amplitude: Math.round(100 * volume)
-      });
-      return;
-    }
+  if (currentAudio && currentAudio !== audio) {
+    currentAudio.pause();
   }
-
-  if (!window.speechSynthesis) return;
-  const voices = window.speechSynthesis.getVoices();
-  if (state.voiceName && state.voiceName !== 'mespeak') {
-    const chosen = voices.find(v => v.name === state.voiceName);
-    if (chosen) dutchVoice = chosen;
-  }
-  const utter = new SpeechSynthesisUtterance(speakText);
-  if (dutchVoice) utter.voice = dutchVoice;
-  utter.lang = dutchVoice ? dutchVoice.lang : 'nl-NL';
-  utter.rate = style.rate * rate;
-  utter.pitch = style.pitch;
-  utter.volume = volume;
-  window.speechSynthesis.cancel();
-  window.speechSynthesis.speak(utter);
+  currentAudio = audio;
+  audio.currentTime = 0;
+  audio.playbackRate = state.rate;
+  audio.volume = state.volume;
+  audio.play().catch(() => {
+    console.warn('Audio missing for', text, url);
+  });
 }
 
 function applyFilters() {
@@ -230,32 +152,6 @@ function initFilters() {
     applyFilters();
   });
 
-  const slowBtn = document.getElementById('toggleSlow');
-  const spellBtn = document.getElementById('toggleSpell');
-  slowBtn.addEventListener('click', () => {
-    state.slowAudio = !state.slowAudio;
-    slowBtn.classList.toggle('active', state.slowAudio);
-  });
-  spellBtn.addEventListener('click', () => {
-    state.spellAudio = !state.spellAudio;
-    spellBtn.classList.toggle('active', state.spellAudio);
-  });
-
-  const voiceSelect = document.getElementById('voiceSelect');
-  if (voiceSelect) {
-    voiceSelect.addEventListener('change', () => {
-      state.voiceName = voiceSelect.value;
-      loadDutchVoice();
-    });
-  }
-
-  const styleSelect = document.getElementById('styleSelect');
-  if (styleSelect) {
-    styleSelect.addEventListener('change', () => {
-      state.ttsStyle = styleSelect.value;
-    });
-  }
-
   const speedSlider = document.getElementById('speedSlider');
   const speedValue = document.getElementById('speedValue');
   if (speedSlider && speedValue) {
@@ -291,64 +187,14 @@ function initSearch() {
 }
 
 async function boot() {
-  await initMeSpeak();
   const res = await fetch('data/words.json');
   const data = await res.json();
   state.data = data;
   state.filtered = data;
-  if (window.speechSynthesis) {
-    window.speechSynthesis.onvoiceschanged = () => {
-      loadDutchVoice();
-      populateVoiceSelect();
-    };
-    loadDutchVoice();
-  }
-  populateVoiceSelect();
   initFilters();
   initSearch();
   renderStats();
   renderTable();
-}
-
-function populateVoiceSelect() {
-  const voiceSelect = document.getElementById('voiceSelect');
-  if (!voiceSelect) return;
-  const voices = window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
-  const nlVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('nl'));
-  voiceSelect.innerHTML = '';
-  const universal = document.createElement('option');
-  universal.value = 'mespeak';
-  universal.textContent = 'Universal (works everywhere)';
-  voiceSelect.appendChild(universal);
-  const preferred = nlVoices.find(v => /fenna/i.test(v.name));
-  nlVoices.forEach(v => {
-    const opt = document.createElement('option');
-    opt.value = v.name;
-    opt.textContent = `${v.name} (${v.lang})`;
-    if (state.voiceName && v.name === state.voiceName) opt.selected = true;
-    voiceSelect.appendChild(opt);
-  });
-  if (preferred) {
-    state.voiceName = preferred.name;
-    voiceSelect.value = preferred.name;
-  } else if (!state.voiceName) {
-    state.voiceName = nlVoices.length ? nlVoices[0].name : 'mespeak';
-    voiceSelect.value = state.voiceName;
-  } else if (state.voiceName === 'mespeak') {
-    voiceSelect.value = 'mespeak';
-  }
-
-  const styleSelect = document.getElementById('styleSelect');
-  if (styleSelect) {
-    styleSelect.innerHTML = '';
-    ttsStyles.forEach(style => {
-      const opt = document.createElement('option');
-      opt.value = style.id;
-      opt.textContent = style.label;
-      if (style.id === state.ttsStyle) opt.selected = true;
-      styleSelect.appendChild(opt);
-    });
-  }
 }
 
 boot();
