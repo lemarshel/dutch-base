@@ -9,6 +9,8 @@ const state = {
   spellAudio: false,
   voiceName: '',
   ttsStyle: 'standard',
+  rate: 1.0,
+  volume: 1.0,
 };
 
 const posOrder = ['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'numeral', 'determiner', 'preposition', 'conjunction', 'interjection', 'other'];
@@ -93,17 +95,32 @@ let meSpeakReady = false;
 
 async function initMeSpeak() {
   if (!window.meSpeak) return false;
-  return new Promise(resolve => {
-    try {
-      window.meSpeak.loadConfig('vendor/mespeak_config.json');
-      window.meSpeak.loadVoice('vendor/voices/nl.json', () => {
-        meSpeakReady = true;
-        resolve(true);
-      });
-    } catch (err) {
-      resolve(false);
-    }
-  });
+  if (meSpeakReady) return true;
+  try {
+    const [cfgRes, voiceRes] = await Promise.all([
+      fetch('vendor/mespeak_config.json'),
+      fetch('vendor/voices/nl.json')
+    ]);
+    if (!cfgRes.ok || !voiceRes.ok) throw new Error('fetch failed');
+    const cfg = await cfgRes.json();
+    const voice = await voiceRes.json();
+    window.meSpeak.loadConfig(cfg);
+    window.meSpeak.loadVoice(voice);
+    meSpeakReady = true;
+    return true;
+  } catch (err) {
+    return new Promise(resolve => {
+      try {
+        window.meSpeak.loadConfig('vendor/mespeak_config.json');
+        window.meSpeak.loadVoice('vendor/voices/nl.json', () => {
+          meSpeakReady = true;
+          resolve(true);
+        });
+      } catch (err2) {
+        resolve(false);
+      }
+    });
+  }
 }
 
 function loadDutchVoice() {
@@ -122,6 +139,8 @@ function loadDutchVoice() {
 function speakDutch(text) {
   const style = ttsStyles.find(s => s.id === state.ttsStyle) || ttsStyles[0];
   const slowFactor = state.slowAudio ? 0.85 : 1.0;
+  const rate = Math.max(0.6, Math.min(1.4, state.rate * slowFactor));
+  const volume = Math.max(0, Math.min(1, state.volume));
   if (!dutchVoice) loadDutchVoice();
   let speakText = text;
   if (state.spellAudio) {
@@ -129,15 +148,24 @@ function speakDutch(text) {
   }
 
   const wantsMeSpeak = state.voiceName === 'mespeak' || !window.speechSynthesis || !hasSpeechVoices;
-  if (wantsMeSpeak && window.meSpeak && meSpeakReady) {
-    window.meSpeak.stop();
-    window.meSpeak.speak(speakText, {
-      voice: 'nl',
-      speed: Math.round(style.meSpeed * slowFactor),
-      pitch: style.mePitch,
-      wordgap: style.wordgap + (state.spellAudio ? 2 : 0)
-    });
-    return;
+  if (wantsMeSpeak) {
+    if (!meSpeakReady) {
+      initMeSpeak().then(ok => {
+        if (ok) speakDutch(text);
+      });
+      return;
+    }
+    if (window.meSpeak) {
+      window.meSpeak.stop();
+      window.meSpeak.speak(speakText, {
+        voice: 'nl',
+        speed: Math.round(style.meSpeed * rate),
+        pitch: style.mePitch,
+        wordgap: style.wordgap + (state.spellAudio ? 2 : 0),
+        amplitude: Math.round(100 * volume)
+      });
+      return;
+    }
   }
 
   if (!window.speechSynthesis) return;
@@ -149,8 +177,9 @@ function speakDutch(text) {
   const utter = new SpeechSynthesisUtterance(speakText);
   if (dutchVoice) utter.voice = dutchVoice;
   utter.lang = dutchVoice ? dutchVoice.lang : 'nl-NL';
-  utter.rate = style.rate * slowFactor;
+  utter.rate = style.rate * rate;
   utter.pitch = style.pitch;
+  utter.volume = volume;
   window.speechSynthesis.cancel();
   window.speechSynthesis.speak(utter);
 }
@@ -226,6 +255,26 @@ function initFilters() {
       state.ttsStyle = styleSelect.value;
     });
   }
+
+  const speedSlider = document.getElementById('speedSlider');
+  const speedValue = document.getElementById('speedValue');
+  if (speedSlider && speedValue) {
+    speedValue.textContent = state.rate.toFixed(2);
+    speedSlider.addEventListener('input', () => {
+      state.rate = parseFloat(speedSlider.value);
+      speedValue.textContent = state.rate.toFixed(2);
+    });
+  }
+
+  const volumeSlider = document.getElementById('volumeSlider');
+  const volumeValue = document.getElementById('volumeValue');
+  if (volumeSlider && volumeValue) {
+    volumeValue.textContent = state.volume.toFixed(2);
+    volumeSlider.addEventListener('input', () => {
+      state.volume = parseFloat(volumeSlider.value);
+      volumeValue.textContent = state.volume.toFixed(2);
+    });
+  }
 }
 
 function initSearch() {
@@ -271,6 +320,7 @@ function populateVoiceSelect() {
   universal.value = 'mespeak';
   universal.textContent = 'Universal (works everywhere)';
   voiceSelect.appendChild(universal);
+  const preferred = nlVoices.find(v => /fenna/i.test(v.name));
   nlVoices.forEach(v => {
     const opt = document.createElement('option');
     opt.value = v.name;
@@ -278,10 +328,13 @@ function populateVoiceSelect() {
     if (state.voiceName && v.name === state.voiceName) opt.selected = true;
     voiceSelect.appendChild(opt);
   });
-  if (!state.voiceName) {
+  if (preferred) {
+    state.voiceName = preferred.name;
+    voiceSelect.value = preferred.name;
+  } else if (!state.voiceName) {
     state.voiceName = nlVoices.length ? nlVoices[0].name : 'mespeak';
-  }
-  if (state.voiceName === 'mespeak') {
+    voiceSelect.value = state.voiceName;
+  } else if (state.voiceName === 'mespeak') {
     voiceSelect.value = 'mespeak';
   }
 

@@ -135,6 +135,28 @@ button.ghost {
   padding: 6px 10px;
   font-size: 12px;
 }
+.slider-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--chip);
+}
+
+.slider-wrap input[type="range"] {
+  accent-color: var(--accent);
+}
+
+.slider-wrap span {
+  min-width: 38px;
+  text-align: right;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
 
 .chip {
   background: var(--chip);
