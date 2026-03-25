@@ -127,6 +127,15 @@ button.ghost {
   gap: 8px;
 }
 
+.filter-row select {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
 .chip {
   background: var(--chip);
   padding: 6px 10px;

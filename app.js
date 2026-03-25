@@ -5,6 +5,9 @@ const state = {
   levels: new Set(),
   pos: new Set(),
   showEnglish: true,
+  slowAudio: false,
+  spellAudio: false,
+  voiceName: '',
 };
 
 const posOrder = ['noun', 'verb', 'adjective', 'adverb', 'pronoun', 'numeral', 'determiner', 'preposition', 'conjunction', 'interjection', 'other'];
@@ -79,15 +82,33 @@ function renderTable() {
 let dutchVoice = null;
 function loadDutchVoice() {
   const voices = window.speechSynthesis.getVoices();
-  dutchVoice = voices.find(v => v.lang && v.lang.toLowerCase().startsWith('nl'));
+  const nlVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('nl'));
+  if (!nlVoices.length) return;
+  const preferred = nlVoices.find(v =>
+    (v.lang && v.lang.toLowerCase() === 'nl-nl') &&
+    /xander|frank|google|microsoft|netherlands|nederlands/i.test(v.name)
+  );
+  dutchVoice = preferred || nlVoices[0];
+  if (!state.voiceName) state.voiceName = dutchVoice.name;
 }
 
 function speakDutch(text) {
   if (!window.speechSynthesis) return;
   if (!dutchVoice) loadDutchVoice();
+  const voices = window.speechSynthesis.getVoices();
+  if (state.voiceName) {
+    const chosen = voices.find(v => v.name === state.voiceName);
+    if (chosen) dutchVoice = chosen;
+  }
+  let speakText = text;
+  if (state.spellAudio) {
+    speakText = text.split('').join(' ');
+  }
   const utter = new SpeechSynthesisUtterance(text);
+  utter.text = speakText;
   if (dutchVoice) utter.voice = dutchVoice;
   utter.lang = dutchVoice ? dutchVoice.lang : 'nl-NL';
+  utter.rate = state.slowAudio ? 0.85 : 1.0;
   window.speechSynthesis.cancel();
   window.speechSynthesis.speak(utter);
 }
@@ -137,6 +158,25 @@ function initFilters() {
     e.target.classList.toggle('active', state.showEnglish);
     applyFilters();
   });
+
+  const slowBtn = document.getElementById('toggleSlow');
+  const spellBtn = document.getElementById('toggleSpell');
+  slowBtn.addEventListener('click', () => {
+    state.slowAudio = !state.slowAudio;
+    slowBtn.classList.toggle('active', state.slowAudio);
+  });
+  spellBtn.addEventListener('click', () => {
+    state.spellAudio = !state.spellAudio;
+    spellBtn.classList.toggle('active', state.spellAudio);
+  });
+
+  const voiceSelect = document.getElementById('voiceSelect');
+  if (voiceSelect) {
+    voiceSelect.addEventListener('change', () => {
+      state.voiceName = voiceSelect.value;
+      loadDutchVoice();
+    });
+  }
 }
 
 function initSearch() {
@@ -158,13 +198,32 @@ async function boot() {
   state.data = data;
   state.filtered = data;
   if (window.speechSynthesis) {
-    window.speechSynthesis.onvoiceschanged = loadDutchVoice;
+    window.speechSynthesis.onvoiceschanged = () => {
+      loadDutchVoice();
+      populateVoiceSelect();
+    };
     loadDutchVoice();
+    populateVoiceSelect();
   }
   initFilters();
   initSearch();
   renderStats();
   renderTable();
+}
+
+function populateVoiceSelect() {
+  const voiceSelect = document.getElementById('voiceSelect');
+  if (!voiceSelect || !window.speechSynthesis) return;
+  const voices = window.speechSynthesis.getVoices();
+  const nlVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('nl'));
+  voiceSelect.innerHTML = '';
+  nlVoices.forEach(v => {
+    const opt = document.createElement('option');
+    opt.value = v.name;
+    opt.textContent = `${v.name} (${v.lang})`;
+    if (state.voiceName && v.name === state.voiceName) opt.selected = true;
+    voiceSelect.appendChild(opt);
+  });
 }
 
 boot();
