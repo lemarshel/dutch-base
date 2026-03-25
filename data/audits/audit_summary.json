@@ -1,10 +1,11 @@
 {
   "summary": {
     "missing_english": 0,
-    "multiword_english": 0,
+    "too_many_words": 0,
     "low_zipf": 0,
     "non_alpha": 0,
     "duplicate_lemma": 0,
+    "punctuation": 0,
     "level_counts": {
       "1": 500,
       "2": 700,
@@ -15,22 +16,24 @@
       "7": 600
     },
     "pos_counts": {
-      "noun": 2481,
-      "verb": 1127,
-      "adjective": 827,
-      "pronoun": 19,
-      "numeral": 9,
-      "determiner": 5,
-      "adverb": 19,
-      "preposition": 12,
-      "conjunction": 1
+      "adjective": 777,
+      "verb": 961,
+      "noun": 2572,
+      "pronoun": 45,
+      "determiner": 11,
+      "numeral": 30,
+      "adverb": 50,
+      "preposition": 33,
+      "conjunction": 19,
+      "interjection": 2
     }
   },
   "issues": {
     "missing_english": [],
-    "multiword_english": [],
+    "too_many_words": [],
     "low_zipf": [],
     "non_alpha": [],
-    "duplicate_lemma": []
+    "duplicate_lemma": [],
+    "punctuation": []
   }
 }

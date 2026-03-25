@@ -25,14 +25,26 @@ def normalize_gloss(gloss: str) -> str:
     return gloss.lower()
 
 
-def single_word_gloss(gloss: str) -> str:
+STOPWORDS = {'the','a','an','to','of','in','on','for','and','or','be','is','are','was','were'}
+WORD_RE = re.compile(r'[a-z]+')
+
+def sanitize_gloss(gloss: str) -> str:
     gloss = normalize_gloss(gloss)
     if not gloss:
         return ''
-    gloss = re.sub(r'^(to\s+)', '', gloss, flags=re.IGNORECASE)
-    gloss = re.split(r'[;,/]', gloss)[0].strip()
-    gloss = gloss.split()[0] if gloss else ''
-    return gloss.lower()
+    words = WORD_RE.findall(gloss)
+    if not words:
+        return ''
+    filtered = [w for w in words if w not in STOPWORDS]
+    if not filtered:
+        filtered = words[:1]
+    out = []
+    for w in filtered:
+        if w not in out:
+            out.append(w)
+        if len(out) == 2:
+            break
+    return ' '.join(out)
 
 BATCH = 64
 
@@ -46,7 +58,7 @@ for i in range(0, len(lemmas), BATCH):
     gen = model.generate(**tokens, max_length=64)
     outs = tokenizer.batch_decode(gen, skip_special_tokens=True)
     for lemma, gloss in zip(batch, outs):
-        cache[lemma] = single_word_gloss(gloss)
+        cache[lemma] = sanitize_gloss(gloss)
     if i % (BATCH*10) == 0:
         with open(CACHE, 'w', encoding='utf-8') as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)

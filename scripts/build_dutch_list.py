@@ -10,6 +10,7 @@ import spacy
 from transformers import MarianMTModel, MarianTokenizer
 
 TOKEN_RE = re.compile(r"^[A-Za-zÀ-ÖØ-öø-ÿ'\-]+$")
+EXCLUDE_SET = {'à', 'ling', 'baar', 'king', 'be', 'wouter'}
 
 LEVEL_TARGETS = [500, 700, 700, 700, 650, 650, 600]
 MIN_ZIPF = 1.8
@@ -58,6 +59,27 @@ def single_word_gloss(gloss):
     gloss = gloss.split()[0] if gloss else ''
     return gloss.lower()
 
+def sanitize_gloss_to_two(gloss):
+    gloss = normalize_gloss(gloss)
+    if not gloss:
+        return ''
+    words = re.findall(r'[a-z]+', gloss)
+    if not words:
+        return ''
+    # allow stopwords if all we have are stopwords
+    stop = {'the','a','an','to','of','in','on','for','and','or','be','is','are','was','were'}
+    filtered = [w for w in words if w not in stop]
+    if not filtered:
+        filtered = words[:1]
+    # take up to two unique words
+    out = []
+    for w in filtered:
+        if w not in out:
+            out.append(w)
+        if len(out) == 2:
+            break
+    return ' '.join(out)
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -87,6 +109,10 @@ def main():
             continue
         lemma = t.lemma_.lower().strip()
         if not lemma:
+            continue
+        if lemma in EXCLUDE_SET:
+            continue
+        if len(lemma) == 1 and lemma not in {'u'}:
             continue
         if not TOKEN_RE.match(lemma):
             continue
@@ -149,7 +175,7 @@ def main():
 
         translated = translator.translate_batch(batch)
         for lemma_text, gloss in zip(batch, translated):
-            cache[lemma_text] = single_word_gloss(gloss)
+            cache[lemma_text] = sanitize_gloss_to_two(gloss)
         with open(args.cache, 'w', encoding='utf-8') as f:
             json.dump(cache, f, ensure_ascii=False, indent=2)
 

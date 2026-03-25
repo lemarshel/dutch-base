@@ -12,10 +12,11 @@ with open(DATA_PATH, 'r', encoding='utf-8') as f:
 
 issues = {
     'missing_english': [],
-    'multiword_english': [],
+    'too_many_words': [],
     'low_zipf': [],
     'non_alpha': [],
     'duplicate_lemma': [],
+    'punctuation': [],
 }
 
 seen = set()
@@ -33,8 +34,11 @@ for item in data:
     eng = item.get('english','')
     if not eng:
         issues['missing_english'].append(lemma)
-    elif ' ' in eng.strip():
-        issues['multiword_english'].append({'lemma': lemma, 'english': eng})
+    else:
+        if len(eng.split()) > 2:
+            issues['too_many_words'].append({'lemma': lemma, 'english': eng})
+        if any(c in eng for c in ".,;:/\\\\\"'`~!@#$%^&*()[]{}<>?|"):
+            issues['punctuation'].append({'lemma': lemma, 'english': eng})
 
     z = zipf_frequency(lemma, 'nl')
     if z < 2.0:
