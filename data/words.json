@@ -65,7 +65,7 @@
   {
     "rank": 4,
     "lemma": "komen",
-    "english": "Come",
+    "english": "come",
     "pos": "verb",
     "level": 1,
     "freq_score": 53.55,
@@ -425,7 +425,7 @@
   {
     "rank": 22,
     "lemma": "leuk",
-    "english": "Nice.",
+    "english": "nice.",
     "pos": "adjective",
     "level": 1,
     "freq_score": 39.2,
@@ -481,7 +481,7 @@
   {
     "rank": 25,
     "lemma": "zitten",
-    "english": "Sitting",
+    "english": "sitting",
     "pos": "verb",
     "level": 1,
     "freq_score": 38.92,
@@ -519,7 +519,7 @@
   {
     "rank": 27,
     "lemma": "horen",
-    "english": "Hear",
+    "english": "hear",
     "pos": "noun",
     "level": 1,
     "freq_score": 37.66,
@@ -740,7 +740,7 @@
   {
     "rank": 39,
     "lemma": "werken",
-    "english": "Work",
+    "english": "work",
     "pos": "verb",
     "level": 1,
     "freq_score": 33.9,
@@ -794,7 +794,7 @@
   {
     "rank": 42,
     "lemma": "mooi",
-    "english": "Beautiful",
+    "english": "beautiful",
     "pos": "adjective",
     "level": 1,
     "freq_score": 33.48,
@@ -831,7 +831,7 @@
   {
     "rank": 44,
     "lemma": "organiseren",
-    "english": "Organize",
+    "english": "organize",
     "pos": "verb",
     "level": 1,
     "freq_score": 32.9,
@@ -850,7 +850,7 @@
   {
     "rank": 45,
     "lemma": "vechten",
-    "english": "Fighting",
+    "english": "fighting",
     "pos": "verb",
     "level": 1,
     "freq_score": 32.9,
@@ -888,7 +888,7 @@
   {
     "rank": 47,
     "lemma": "draaien",
-    "english": "Rotate",
+    "english": "rotate",
     "pos": "verb",
     "level": 1,
     "freq_score": 32.83,
@@ -926,7 +926,7 @@
   {
     "rank": 49,
     "lemma": "brengen",
-    "english": "Bringing",
+    "english": "bringing",
     "pos": "verb",
     "level": 1,
     "freq_score": 32.34,
@@ -1071,7 +1071,7 @@
   {
     "rank": 57,
     "lemma": "wagen",
-    "english": "Audi",
+    "english": "audi",
     "pos": "noun",
     "level": 1,
     "freq_score": 31.29,
@@ -1161,7 +1161,7 @@
   {
     "rank": 62,
     "lemma": "vormen",
-    "english": "Forms",
+    "english": "forms",
     "pos": "verb",
     "level": 1,
     "freq_score": 30.66,
@@ -1884,7 +1884,7 @@
   {
     "rank": 103,
     "lemma": "lijden",
-    "english": "Suffering",
+    "english": "suffering",
     "pos": "verb",
     "level": 1,
     "freq_score": 27.06,
@@ -1953,7 +1953,7 @@
   {
     "rank": 107,
     "lemma": "lekker",
-    "english": "Tasty",
+    "english": "tasty",
     "pos": "noun",
     "level": 1,
     "freq_score": 26.75,
@@ -2161,7 +2161,7 @@
   {
     "rank": 119,
     "lemma": "overtuigen",
-    "english": "Convincing",
+    "english": "convincing",
     "pos": "verb",
     "level": 1,
     "freq_score": 26.16,
@@ -2179,7 +2179,7 @@
   {
     "rank": 120,
     "lemma": "gelukkig",
-    "english": "Happy",
+    "english": "happy",
     "pos": "noun",
     "level": 1,
     "freq_score": 26.15,
@@ -2213,7 +2213,7 @@
   {
     "rank": 122,
     "lemma": "stellen",
-    "english": "Of",
+    "english": "of",
     "pos": "verb",
     "level": 1,
     "freq_score": 26.15,
@@ -2230,7 +2230,7 @@
   {
     "rank": 123,
     "lemma": "zwijgen",
-    "english": "Shut",
+    "english": "shut",
     "pos": "verb",
     "level": 1,
     "freq_score": 26.1,
@@ -2300,7 +2300,7 @@
   {
     "rank": 127,
     "lemma": "enkel",
-    "english": "Not",
+    "english": "not",
     "pos": "noun",
     "level": 1,
     "freq_score": 25.85,
@@ -2742,7 +2742,7 @@
   {
     "rank": 153,
     "lemma": "hopen",
-    "english": "Hops",
+    "english": "hops",
     "pos": "adjective",
     "level": 1,
     "freq_score": 24.5,
@@ -2896,7 +2896,7 @@
   {
     "rank": 162,
     "lemma": "grappig",
-    "english": "Funny.",
+    "english": "funny.",
     "pos": "noun",
     "level": 1,
     "freq_score": 24.2,
@@ -2913,7 +2913,7 @@
   {
     "rank": 163,
     "lemma": "echt",
-    "english": "Really?",
+    "english": "really?",
     "pos": "noun",
     "level": 1,
     "freq_score": 24.04,
@@ -3065,7 +3065,7 @@
   {
     "rank": 172,
     "lemma": "hangen",
-    "english": "Hanging",
+    "english": "hanging",
     "pos": "noun",
     "level": 1,
     "freq_score": 23.45,
@@ -3099,7 +3099,7 @@
   {
     "rank": 174,
     "lemma": "dreigen",
-    "english": "Threaten",
+    "english": "threaten",
     "pos": "verb",
     "level": 1,
     "freq_score": 23.4,
@@ -3370,7 +3370,7 @@
   {
     "rank": 190,
     "lemma": "erg",
-    "english": "Very",
+    "english": "very",
     "pos": "noun",
     "level": 1,
     "freq_score": 22.84,
@@ -3773,7 +3773,7 @@
   {
     "rank": 214,
     "lemma": "artikel",
-    "english": "Article",
+    "english": "article",
     "pos": "noun",
     "level": 1,
     "freq_score": 21.68,
@@ -3789,7 +3789,7 @@
   {
     "rank": 215,
     "lemma": "vermoorden",
-    "english": "Killing",
+    "english": "killing",
     "pos": "verb",
     "level": 1,
     "freq_score": 21.65,
@@ -3972,7 +3972,7 @@
   {
     "rank": 226,
     "lemma": "druk",
-    "english": "Pressure",
+    "english": "pressure",
     "pos": "adjective",
     "level": 1,
     "freq_score": 21.36,
@@ -4021,7 +4021,7 @@
   {
     "rank": 229,
     "lemma": "voorbereiden",
-    "english": "Preparing",
+    "english": "preparing",
     "pos": "verb",
     "level": 1,
     "freq_score": 21.3,
@@ -4072,7 +4072,7 @@
   {
     "rank": 232,
     "lemma": "delen",
-    "english": "Parts",
+    "english": "parts",
     "pos": "verb",
     "level": 1,
     "freq_score": 21.16,
@@ -4183,7 +4183,7 @@
   {
     "rank": 239,
     "lemma": "dwingen",
-    "english": "Force",
+    "english": "force",
     "pos": "verb",
     "level": 1,
     "freq_score": 20.9,
@@ -4200,7 +4200,7 @@
   {
     "rank": 240,
     "lemma": "behalen",
-    "english": "Achieve",
+    "english": "achieve",
     "pos": "verb",
     "level": 1,
     "freq_score": 20.9,
@@ -4330,7 +4330,7 @@
   {
     "rank": 248,
     "lemma": "schilderen",
-    "english": "Painting",
+    "english": "painting",
     "pos": "verb",
     "level": 1,
     "freq_score": 20.75,
@@ -4396,7 +4396,7 @@
   {
     "rank": 252,
     "lemma": "streng",
-    "english": "Stretch",
+    "english": "stretch",
     "pos": "adjective",
     "level": 1,
     "freq_score": 20.6,
@@ -4464,7 +4464,7 @@
   {
     "rank": 256,
     "lemma": "inspireren",
-    "english": "Inspiring",
+    "english": "inspiring",
     "pos": "verb",
     "level": 1,
     "freq_score": 20.55,
@@ -4546,7 +4546,7 @@
   {
     "rank": 261,
     "lemma": "veilig",
-    "english": "Safe",
+    "english": "safe",
     "pos": "adjective",
     "level": 1,
     "freq_score": 20.48,
@@ -4772,7 +4772,7 @@
   {
     "rank": 275,
     "lemma": "drijven",
-    "english": "Floats",
+    "english": "floats",
     "pos": "verb",
     "level": 1,
     "freq_score": 20.25,
@@ -4805,7 +4805,7 @@
   {
     "rank": 277,
     "lemma": "ruim",
-    "english": "Spacious",
+    "english": "spacious",
     "pos": "adjective",
     "level": 1,
     "freq_score": 20.2,
@@ -4886,7 +4886,7 @@
   {
     "rank": 282,
     "lemma": "hij",
-    "english": "Hey",
+    "english": "hey",
     "pos": "noun",
     "level": 1,
     "freq_score": 20.1,
@@ -4901,7 +4901,7 @@
   {
     "rank": 283,
     "lemma": "bevrijden",
-    "english": "Free",
+    "english": "free",
     "pos": "verb",
     "level": 1,
     "freq_score": 20.1,
@@ -4967,7 +4967,7 @@
   {
     "rank": 287,
     "lemma": "heer",
-    "english": "Sir",
+    "english": "sir",
     "pos": "noun",
     "level": 1,
     "freq_score": 20.04,
@@ -5000,7 +5000,7 @@
   {
     "rank": 289,
     "lemma": "geloven",
-    "english": "Believe",
+    "english": "believe",
     "pos": "verb",
     "level": 1,
     "freq_score": 19.96,
@@ -5032,7 +5032,7 @@
   {
     "rank": 291,
     "lemma": "verbazen",
-    "english": "Amazing.",
+    "english": "amazing.",
     "pos": "verb",
     "level": 1,
     "freq_score": 19.95,
@@ -5131,7 +5131,7 @@
   {
     "rank": 297,
     "lemma": "stok",
-    "english": "Other",
+    "english": "other",
     "pos": "adjective",
     "level": 1,
     "freq_score": 19.85,
@@ -5213,7 +5213,7 @@
   {
     "rank": 302,
     "lemma": "bieden",
-    "english": "Of",
+    "english": "of",
     "pos": "verb",
     "level": 1,
     "freq_score": 19.8,
@@ -5505,7 +5505,7 @@
   {
     "rank": 320,
     "lemma": "zinken",
-    "english": "Sink",
+    "english": "sink",
     "pos": "verb",
     "level": 1,
     "freq_score": 19.45,
@@ -5635,7 +5635,7 @@
   {
     "rank": 328,
     "lemma": "bedreigen",
-    "english": "Threaten",
+    "english": "threaten",
     "pos": "verb",
     "level": 1,
     "freq_score": 19.35,
@@ -5751,7 +5751,7 @@
   {
     "rank": 335,
     "lemma": "demonstreren",
-    "english": "Demonstrate",
+    "english": "demonstrate",
     "pos": "verb",
     "level": 1,
     "freq_score": 19.25,
@@ -5800,7 +5800,7 @@
   {
     "rank": 338,
     "lemma": "bedoelen",
-    "english": "Meaning",
+    "english": "meaning",
     "pos": "verb",
     "level": 1,
     "freq_score": 19.15,
@@ -5834,7 +5834,7 @@
   {
     "rank": 340,
     "lemma": "boeien",
-    "english": "Handcuffs",
+    "english": "handcuffs",
     "pos": "verb",
     "level": 1,
     "freq_score": 19.1,
@@ -5867,7 +5867,7 @@
   {
     "rank": 342,
     "lemma": "aanhouden",
-    "english": "Hold",
+    "english": "hold",
     "pos": "verb",
     "level": 1,
     "freq_score": 19.05,
@@ -6078,7 +6078,7 @@
   {
     "rank": 355,
     "lemma": "raar",
-    "english": "Weird.",
+    "english": "weird.",
     "pos": "adjective",
     "level": 1,
     "freq_score": 18.72,
@@ -6110,7 +6110,7 @@
   {
     "rank": 357,
     "lemma": "broek",
-    "english": "Pants",
+    "english": "pants",
     "pos": "noun",
     "level": 1,
     "freq_score": 18.68,
@@ -6126,7 +6126,7 @@
   {
     "rank": 358,
     "lemma": "dom",
-    "english": "Stupid.",
+    "english": "stupid.",
     "pos": "noun",
     "level": 1,
     "freq_score": 18.68,
@@ -6142,7 +6142,7 @@
   {
     "rank": 359,
     "lemma": "pers",
-    "english": "Press",
+    "english": "press",
     "pos": "noun",
     "level": 1,
     "freq_score": 18.64,
@@ -6336,7 +6336,7 @@
   {
     "rank": 371,
     "lemma": "vreselijk",
-    "english": "Oh",
+    "english": "oh",
     "pos": "adjective",
     "level": 1,
     "freq_score": 18.4,
@@ -6368,7 +6368,7 @@
   {
     "rank": 373,
     "lemma": "koken",
-    "english": "Cooking",
+    "english": "cooking",
     "pos": "verb",
     "level": 1,
     "freq_score": 18.4,
@@ -6417,7 +6417,7 @@
   {
     "rank": 376,
     "lemma": "enig",
-    "english": "Any",
+    "english": "any",
     "pos": "noun",
     "level": 1,
     "freq_score": 18.2,
@@ -6450,7 +6450,7 @@
   {
     "rank": 378,
     "lemma": "verzamelen",
-    "english": "Collecting",
+    "english": "collecting",
     "pos": "verb",
     "level": 1,
     "freq_score": 18.12,
@@ -6561,7 +6561,7 @@
   {
     "rank": 385,
     "lemma": "jas",
-    "english": "Coat",
+    "english": "coat",
     "pos": "noun",
     "level": 1,
     "freq_score": 17.96,
@@ -6577,7 +6577,7 @@
   {
     "rank": 386,
     "lemma": "samenwerken",
-    "english": "Working",
+    "english": "working",
     "pos": "verb",
     "level": 1,
     "freq_score": 17.96,
@@ -6801,7 +6801,7 @@
   {
     "rank": 400,
     "lemma": "puur",
-    "english": "Pure",
+    "english": "pure",
     "pos": "adjective",
     "level": 1,
     "freq_score": 17.84,
@@ -6977,7 +6977,7 @@
   {
     "rank": 411,
     "lemma": "bruin",
-    "english": "Brown",
+    "english": "brown",
     "pos": "noun",
     "level": 1,
     "freq_score": 17.68,
@@ -7167,7 +7167,7 @@
   {
     "rank": 423,
     "lemma": "verwijzen",
-    "english": "Refer",
+    "english": "refer",
     "pos": "verb",
     "level": 1,
     "freq_score": 17.4,
@@ -7248,7 +7248,7 @@
   {
     "rank": 428,
     "lemma": "ontwerpen",
-    "english": "Designs",
+    "english": "designs",
     "pos": "verb",
     "level": 1,
     "freq_score": 17.32,
@@ -7312,7 +7312,7 @@
   {
     "rank": 432,
     "lemma": "branden",
-    "english": "Burning",
+    "english": "burning",
     "pos": "verb",
     "level": 1,
     "freq_score": 17.28,
@@ -7328,7 +7328,7 @@
   {
     "rank": 433,
     "lemma": "modern",
-    "english": "Modern",
+    "english": "modern",
     "pos": "adjective",
     "level": 1,
     "freq_score": 17.24,
@@ -7408,7 +7408,7 @@
   {
     "rank": 438,
     "lemma": "stom",
-    "english": "Stupid.",
+    "english": "stupid.",
     "pos": "adjective",
     "level": 1,
     "freq_score": 17.24,
@@ -7439,7 +7439,7 @@
   {
     "rank": 440,
     "lemma": "want",
-    "english": "{C:$00FF}",
+    "english": "{c:$00ff}",
     "pos": "noun",
     "level": 1,
     "freq_score": 17.16,
@@ -7550,7 +7550,7 @@
   {
     "rank": 447,
     "lemma": "zeker",
-    "english": "Sure",
+    "english": "sure",
     "pos": "noun",
     "level": 1,
     "freq_score": 17.07,
@@ -7818,7 +7818,7 @@
   {
     "rank": 464,
     "lemma": "vaak",
-    "english": "Common",
+    "english": "common",
     "pos": "adjective",
     "level": 1,
     "freq_score": 16.8,
@@ -7977,7 +7977,7 @@
   {
     "rank": 474,
     "lemma": "vasthouden",
-    "english": "Hold",
+    "english": "hold",
     "pos": "verb",
     "level": 1,
     "freq_score": 16.6,
@@ -8010,7 +8010,7 @@
   {
     "rank": 476,
     "lemma": "opleveren",
-    "english": "Bringing",
+    "english": "bringing",
     "pos": "verb",
     "level": 1,
     "freq_score": 16.52,
@@ -8026,7 +8026,7 @@
   {
     "rank": 477,
     "lemma": "ondervragen",
-    "english": "Interrogation",
+    "english": "interrogation",
     "pos": "verb",
     "level": 1,
     "freq_score": 16.5,
@@ -8151,7 +8151,7 @@
   {
     "rank": 485,
     "lemma": "verbranden",
-    "english": "Burning",
+    "english": "burning",
     "pos": "verb",
     "level": 1,
     "freq_score": 16.4,
@@ -8198,7 +8198,7 @@
   {
     "rank": 488,
     "lemma": "verzekeren",
-    "english": "Insure",
+    "english": "insure",
     "pos": "verb",
     "level": 1,
     "freq_score": 16.36,
@@ -8278,7 +8278,7 @@
   {
     "rank": 493,
     "lemma": "zegen",
-    "english": "Of",
+    "english": "of",
     "pos": "noun",
     "level": 1,
     "freq_score": 16.32,
@@ -8309,7 +8309,7 @@
   {
     "rank": 495,
     "lemma": "vast",
-    "english": "Solid",
+    "english": "solid",
     "pos": "noun",
     "level": 1,
     "freq_score": 16.29,
@@ -8340,7 +8340,7 @@
   {
     "rank": 497,
     "lemma": "vrij",
-    "english": "Free",
+    "english": "free",
     "pos": "noun",
     "level": 1,
     "freq_score": 16.26,
@@ -8387,7 +8387,7 @@
   {
     "rank": 500,
     "lemma": "hol",
-    "english": "Hollow",
+    "english": "hollow",
     "pos": "noun",
     "level": 1,
     "freq_score": 16.24,
@@ -8592,7 +8592,7 @@
   {
     "rank": 513,
     "lemma": "ander",
-    "english": "Other",
+    "english": "other",
     "pos": "adjective",
     "level": 2,
     "freq_score": 16.11,
@@ -8667,7 +8667,7 @@
   {
     "rank": 518,
     "lemma": "aandoen",
-    "english": "Put",
+    "english": "put",
     "pos": "verb",
     "level": 2,
     "freq_score": 16.08,
@@ -8843,7 +8843,7 @@
   {
     "rank": 529,
     "lemma": "stuiten",
-    "english": "Stopping",
+    "english": "stopping",
     "pos": "adjective",
     "level": 2,
     "freq_score": 16.0,
@@ -8999,7 +8999,7 @@
   {
     "rank": 539,
     "lemma": "fotograferen",
-    "english": "Photographing",
+    "english": "photographing",
     "pos": "verb",
     "level": 2,
     "freq_score": 15.88,
@@ -9031,7 +9031,7 @@
   {
     "rank": 541,
     "lemma": "recht",
-    "english": "Straight",
+    "english": "straight",
     "pos": "adjective",
     "level": 2,
     "freq_score": 15.87,
@@ -9092,7 +9092,7 @@
   {
     "rank": 545,
     "lemma": "haak",
-    "english": "Crochet",
+    "english": "crochet",
     "pos": "noun",
     "level": 2,
     "freq_score": 15.84,
@@ -9108,7 +9108,7 @@
   {
     "rank": 546,
     "lemma": "snoep",
-    "english": "Candy",
+    "english": "candy",
     "pos": "noun",
     "level": 2,
     "freq_score": 15.84,
@@ -9156,7 +9156,7 @@
   {
     "rank": 549,
     "lemma": "smaken",
-    "english": "Flavors",
+    "english": "flavors",
     "pos": "verb",
     "level": 2,
     "freq_score": 15.8,
@@ -9234,7 +9234,7 @@
   {
     "rank": 554,
     "lemma": "beloven",
-    "english": "Promise",
+    "english": "promise",
     "pos": "verb",
     "level": 2,
     "freq_score": 15.76,
@@ -9266,7 +9266,7 @@
   {
     "rank": 556,
     "lemma": "waarschijnlijk",
-    "english": "Probably",
+    "english": "probably",
     "pos": "adjective",
     "level": 2,
     "freq_score": 15.72,
@@ -9498,7 +9498,7 @@
   {
     "rank": 571,
     "lemma": "analyseren",
-    "english": "Analyze",
+    "english": "analyze",
     "pos": "verb",
     "level": 2,
     "freq_score": 15.52,
@@ -9745,7 +9745,7 @@
   {
     "rank": 587,
     "lemma": "leger",
-    "english": "Army",
+    "english": "army",
     "pos": "noun",
     "level": 2,
     "freq_score": 15.39,
@@ -9790,7 +9790,7 @@
   {
     "rank": 590,
     "lemma": "zaad",
-    "english": "Seeds",
+    "english": "seeds",
     "pos": "noun",
     "level": 2,
     "freq_score": 15.36,
@@ -9898,7 +9898,7 @@
   {
     "rank": 597,
     "lemma": "feliciteren",
-    "english": "Congratulations",
+    "english": "congratulations",
     "pos": "verb",
     "level": 2,
     "freq_score": 15.24,
@@ -9946,7 +9946,7 @@
   {
     "rank": 600,
     "lemma": "heerlijk",
-    "english": "Delicious.",
+    "english": "delicious.",
     "pos": "adjective",
     "level": 2,
     "freq_score": 15.18,
@@ -10021,7 +10021,7 @@
   {
     "rank": 605,
     "lemma": "mengen",
-    "english": "Mixing",
+    "english": "mixing",
     "pos": "verb",
     "level": 2,
     "freq_score": 15.12,
@@ -10037,7 +10037,7 @@
   {
     "rank": 606,
     "lemma": "verbouwen",
-    "english": "Renovation",
+    "english": "renovation",
     "pos": "verb",
     "level": 2,
     "freq_score": 15.12,
@@ -10083,7 +10083,7 @@
   {
     "rank": 609,
     "lemma": "beleggen",
-    "english": "Investments",
+    "english": "investments",
     "pos": "verb",
     "level": 2,
     "freq_score": 15.08,
@@ -10190,7 +10190,7 @@
   {
     "rank": 616,
     "lemma": "rustig",
-    "english": "Quiet",
+    "english": "quiet",
     "pos": "adjective",
     "level": 2,
     "freq_score": 15.0,
@@ -10205,7 +10205,7 @@
   {
     "rank": 617,
     "lemma": "poot",
-    "english": "Paw",
+    "english": "paw",
     "pos": "noun",
     "level": 2,
     "freq_score": 15.0,
@@ -10342,7 +10342,7 @@
   {
     "rank": 626,
     "lemma": "stand",
-    "english": "Stand",
+    "english": "stand",
     "pos": "noun",
     "level": 2,
     "freq_score": 14.85,
@@ -10357,7 +10357,7 @@
   {
     "rank": 627,
     "lemma": "graan",
-    "english": "Cereals",
+    "english": "cereals",
     "pos": "noun",
     "level": 2,
     "freq_score": 14.84,
@@ -10478,7 +10478,7 @@
   {
     "rank": 635,
     "lemma": "introduceren",
-    "english": "Introduction",
+    "english": "introduction",
     "pos": "verb",
     "level": 2,
     "freq_score": 14.76,
@@ -10509,7 +10509,7 @@
   {
     "rank": 637,
     "lemma": "stil",
-    "english": "Shh",
+    "english": "shh",
     "pos": "noun",
     "level": 2,
     "freq_score": 14.73,
@@ -10554,7 +10554,7 @@
   {
     "rank": 640,
     "lemma": "schoppen",
-    "english": "Of",
+    "english": "of",
     "pos": "verb",
     "level": 2,
     "freq_score": 14.72,
@@ -10585,7 +10585,7 @@
   {
     "rank": 642,
     "lemma": "smelten",
-    "english": "Melting",
+    "english": "melting",
     "pos": "verb",
     "level": 2,
     "freq_score": 14.68,
@@ -10920,7 +10920,7 @@
   {
     "rank": 664,
     "lemma": "schaar",
-    "english": "Scissors",
+    "english": "scissors",
     "pos": "noun",
     "level": 2,
     "freq_score": 14.52,
@@ -11199,7 +11199,7 @@
   {
     "rank": 682,
     "lemma": "vieren",
-    "english": "Celebrate",
+    "english": "celebrate",
     "pos": "verb",
     "level": 2,
     "freq_score": 14.31,
@@ -11214,7 +11214,7 @@
   {
     "rank": 683,
     "lemma": "eisen",
-    "english": "Requirements",
+    "english": "requirements",
     "pos": "verb",
     "level": 2,
     "freq_score": 14.31,
@@ -11290,7 +11290,7 @@
   {
     "rank": 688,
     "lemma": "verwoesten",
-    "english": "Destroy",
+    "english": "destroy",
     "pos": "verb",
     "level": 2,
     "freq_score": 14.24,
@@ -11338,7 +11338,7 @@
   {
     "rank": 691,
     "lemma": "ik",
-    "english": "I",
+    "english": "i",
     "pos": "noun",
     "level": 2,
     "freq_score": 14.22,
@@ -11458,7 +11458,7 @@
   {
     "rank": 699,
     "lemma": "boon",
-    "english": "Beans",
+    "english": "beans",
     "pos": "noun",
     "level": 2,
     "freq_score": 14.2,
@@ -11567,7 +11567,7 @@
   {
     "rank": 706,
     "lemma": "wijn",
-    "english": "Wine",
+    "english": "wine",
     "pos": "noun",
     "level": 2,
     "freq_score": 14.19,
@@ -11628,7 +11628,7 @@
   {
     "rank": 710,
     "lemma": "botsen",
-    "english": "Collapse",
+    "english": "collapse",
     "pos": "verb",
     "level": 2,
     "freq_score": 14.12,
@@ -11644,7 +11644,7 @@
   {
     "rank": 711,
     "lemma": "schat",
-    "english": "Baby...",
+    "english": "baby...",
     "pos": "noun",
     "level": 2,
     "freq_score": 14.1,
@@ -11780,7 +11780,7 @@
   {
     "rank": 720,
     "lemma": "verzoek",
-    "english": "Request",
+    "english": "request",
     "pos": "noun",
     "level": 2,
     "freq_score": 14.07,
@@ -11795,7 +11795,7 @@
   {
     "rank": 721,
     "lemma": "bier",
-    "english": "Beers",
+    "english": "beers",
     "pos": "noun",
     "level": 2,
     "freq_score": 14.04,
@@ -11888,7 +11888,7 @@
   {
     "rank": 727,
     "lemma": "paard",
-    "english": "Horse",
+    "english": "horse",
     "pos": "noun",
     "level": 2,
     "freq_score": 13.98,
@@ -11903,7 +11903,7 @@
   {
     "rank": 728,
     "lemma": "vis",
-    "english": "Fish",
+    "english": "fish",
     "pos": "noun",
     "level": 2,
     "freq_score": 13.98,
@@ -12024,7 +12024,7 @@
   {
     "rank": 736,
     "lemma": "bloeien",
-    "english": "Flowering",
+    "english": "flowering",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.92,
@@ -12040,7 +12040,7 @@
   {
     "rank": 737,
     "lemma": "kalmeren",
-    "english": "Calm",
+    "english": "calm",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.92,
@@ -12131,7 +12131,7 @@
   {
     "rank": 743,
     "lemma": "gevaarlijk",
-    "english": "Dangerous",
+    "english": "dangerous",
     "pos": "adjective",
     "level": 2,
     "freq_score": 13.89,
@@ -12238,7 +12238,7 @@
   {
     "rank": 750,
     "lemma": "brood",
-    "english": "Bread",
+    "english": "bread",
     "pos": "noun",
     "level": 2,
     "freq_score": 13.83,
@@ -12298,7 +12298,7 @@
   {
     "rank": 754,
     "lemma": "spenderen",
-    "english": "Spend",
+    "english": "spend",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.8,
@@ -12389,7 +12389,7 @@
   {
     "rank": 760,
     "lemma": "dik",
-    "english": "Thick",
+    "english": "thick",
     "pos": "adjective",
     "level": 2,
     "freq_score": 13.77,
@@ -12693,7 +12693,7 @@
   {
     "rank": 780,
     "lemma": "duizend",
-    "english": "Thousand",
+    "english": "thousand",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.65,
@@ -12842,7 +12842,7 @@
   {
     "rank": 790,
     "lemma": "vriendelijk",
-    "english": "Friendly",
+    "english": "friendly",
     "pos": "adjective",
     "level": 2,
     "freq_score": 13.59,
@@ -12903,7 +12903,7 @@
   {
     "rank": 794,
     "lemma": "logisch",
-    "english": "Makes",
+    "english": "makes",
     "pos": "adjective",
     "level": 2,
     "freq_score": 13.56,
@@ -12918,7 +12918,7 @@
   {
     "rank": 795,
     "lemma": "zakken",
-    "english": "Sacks",
+    "english": "sacks",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.56,
@@ -13156,7 +13156,7 @@
   {
     "rank": 811,
     "lemma": "schieten",
-    "english": "Shooting",
+    "english": "shooting",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.5,
@@ -13171,7 +13171,7 @@
   {
     "rank": 812,
     "lemma": "stinken",
-    "english": "Smells",
+    "english": "smells",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.48,
@@ -13203,7 +13203,7 @@
   {
     "rank": 814,
     "lemma": "getuigen",
-    "english": "Witnesses",
+    "english": "witnesses",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.47,
@@ -13278,7 +13278,7 @@
   {
     "rank": 819,
     "lemma": "ijs",
-    "english": "Ice",
+    "english": "ice",
     "pos": "noun",
     "level": 2,
     "freq_score": 13.41,
@@ -13293,7 +13293,7 @@
   {
     "rank": 820,
     "lemma": "knap",
-    "english": "Handsome",
+    "english": "handsome",
     "pos": "noun",
     "level": 2,
     "freq_score": 13.41,
@@ -13355,7 +13355,7 @@
   {
     "rank": 824,
     "lemma": "bekeren",
-    "english": "Convert",
+    "english": "convert",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.36,
@@ -13505,7 +13505,7 @@
   {
     "rank": 834,
     "lemma": "vet",
-    "english": "Fat",
+    "english": "fat",
     "pos": "adjective",
     "level": 2,
     "freq_score": 13.32,
@@ -13579,7 +13579,7 @@
   {
     "rank": 839,
     "lemma": "junior",
-    "english": "Junior",
+    "english": "junior",
     "pos": "adjective",
     "level": 2,
     "freq_score": 13.29,
@@ -13654,7 +13654,7 @@
   {
     "rank": 844,
     "lemma": "slingeren",
-    "english": "Swinging",
+    "english": "swinging",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.28,
@@ -13863,7 +13863,7 @@
   {
     "rank": 858,
     "lemma": "pa",
-    "english": "Dad",
+    "english": "dad",
     "pos": "noun",
     "level": 2,
     "freq_score": 13.17,
@@ -13878,7 +13878,7 @@
   {
     "rank": 859,
     "lemma": "rollen",
-    "english": "Rolls",
+    "english": "rolls",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.17,
@@ -13938,7 +13938,7 @@
   {
     "rank": 863,
     "lemma": "bedanken",
-    "english": "Thank",
+    "english": "thank",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.08,
@@ -14103,7 +14103,7 @@
   {
     "rank": 874,
     "lemma": "hoer",
-    "english": "Whore",
+    "english": "whore",
     "pos": "noun",
     "level": 2,
     "freq_score": 13.02,
@@ -14133,7 +14133,7 @@
   {
     "rank": 876,
     "lemma": "promoveren",
-    "english": "PhD",
+    "english": "phd",
     "pos": "verb",
     "level": 2,
     "freq_score": 13.0,
@@ -14239,7 +14239,7 @@
   {
     "rank": 883,
     "lemma": "durven",
-    "english": "Dare",
+    "english": "dare",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.96,
@@ -14299,7 +14299,7 @@
   {
     "rank": 887,
     "lemma": "ramen",
-    "english": "Windows",
+    "english": "windows",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.96,
@@ -14314,7 +14314,7 @@
   {
     "rank": 888,
     "lemma": "sneuvelen",
-    "english": "Kill!",
+    "english": "kill!",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.92,
@@ -14359,7 +14359,7 @@
   {
     "rank": 891,
     "lemma": "besluiten",
-    "english": "Decisions",
+    "english": "decisions",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.9,
@@ -14389,7 +14389,7 @@
   {
     "rank": 893,
     "lemma": "bewaren",
-    "english": "Store",
+    "english": "store",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.9,
@@ -14507,7 +14507,7 @@
   {
     "rank": 901,
     "lemma": "bond",
-    "english": "Bond",
+    "english": "bond",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.84,
@@ -14537,7 +14537,7 @@
   {
     "rank": 903,
     "lemma": "prettig",
-    "english": "Pleasant",
+    "english": "pleasant",
     "pos": "adjective",
     "level": 2,
     "freq_score": 12.84,
@@ -14552,7 +14552,7 @@
   {
     "rank": 904,
     "lemma": "zout",
-    "english": "Salt",
+    "english": "salt",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.84,
@@ -14567,7 +14567,7 @@
   {
     "rank": 905,
     "lemma": "vers",
-    "english": "Fresh",
+    "english": "fresh",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.84,
@@ -14642,7 +14642,7 @@
   {
     "rank": 910,
     "lemma": "wel",
-    "english": "Well...",
+    "english": "well...",
     "pos": "adjective",
     "level": 2,
     "freq_score": 12.8,
@@ -14774,7 +14774,7 @@
   {
     "rank": 919,
     "lemma": "ophouden",
-    "english": "Stop",
+    "english": "stop",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.75,
@@ -14834,7 +14834,7 @@
   {
     "rank": 923,
     "lemma": "creatief",
-    "english": "Creative",
+    "english": "creative",
     "pos": "adjective",
     "level": 2,
     "freq_score": 12.72,
@@ -14984,7 +14984,7 @@
   {
     "rank": 933,
     "lemma": "opstellen",
-    "english": "Drafting",
+    "english": "drafting",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.69,
@@ -15090,7 +15090,7 @@
   {
     "rank": 940,
     "lemma": "bakken",
-    "english": "Bake",
+    "english": "bake",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.63,
@@ -15135,7 +15135,7 @@
   {
     "rank": 943,
     "lemma": "lichten",
-    "english": "Lights",
+    "english": "lights",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.63,
@@ -15150,7 +15150,7 @@
   {
     "rank": 944,
     "lemma": "arresteren",
-    "english": "Arrest",
+    "english": "arrest",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.6,
@@ -15180,7 +15180,7 @@
   {
     "rank": 946,
     "lemma": "dodelijk",
-    "english": "Fatal",
+    "english": "fatal",
     "pos": "adjective",
     "level": 2,
     "freq_score": 12.6,
@@ -15376,7 +15376,7 @@
   {
     "rank": 959,
     "lemma": "kerel",
-    "english": "Dude.",
+    "english": "dude.",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.51,
@@ -15391,7 +15391,7 @@
   {
     "rank": 960,
     "lemma": "nicht",
-    "english": "Cousin",
+    "english": "cousin",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.51,
@@ -15510,7 +15510,7 @@
   {
     "rank": 968,
     "lemma": "jagen",
-    "english": "Hunting",
+    "english": "hunting",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.48,
@@ -15599,7 +15599,7 @@
   {
     "rank": 974,
     "lemma": "koffer",
-    "english": "Suitcase",
+    "english": "suitcase",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.42,
@@ -15660,7 +15660,7 @@
   {
     "rank": 978,
     "lemma": "deken",
-    "english": "Blanket",
+    "english": "blanket",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.39,
@@ -15720,7 +15720,7 @@
   {
     "rank": 982,
     "lemma": "heilig",
-    "english": "Sacred",
+    "english": "sacred",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.36,
@@ -15795,7 +15795,7 @@
   {
     "rank": 987,
     "lemma": "trui",
-    "english": "Sweater",
+    "english": "sweater",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.36,
@@ -15884,7 +15884,7 @@
   {
     "rank": 993,
     "lemma": "combineren",
-    "english": "Combine",
+    "english": "combine",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.33,
@@ -15991,7 +15991,7 @@
   {
     "rank": 1000,
     "lemma": "engel",
-    "english": "Angel",
+    "english": "angel",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.3,
@@ -16126,7 +16126,7 @@
   {
     "rank": 1009,
     "lemma": "voornaam",
-    "english": "First",
+    "english": "first",
     "pos": "adjective",
     "level": 2,
     "freq_score": 12.24,
@@ -16156,7 +16156,7 @@
   {
     "rank": 1011,
     "lemma": "draad",
-    "english": "Wire",
+    "english": "wire",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.21,
@@ -16231,7 +16231,7 @@
   {
     "rank": 1016,
     "lemma": "redacteur",
-    "english": "Editor",
+    "english": "editor",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.21,
@@ -16261,7 +16261,7 @@
   {
     "rank": 1018,
     "lemma": "verlenen",
-    "english": "Of",
+    "english": "of",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.18,
@@ -16306,7 +16306,7 @@
   {
     "rank": 1021,
     "lemma": "staken",
-    "english": "Strike",
+    "english": "strike",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.18,
@@ -16336,7 +16336,7 @@
   {
     "rank": 1023,
     "lemma": "specialiseren",
-    "english": "Specialising",
+    "english": "specialising",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.16,
@@ -16352,7 +16352,7 @@
   {
     "rank": 1024,
     "lemma": "zuidelijk",
-    "english": "Southern",
+    "english": "southern",
     "pos": "adjective",
     "level": 2,
     "freq_score": 12.15,
@@ -16397,7 +16397,7 @@
   {
     "rank": 1027,
     "lemma": "ruimen",
-    "english": "Clear",
+    "english": "clear",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.15,
@@ -16472,7 +16472,7 @@
   {
     "rank": 1032,
     "lemma": "erkennen",
-    "english": "Acknowledged",
+    "english": "acknowledged",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.09,
@@ -16487,7 +16487,7 @@
   {
     "rank": 1033,
     "lemma": "onderhandelen",
-    "english": "Negotiation",
+    "english": "negotiation",
     "pos": "verb",
     "level": 2,
     "freq_score": 12.09,
@@ -16547,7 +16547,7 @@
   {
     "rank": 1037,
     "lemma": "beest",
-    "english": "Beast",
+    "english": "beast",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.06,
@@ -16562,7 +16562,7 @@
   {
     "rank": 1038,
     "lemma": "konijn",
-    "english": "Rabbit",
+    "english": "rabbit",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.06,
@@ -16637,7 +16637,7 @@
   {
     "rank": 1043,
     "lemma": "moedig",
-    "english": "Brave",
+    "english": "brave",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.03,
@@ -16667,7 +16667,7 @@
   {
     "rank": 1045,
     "lemma": "daar",
-    "english": "There",
+    "english": "there",
     "pos": "adjective",
     "level": 2,
     "freq_score": 12.0,
@@ -16681,7 +16681,7 @@
   {
     "rank": 1046,
     "lemma": "toch",
-    "english": "Oh",
+    "english": "oh",
     "pos": "noun",
     "level": 2,
     "freq_score": 12.0,
@@ -16755,7 +16755,7 @@
   {
     "rank": 1051,
     "lemma": "blank",
-    "english": "Caucasian",
+    "english": "caucasian",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.97,
@@ -16770,7 +16770,7 @@
   {
     "rank": 1052,
     "lemma": "tegenhouden",
-    "english": "Stop",
+    "english": "stop",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.97,
@@ -16860,7 +16860,7 @@
   {
     "rank": 1058,
     "lemma": "voetballen",
-    "english": "Football",
+    "english": "football",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.94,
@@ -16875,7 +16875,7 @@
   {
     "rank": 1059,
     "lemma": "zuiver",
-    "english": "Pure",
+    "english": "pure",
     "pos": "adverb",
     "level": 2,
     "freq_score": 11.94,
@@ -16890,7 +16890,7 @@
   {
     "rank": 1060,
     "lemma": "groet",
-    "english": "Greetings",
+    "english": "greetings",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.88,
@@ -16964,7 +16964,7 @@
   {
     "rank": 1065,
     "lemma": "plakken",
-    "english": "Paste",
+    "english": "paste",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.85,
@@ -16979,7 +16979,7 @@
   {
     "rank": 1066,
     "lemma": "realistisch",
-    "english": "Reality",
+    "english": "reality",
     "pos": "adjective",
     "level": 2,
     "freq_score": 11.85,
@@ -17100,7 +17100,7 @@
   {
     "rank": 1074,
     "lemma": "ezel",
-    "english": "Ass",
+    "english": "ass",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.82,
@@ -17176,7 +17176,7 @@
   {
     "rank": 1079,
     "lemma": "overvallen",
-    "english": "Robberies",
+    "english": "robberies",
     "pos": "adjective",
     "level": 2,
     "freq_score": 11.79,
@@ -17281,7 +17281,7 @@
   {
     "rank": 1086,
     "lemma": "remmen",
-    "english": "Brakes",
+    "english": "brakes",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.73,
@@ -17400,7 +17400,7 @@
   {
     "rank": 1094,
     "lemma": "achterlaten",
-    "english": "Leave",
+    "english": "leave",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.67,
@@ -17489,7 +17489,7 @@
   {
     "rank": 1100,
     "lemma": "kappen",
-    "english": "Capping",
+    "english": "capping",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.61,
@@ -17504,7 +17504,7 @@
   {
     "rank": 1101,
     "lemma": "kas",
-    "english": "Cash",
+    "english": "cash",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.61,
@@ -17519,7 +17519,7 @@
   {
     "rank": 1102,
     "lemma": "scheren",
-    "english": "Shaving",
+    "english": "shaving",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.61,
@@ -17534,7 +17534,7 @@
   {
     "rank": 1103,
     "lemma": "zwaaien",
-    "english": "Wave",
+    "english": "wave",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.61,
@@ -17637,7 +17637,7 @@
   {
     "rank": 1110,
     "lemma": "opgroeien",
-    "english": "Growing",
+    "english": "growing",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.58,
@@ -17785,7 +17785,7 @@
   {
     "rank": 1120,
     "lemma": "beschuldigen",
-    "english": "Accusing",
+    "english": "accusing",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.52,
@@ -17845,7 +17845,7 @@
   {
     "rank": 1124,
     "lemma": "dekken",
-    "english": "Covers",
+    "english": "covers",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.49,
@@ -17933,7 +17933,7 @@
   {
     "rank": 1130,
     "lemma": "zulk",
-    "english": "Such",
+    "english": "such",
     "pos": "pronoun",
     "level": 2,
     "freq_score": 11.46,
@@ -17963,7 +17963,7 @@
   {
     "rank": 1132,
     "lemma": "katholiek",
-    "english": "Catholic",
+    "english": "catholic",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.43,
@@ -18023,7 +18023,7 @@
   {
     "rank": 1136,
     "lemma": "aangaan",
-    "english": "Getting",
+    "english": "getting",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.43,
@@ -18038,7 +18038,7 @@
   {
     "rank": 1137,
     "lemma": "armband",
-    "english": "Bracelet",
+    "english": "bracelet",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.43,
@@ -18068,7 +18068,7 @@
   {
     "rank": 1139,
     "lemma": "hoes",
-    "english": "Cover",
+    "english": "cover",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.43,
@@ -18098,7 +18098,7 @@
   {
     "rank": 1141,
     "lemma": "liberaal",
-    "english": "Liberal",
+    "english": "liberal",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.4,
@@ -18158,7 +18158,7 @@
   {
     "rank": 1145,
     "lemma": "plak",
-    "english": "Paste",
+    "english": "paste",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.4,
@@ -18277,7 +18277,7 @@
   {
     "rank": 1153,
     "lemma": "verschaffen",
-    "english": "Of",
+    "english": "of",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.37,
@@ -18306,7 +18306,7 @@
   {
     "rank": 1155,
     "lemma": "verenigen",
-    "english": "Unifying",
+    "english": "unifying",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.34,
@@ -18321,7 +18321,7 @@
   {
     "rank": 1156,
     "lemma": "varken",
-    "english": "Pig",
+    "english": "pig",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.34,
@@ -18381,7 +18381,7 @@
   {
     "rank": 1160,
     "lemma": "omdraaien",
-    "english": "Turn",
+    "english": "turn",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.34,
@@ -18662,7 +18662,7 @@
   {
     "rank": 1179,
     "lemma": "gans",
-    "english": "Goose",
+    "english": "goose",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.25,
@@ -18810,7 +18810,7 @@
   {
     "rank": 1189,
     "lemma": "acteren",
-    "english": "Acting",
+    "english": "acting",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.22,
@@ -18870,7 +18870,7 @@
   {
     "rank": 1193,
     "lemma": "rapporteren",
-    "english": "Report",
+    "english": "report",
     "pos": "verb",
     "level": 2,
     "freq_score": 11.19,
@@ -18885,7 +18885,7 @@
   {
     "rank": 1194,
     "lemma": "natuurlijk",
-    "english": "Of",
+    "english": "of",
     "pos": "adjective",
     "level": 2,
     "freq_score": 11.18,
@@ -18929,7 +18929,7 @@
   {
     "rank": 1197,
     "lemma": "tomaat",
-    "english": "Tomato",
+    "english": "tomato",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.16,
@@ -18959,7 +18959,7 @@
   {
     "rank": 1199,
     "lemma": "wieg",
-    "english": "Cradle",
+    "english": "cradle",
     "pos": "noun",
     "level": 2,
     "freq_score": 11.16,
@@ -18989,7 +18989,7 @@
   {
     "rank": 1201,
     "lemma": "activeren",
-    "english": "Activate",
+    "english": "activate",
     "pos": "verb",
     "level": 3,
     "freq_score": 11.13,
@@ -19091,7 +19091,7 @@
   {
     "rank": 1208,
     "lemma": "beren",
-    "english": "Bears",
+    "english": "bears",
     "pos": "verb",
     "level": 3,
     "freq_score": 11.1,
@@ -19120,7 +19120,7 @@
   {
     "rank": 1210,
     "lemma": "betoveren",
-    "english": "Enchanted",
+    "english": "enchanted",
     "pos": "verb",
     "level": 3,
     "freq_score": 11.08,
@@ -19136,7 +19136,7 @@
   {
     "rank": 1211,
     "lemma": "bedekken",
-    "english": "Cover",
+    "english": "cover",
     "pos": "verb",
     "level": 3,
     "freq_score": 11.07,
@@ -19554,7 +19554,7 @@
   {
     "rank": 1239,
     "lemma": "riet",
-    "english": "Reeds",
+    "english": "reeds",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.95,
@@ -19583,7 +19583,7 @@
   {
     "rank": 1241,
     "lemma": "niks",
-    "english": "Nothing.",
+    "english": "nothing.",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.94,
@@ -19611,7 +19611,7 @@
   {
     "rank": 1243,
     "lemma": "experimenteren",
-    "english": "Experiment",
+    "english": "experiment",
     "pos": "verb",
     "level": 3,
     "freq_score": 10.92,
@@ -19656,7 +19656,7 @@
   {
     "rank": 1246,
     "lemma": "eigenlijk",
-    "english": "Actually",
+    "english": "actually",
     "pos": "adjective",
     "level": 3,
     "freq_score": 10.9,
@@ -19920,7 +19920,7 @@
   {
     "rank": 1264,
     "lemma": "knallen",
-    "english": "Pop",
+    "english": "pop",
     "pos": "verb",
     "level": 3,
     "freq_score": 10.83,
@@ -19949,7 +19949,7 @@
   {
     "rank": 1266,
     "lemma": "regio",
-    "english": "Region",
+    "english": "region",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.82,
@@ -20022,7 +20022,7 @@
   {
     "rank": 1271,
     "lemma": "prikken",
-    "english": "Pricks",
+    "english": "pricks",
     "pos": "verb",
     "level": 3,
     "freq_score": 10.77,
@@ -20067,7 +20067,7 @@
   {
     "rank": 1274,
     "lemma": "meisje",
-    "english": "Girl",
+    "english": "girl",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.74,
@@ -20199,7 +20199,7 @@
   {
     "rank": 1283,
     "lemma": "dank",
-    "english": "Thank",
+    "english": "thank",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.7,
@@ -20314,7 +20314,7 @@
   {
     "rank": 1291,
     "lemma": "gebak",
-    "english": "Pasta",
+    "english": "pasta",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.68,
@@ -20477,7 +20477,7 @@
   {
     "rank": 1302,
     "lemma": "vernielen",
-    "english": "Destroy",
+    "english": "destroy",
     "pos": "verb",
     "level": 3,
     "freq_score": 10.59,
@@ -20537,7 +20537,7 @@
   {
     "rank": 1306,
     "lemma": "vergaderen",
-    "english": "Meetings",
+    "english": "meetings",
     "pos": "verb",
     "level": 3,
     "freq_score": 10.59,
@@ -20637,7 +20637,7 @@
   {
     "rank": 1313,
     "lemma": "bekleden",
-    "english": "Decorating",
+    "english": "decorating",
     "pos": "verb",
     "level": 3,
     "freq_score": 10.56,
@@ -20682,7 +20682,7 @@
   {
     "rank": 1316,
     "lemma": "verwant",
-    "english": "Related",
+    "english": "related",
     "pos": "adjective",
     "level": 3,
     "freq_score": 10.53,
@@ -20784,7 +20784,7 @@
   {
     "rank": 1323,
     "lemma": "concluderen",
-    "english": "Conclusion",
+    "english": "conclusion",
     "pos": "verb",
     "level": 3,
     "freq_score": 10.5,
@@ -20931,7 +20931,7 @@
   {
     "rank": 1333,
     "lemma": "wrijven",
-    "english": "Rub",
+    "english": "rub",
     "pos": "verb",
     "level": 3,
     "freq_score": 10.47,
@@ -20975,7 +20975,7 @@
   {
     "rank": 1336,
     "lemma": "rol",
-    "english": "Role",
+    "english": "role",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.44,
@@ -21018,7 +21018,7 @@
   {
     "rank": 1339,
     "lemma": "friet",
-    "english": "French",
+    "english": "french",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.44,
@@ -21103,7 +21103,7 @@
   {
     "rank": 1345,
     "lemma": "minister",
-    "english": "Minister",
+    "english": "minister",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.42,
@@ -21250,7 +21250,7 @@
   {
     "rank": 1355,
     "lemma": "provincie",
-    "english": "Province",
+    "english": "province",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.4,
@@ -21365,7 +21365,7 @@
   {
     "rank": 1363,
     "lemma": "god",
-    "english": "God",
+    "english": "god",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.36,
@@ -21393,7 +21393,7 @@
   {
     "rank": 1365,
     "lemma": "president",
-    "english": "President",
+    "english": "president",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.36,
@@ -21437,7 +21437,7 @@
   {
     "rank": 1368,
     "lemma": "politiek",
-    "english": "Politics",
+    "english": "politics",
     "pos": "adjective",
     "level": 3,
     "freq_score": 10.34,
@@ -21537,7 +21537,7 @@
   {
     "rank": 1375,
     "lemma": "geweldig",
-    "english": "Awesome.",
+    "english": "awesome.",
     "pos": "adjective",
     "level": 3,
     "freq_score": 10.3,
@@ -21607,7 +21607,7 @@
   {
     "rank": 1380,
     "lemma": "welkom",
-    "english": "Welcome",
+    "english": "welcome",
     "pos": "adjective",
     "level": 3,
     "freq_score": 10.3,
@@ -21849,7 +21849,7 @@
   {
     "rank": 1397,
     "lemma": "fijn",
-    "english": "Fine",
+    "english": "fine",
     "pos": "adjective",
     "level": 3,
     "freq_score": 10.18,
@@ -21877,7 +21877,7 @@
   {
     "rank": 1399,
     "lemma": "prachtig",
-    "english": "Beautiful.",
+    "english": "beautiful.",
     "pos": "adjective",
     "level": 3,
     "freq_score": 10.18,
@@ -21905,7 +21905,7 @@
   {
     "rank": 1401,
     "lemma": "belasten",
-    "english": "Loading",
+    "english": "loading",
     "pos": "verb",
     "level": 3,
     "freq_score": 10.17,
@@ -22037,7 +22037,7 @@
   {
     "rank": 1410,
     "lemma": "universiteit",
-    "english": "University",
+    "english": "university",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.16,
@@ -22079,7 +22079,7 @@
   {
     "rank": 1413,
     "lemma": "aar",
-    "english": "It's",
+    "english": "it's",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.14,
@@ -22123,7 +22123,7 @@
   {
     "rank": 1416,
     "lemma": "raad",
-    "english": "Council",
+    "english": "council",
     "pos": "noun",
     "level": 3,
     "freq_score": 10.12,
@@ -22263,7 +22263,7 @@
   {
     "rank": 1426,
     "lemma": "gelovig",
-    "english": "Believer",
+    "english": "believer",
     "pos": "adjective",
     "level": 3,
     "freq_score": 10.11,
@@ -22576,7 +22576,7 @@
   {
     "rank": 1448,
     "lemma": "strikken",
-    "english": "Tie",
+    "english": "tie",
     "pos": "verb",
     "level": 3,
     "freq_score": 10.05,
@@ -22691,7 +22691,7 @@
   {
     "rank": 1456,
     "lemma": "franstalig",
-    "english": "French",
+    "english": "french",
     "pos": "adjective",
     "level": 3,
     "freq_score": 10.02,
@@ -22706,7 +22706,7 @@
   {
     "rank": 1457,
     "lemma": "zwart",
-    "english": "Black",
+    "english": "black",
     "pos": "adjective",
     "level": 3,
     "freq_score": 10.0,
@@ -22748,7 +22748,7 @@
   {
     "rank": 1460,
     "lemma": "eerlijk",
-    "english": "Fair",
+    "english": "fair",
     "pos": "adjective",
     "level": 3,
     "freq_score": 10.0,
@@ -23049,7 +23049,7 @@
   {
     "rank": 1481,
     "lemma": "betuigen",
-    "english": "Show",
+    "english": "show",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.93,
@@ -23092,7 +23092,7 @@
   {
     "rank": 1484,
     "lemma": "vakantie",
-    "english": "Holiday",
+    "english": "holiday",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.92,
@@ -23148,7 +23148,7 @@
   {
     "rank": 1488,
     "lemma": "terecht",
-    "english": "Right",
+    "english": "right",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.9,
@@ -23473,7 +23473,7 @@
   {
     "rank": 1511,
     "lemma": "verpakken",
-    "english": "Packaging",
+    "english": "packaging",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.84,
@@ -23488,7 +23488,7 @@
   {
     "rank": 1512,
     "lemma": "strooien",
-    "english": "Sprinkle",
+    "english": "sprinkle",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.84,
@@ -23560,7 +23560,7 @@
   {
     "rank": 1517,
     "lemma": "oosten",
-    "english": "East",
+    "english": "east",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.82,
@@ -23616,7 +23616,7 @@
   {
     "rank": 1521,
     "lemma": "opsteken",
-    "english": "Raise",
+    "english": "raise",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.81,
@@ -23661,7 +23661,7 @@
   {
     "rank": 1524,
     "lemma": "vermenigvuldigen",
-    "english": "Multiply",
+    "english": "multiply",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.81,
@@ -23760,7 +23760,7 @@
   {
     "rank": 1531,
     "lemma": "generaal",
-    "english": "General",
+    "english": "general",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.78,
@@ -23802,7 +23802,7 @@
   {
     "rank": 1534,
     "lemma": "serieus",
-    "english": "Seriously",
+    "english": "seriously",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.78,
@@ -23889,7 +23889,7 @@
   {
     "rank": 1540,
     "lemma": "discrimineren",
-    "english": "Discrimination",
+    "english": "discrimination",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.78,
@@ -23933,7 +23933,7 @@
   {
     "rank": 1543,
     "lemma": "bestuur",
-    "english": "Management",
+    "english": "management",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.76,
@@ -24003,7 +24003,7 @@
   {
     "rank": 1548,
     "lemma": "roeren",
-    "english": "Stir",
+    "english": "stir",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.75,
@@ -24018,7 +24018,7 @@
   {
     "rank": 1549,
     "lemma": "directeur",
-    "english": "Director",
+    "english": "director",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.74,
@@ -24032,7 +24032,7 @@
   {
     "rank": 1550,
     "lemma": "mama",
-    "english": "Mommy",
+    "english": "mommy",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.74,
@@ -24060,7 +24060,7 @@
   {
     "rank": 1552,
     "lemma": "stichting",
-    "english": "Foundation",
+    "english": "foundation",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.74,
@@ -24116,7 +24116,7 @@
   {
     "rank": 1556,
     "lemma": "slachtoffer",
-    "english": "Victim",
+    "english": "victim",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.72,
@@ -24130,7 +24130,7 @@
   {
     "rank": 1557,
     "lemma": "voorzitter",
-    "english": "President",
+    "english": "president",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.72,
@@ -24188,7 +24188,7 @@
   {
     "rank": 1561,
     "lemma": "hinderen",
-    "english": "Obstacles",
+    "english": "obstacles",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.72,
@@ -24218,7 +24218,7 @@
   {
     "rank": 1563,
     "lemma": "moderniseren",
-    "english": "Modernisation",
+    "english": "modernisation",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.72,
@@ -24233,7 +24233,7 @@
   {
     "rank": 1564,
     "lemma": "advies",
-    "english": "Opinion",
+    "english": "opinion",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.7,
@@ -24602,7 +24602,7 @@
   {
     "rank": 1590,
     "lemma": "commissie",
-    "english": "Committee",
+    "english": "committee",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.62,
@@ -24616,7 +24616,7 @@
   {
     "rank": 1591,
     "lemma": "vuur",
-    "english": "Fire",
+    "english": "fire",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.62,
@@ -24658,7 +24658,7 @@
   {
     "rank": 1594,
     "lemma": "afdeling",
-    "english": "Section",
+    "english": "section",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.6,
@@ -24728,7 +24728,7 @@
   {
     "rank": 1599,
     "lemma": "onderwerp",
-    "english": "Subject",
+    "english": "subject",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.6,
@@ -24784,7 +24784,7 @@
   {
     "rank": 1603,
     "lemma": "college",
-    "english": "College",
+    "english": "college",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.58,
@@ -25024,7 +25024,7 @@
   {
     "rank": 1620,
     "lemma": "onderzoeken",
-    "english": "Investigations",
+    "english": "investigations",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.54,
@@ -25108,7 +25108,7 @@
   {
     "rank": 1626,
     "lemma": "buitenland",
-    "english": "Other",
+    "english": "other",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.52,
@@ -25193,7 +25193,7 @@
   {
     "rank": 1632,
     "lemma": "onderbouwen",
-    "english": "Support",
+    "english": "support",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.51,
@@ -25351,7 +25351,7 @@
   {
     "rank": 1643,
     "lemma": "berichten",
-    "english": "Messages",
+    "english": "messages",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.5,
@@ -25435,7 +25435,7 @@
   {
     "rank": 1649,
     "lemma": "parlement",
-    "english": "Parliament",
+    "english": "parliament",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.48,
@@ -25519,7 +25519,7 @@
   {
     "rank": 1655,
     "lemma": "bevredigen",
-    "english": "Satisfaction",
+    "english": "satisfaction",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.48,
@@ -25761,7 +25761,7 @@
   {
     "rank": 1672,
     "lemma": "ministerie",
-    "english": "Ministry",
+    "english": "ministry",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.44,
@@ -25845,7 +25845,7 @@
   {
     "rank": 1678,
     "lemma": "meneer",
-    "english": "Sir.",
+    "english": "sir.",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.42,
@@ -25859,7 +25859,7 @@
   {
     "rank": 1679,
     "lemma": "rechtbank",
-    "english": "Court",
+    "english": "court",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.42,
@@ -25915,7 +25915,7 @@
   {
     "rank": 1683,
     "lemma": "sinaasappel",
-    "english": "Orange",
+    "english": "orange",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.42,
@@ -26085,7 +26085,7 @@
   {
     "rank": 1695,
     "lemma": "as",
-    "english": "Axis",
+    "english": "axis",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.38,
@@ -26113,7 +26113,7 @@
   {
     "rank": 1697,
     "lemma": "kampioen",
-    "english": "Champion",
+    "english": "champion",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.38,
@@ -26351,7 +26351,7 @@
   {
     "rank": 1714,
     "lemma": "oma",
-    "english": "Grandma",
+    "english": "grandma",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.36,
@@ -26451,7 +26451,7 @@
   {
     "rank": 1721,
     "lemma": "flink",
-    "english": "Hey",
+    "english": "hey",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.34,
@@ -26591,7 +26591,7 @@
   {
     "rank": 1731,
     "lemma": "mevrouw",
-    "english": "Madam",
+    "english": "madam",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.32,
@@ -26619,7 +26619,7 @@
   {
     "rank": 1733,
     "lemma": "professor",
-    "english": "Professor",
+    "english": "professor",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.32,
@@ -26830,7 +26830,7 @@
   {
     "rank": 1748,
     "lemma": "belachelijk",
-    "english": "Ridiculous.",
+    "english": "ridiculous.",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.28,
@@ -26872,7 +26872,7 @@
   {
     "rank": 1751,
     "lemma": "moe",
-    "english": "Tired",
+    "english": "tired",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.28,
@@ -26984,7 +26984,7 @@
   {
     "rank": 1759,
     "lemma": "hof",
-    "english": "Court",
+    "english": "court",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.26,
@@ -27222,7 +27222,7 @@
   {
     "rank": 1776,
     "lemma": "hoeveelheid",
-    "english": "Quantity",
+    "english": "quantity",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.24,
@@ -27348,7 +27348,7 @@
   {
     "rank": 1785,
     "lemma": "tijdschrift",
-    "english": "Magazine",
+    "english": "magazine",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.24,
@@ -27390,7 +27390,7 @@
   {
     "rank": 1788,
     "lemma": "verpleegkundig",
-    "english": "Nursing",
+    "english": "nursing",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.24,
@@ -27405,7 +27405,7 @@
   {
     "rank": 1789,
     "lemma": "burger",
-    "english": "Citizen",
+    "english": "citizen",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.22,
@@ -27433,7 +27433,7 @@
   {
     "rank": 1791,
     "lemma": "kont",
-    "english": "Ass",
+    "english": "ass",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.22,
@@ -27447,7 +27447,7 @@
   {
     "rank": 1792,
     "lemma": "prins",
-    "english": "Prince",
+    "english": "prince",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.22,
@@ -27548,7 +27548,7 @@
   {
     "rank": 1799,
     "lemma": "sterken",
-    "english": "Strengths",
+    "english": "strengths",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.21,
@@ -27563,7 +27563,7 @@
   {
     "rank": 1800,
     "lemma": "europees",
-    "english": "European",
+    "english": "european",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.2,
@@ -27689,7 +27689,7 @@
   {
     "rank": 1809,
     "lemma": "sector",
-    "english": "Division",
+    "english": "division",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.2,
@@ -27717,7 +27717,7 @@
   {
     "rank": 1811,
     "lemma": "spaans",
-    "english": "Spanish",
+    "english": "spanish",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.18,
@@ -27773,7 +27773,7 @@
   {
     "rank": 1815,
     "lemma": "eindhoven",
-    "english": "Eindhoven",
+    "english": "eindhoven",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.18,
@@ -27787,7 +27787,7 @@
   {
     "rank": 1816,
     "lemma": "letterlijk",
-    "english": "Literally",
+    "english": "literally",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.18,
@@ -27871,7 +27871,7 @@
   {
     "rank": 1822,
     "lemma": "aanduiden",
-    "english": "Indicate",
+    "english": "indicate",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.18,
@@ -27901,7 +27901,7 @@
   {
     "rank": 1824,
     "lemma": "terroriseren",
-    "english": "Terrorizing",
+    "english": "terrorizing",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.18,
@@ -27916,7 +27916,7 @@
   {
     "rank": 1825,
     "lemma": "verontschuldigen",
-    "english": "Apologize",
+    "english": "apologize",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.18,
@@ -27959,7 +27959,7 @@
   {
     "rank": 1828,
     "lemma": "papa",
-    "english": "Daddy!",
+    "english": "daddy!",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.16,
@@ -28058,7 +28058,7 @@
   {
     "rank": 1835,
     "lemma": "kol",
-    "english": "Col",
+    "english": "col",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.15,
@@ -28185,7 +28185,7 @@
   {
     "rank": 1844,
     "lemma": "agent",
-    "english": "Officer",
+    "english": "officer",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.12,
@@ -28199,7 +28199,7 @@
   {
     "rank": 1845,
     "lemma": "trouw",
-    "english": "Faithful",
+    "english": "faithful",
     "pos": "numeral",
     "level": 3,
     "freq_score": 9.12,
@@ -28311,7 +28311,7 @@
   {
     "rank": 1853,
     "lemma": "toevallig",
-    "english": "I",
+    "english": "i",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.12,
@@ -28395,7 +28395,7 @@
   {
     "rank": 1859,
     "lemma": "kut",
-    "english": "Fuck!",
+    "english": "fuck!",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.1,
@@ -28451,7 +28451,7 @@
   {
     "rank": 1863,
     "lemma": "zwanger",
-    "english": "Pregnant",
+    "english": "pregnant",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.1,
@@ -28619,7 +28619,7 @@
   {
     "rank": 1875,
     "lemma": "instituut",
-    "english": "Institute",
+    "english": "institute",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.06,
@@ -28689,7 +28689,7 @@
   {
     "rank": 1880,
     "lemma": "theater",
-    "english": "Theatre",
+    "english": "theatre",
     "pos": "noun",
     "level": 3,
     "freq_score": 9.06,
@@ -28844,7 +28844,7 @@
   {
     "rank": 1891,
     "lemma": "verwonden",
-    "english": "Injuries",
+    "english": "injuries",
     "pos": "verb",
     "level": 3,
     "freq_score": 9.03,
@@ -28887,7 +28887,7 @@
   {
     "rank": 1894,
     "lemma": "droog",
-    "english": "Dry",
+    "english": "dry",
     "pos": "adjective",
     "level": 3,
     "freq_score": 9.02,
@@ -29055,7 +29055,7 @@
   {
     "rank": 1906,
     "lemma": "kampen",
-    "english": "Camps",
+    "english": "camps",
     "pos": "verb",
     "level": 4,
     "freq_score": 9.02,
@@ -29251,7 +29251,7 @@
   {
     "rank": 1920,
     "lemma": "boerderij",
-    "english": "Farm",
+    "english": "farm",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.98,
@@ -29265,7 +29265,7 @@
   {
     "rank": 1921,
     "lemma": "opstand",
-    "english": "Insurrection",
+    "english": "insurrection",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.98,
@@ -29293,7 +29293,7 @@
   {
     "rank": 1923,
     "lemma": "uiterlijk",
-    "english": "Appearance",
+    "english": "appearance",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.98,
@@ -29406,7 +29406,7 @@
   {
     "rank": 1931,
     "lemma": "samenvatting",
-    "english": "Summary",
+    "english": "summary",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.96,
@@ -29448,7 +29448,7 @@
   {
     "rank": 1934,
     "lemma": "verschrikkelijk",
-    "english": "Oh",
+    "english": "oh",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.96,
@@ -29490,7 +29490,7 @@
   {
     "rank": 1937,
     "lemma": "wild",
-    "english": "Wild",
+    "english": "wild",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.96,
@@ -29532,7 +29532,7 @@
   {
     "rank": 1940,
     "lemma": "soldaat",
-    "english": "Soldier",
+    "english": "soldier",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.94,
@@ -29560,7 +29560,7 @@
   {
     "rank": 1942,
     "lemma": "ondernemer",
-    "english": "Entrepreneur",
+    "english": "entrepreneur",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.94,
@@ -29588,7 +29588,7 @@
   {
     "rank": 1944,
     "lemma": "opa",
-    "english": "Grandpa",
+    "english": "grandpa",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.94,
@@ -29686,7 +29686,7 @@
   {
     "rank": 1951,
     "lemma": "wereldoorlog",
-    "english": "World",
+    "english": "world",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.94,
@@ -29800,7 +29800,7 @@
   {
     "rank": 1959,
     "lemma": "ongelooflijk",
-    "english": "Unbelievable",
+    "english": "unbelievable",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.92,
@@ -29926,7 +29926,7 @@
   {
     "rank": 1968,
     "lemma": "gouverneur",
-    "english": "Governor",
+    "english": "governor",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.9,
@@ -29968,7 +29968,7 @@
   {
     "rank": 1971,
     "lemma": "kapitein",
-    "english": "Captain",
+    "english": "captain",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.9,
@@ -29996,7 +29996,7 @@
   {
     "rank": 1973,
     "lemma": "nadenken",
-    "english": "Thinking",
+    "english": "thinking",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.9,
@@ -30094,7 +30094,7 @@
   {
     "rank": 1980,
     "lemma": "chinees",
-    "english": "Chinese",
+    "english": "chinese",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.88,
@@ -30150,7 +30150,7 @@
   {
     "rank": 1984,
     "lemma": "conclusie",
-    "english": "Conclusion",
+    "english": "conclusion",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.88,
@@ -30277,7 +30277,7 @@
   {
     "rank": 1993,
     "lemma": "toestand",
-    "english": "State",
+    "english": "state",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.86,
@@ -30291,7 +30291,7 @@
   {
     "rank": 1994,
     "lemma": "vermoedelijk",
-    "english": "Probably",
+    "english": "probably",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.86,
@@ -30333,7 +30333,7 @@
   {
     "rank": 1997,
     "lemma": "beslaan",
-    "english": "Covering",
+    "english": "covering",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.85,
@@ -30348,7 +30348,7 @@
   {
     "rank": 1998,
     "lemma": "oriënteren",
-    "english": "Orientation",
+    "english": "orientation",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.85,
@@ -30393,7 +30393,7 @@
   {
     "rank": 2001,
     "lemma": "russisch",
-    "english": "Russian",
+    "english": "russian",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.84,
@@ -30435,7 +30435,7 @@
   {
     "rank": 2004,
     "lemma": "charlie",
-    "english": "Charlie",
+    "english": "charlie",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.84,
@@ -30589,7 +30589,7 @@
   {
     "rank": 2015,
     "lemma": "voorzichtig",
-    "english": "Careful.",
+    "english": "careful.",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.84,
@@ -30645,7 +30645,7 @@
   {
     "rank": 2019,
     "lemma": "vlaams",
-    "english": "Flemish",
+    "english": "flemish",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.82,
@@ -30715,7 +30715,7 @@
   {
     "rank": 2024,
     "lemma": "neef",
-    "english": "Cousin",
+    "english": "cousin",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.82,
@@ -30757,7 +30757,7 @@
   {
     "rank": 2027,
     "lemma": "sloeg",
-    "english": "Smacked",
+    "english": "smacked",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.82,
@@ -30785,7 +30785,7 @@
   {
     "rank": 2029,
     "lemma": "tante",
-    "english": "Auntie",
+    "english": "auntie",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.82,
@@ -30885,7 +30885,7 @@
   {
     "rank": 2036,
     "lemma": "dankbaar",
-    "english": "Thank",
+    "english": "thank",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.8,
@@ -30998,7 +30998,7 @@
   {
     "rank": 2044,
     "lemma": "verbergen",
-    "english": "Hide",
+    "english": "hide",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.78,
@@ -31054,7 +31054,7 @@
   {
     "rank": 2048,
     "lemma": "bijbel",
-    "english": "Bible",
+    "english": "bible",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.78,
@@ -31110,7 +31110,7 @@
   {
     "rank": 2052,
     "lemma": "kern",
-    "english": "Core",
+    "english": "core",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.78,
@@ -31152,7 +31152,7 @@
   {
     "rank": 2055,
     "lemma": "opstaan",
-    "english": "Rise",
+    "english": "rise",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.78,
@@ -31180,7 +31180,7 @@
   {
     "rank": 2057,
     "lemma": "verwachting",
-    "english": "Expected",
+    "english": "expected",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.78,
@@ -31194,7 +31194,7 @@
   {
     "rank": 2058,
     "lemma": "uniek",
-    "english": "Unique",
+    "english": "unique",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.76,
@@ -31320,7 +31320,7 @@
   {
     "rank": 2067,
     "lemma": "pot",
-    "english": "Pot",
+    "english": "pot",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.76,
@@ -31448,7 +31448,7 @@
   {
     "rank": 2076,
     "lemma": "amerikaans",
-    "english": "American",
+    "english": "american",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.74,
@@ -31462,7 +31462,7 @@
   {
     "rank": 2077,
     "lemma": "meenemen",
-    "english": "Bringing",
+    "english": "bringing",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.74,
@@ -31518,7 +31518,7 @@
   {
     "rank": 2081,
     "lemma": "officier",
-    "english": "Officer",
+    "english": "officer",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.74,
@@ -31532,7 +31532,7 @@
   {
     "rank": 2082,
     "lemma": "pieter",
-    "english": "Pieter",
+    "english": "pieter",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.74,
@@ -31560,7 +31560,7 @@
   {
     "rank": 2084,
     "lemma": "rennen",
-    "english": "Run",
+    "english": "run",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.74,
@@ -31743,7 +31743,7 @@
   {
     "rank": 2097,
     "lemma": "naakt",
-    "english": "Naked",
+    "english": "naked",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.72,
@@ -31785,7 +31785,7 @@
   {
     "rank": 2100,
     "lemma": "saai",
-    "english": "Boring",
+    "english": "boring",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.72,
@@ -31843,7 +31843,7 @@
   {
     "rank": 2104,
     "lemma": "adviseur",
-    "english": "Adviser",
+    "english": "adviser",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.7,
@@ -31955,7 +31955,7 @@
   {
     "rank": 2112,
     "lemma": "letten",
-    "english": "Take",
+    "english": "take",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.7,
@@ -31983,7 +31983,7 @@
   {
     "rank": 2114,
     "lemma": "minimaal",
-    "english": "Minimum",
+    "english": "minimum",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.7,
@@ -32025,7 +32025,7 @@
   {
     "rank": 2117,
     "lemma": "redactie",
-    "english": "Editorial",
+    "english": "editorial",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.7,
@@ -32039,7 +32039,7 @@
   {
     "rank": 2118,
     "lemma": "soep",
-    "english": "Soup",
+    "english": "soup",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.7,
@@ -32053,7 +32053,7 @@
   {
     "rank": 2119,
     "lemma": "vervelend",
-    "english": "Annoying",
+    "english": "annoying",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.7,
@@ -32082,7 +32082,7 @@
   {
     "rank": 2121,
     "lemma": "gezamenlijk",
-    "english": "Joint",
+    "english": "joint",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.68,
@@ -32180,7 +32180,7 @@
   {
     "rank": 2128,
     "lemma": "resolutie",
-    "english": "Resolution",
+    "english": "resolution",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.68,
@@ -32250,7 +32250,7 @@
   {
     "rank": 2133,
     "lemma": "lieverd",
-    "english": "Honey...",
+    "english": "honey...",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.68,
@@ -32307,7 +32307,7 @@
   {
     "rank": 2137,
     "lemma": "brugge",
-    "english": "Bridge",
+    "english": "bridge",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.66,
@@ -32489,7 +32489,7 @@
   {
     "rank": 2150,
     "lemma": "ambassadeur",
-    "english": "Ambassador",
+    "english": "ambassador",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.64,
@@ -32728,7 +32728,7 @@
   {
     "rank": 2167,
     "lemma": "chef",
-    "english": "Chief",
+    "english": "chief",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.62,
@@ -32742,7 +32742,7 @@
   {
     "rank": 2168,
     "lemma": "commissaris",
-    "english": "Commissioner",
+    "english": "commissioner",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.62,
@@ -32756,7 +32756,7 @@
   {
     "rank": 2169,
     "lemma": "gaaf",
-    "english": "Cool.",
+    "english": "cool.",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.62,
@@ -32840,7 +32840,7 @@
   {
     "rank": 2175,
     "lemma": "digitaal",
-    "english": "Digital",
+    "english": "digital",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.6,
@@ -32882,7 +32882,7 @@
   {
     "rank": 2178,
     "lemma": "boy",
-    "english": "Boy",
+    "english": "boy",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.6,
@@ -32938,7 +32938,7 @@
   {
     "rank": 2182,
     "lemma": "hartelijk",
-    "english": "Thank",
+    "english": "thank",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.6,
@@ -32966,7 +32966,7 @@
   {
     "rank": 2184,
     "lemma": "innovatie",
-    "english": "Innovation",
+    "english": "innovation",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.6,
@@ -33050,7 +33050,7 @@
   {
     "rank": 2190,
     "lemma": "wethouder",
-    "english": "Alderman",
+    "english": "alderman",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.6,
@@ -33092,7 +33092,7 @@
   {
     "rank": 2193,
     "lemma": "commandant",
-    "english": "Commander",
+    "english": "commander",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.58,
@@ -33176,7 +33176,7 @@
   {
     "rank": 2199,
     "lemma": "meld",
-    "english": "Notify",
+    "english": "notify",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.58,
@@ -33190,7 +33190,7 @@
   {
     "rank": 2200,
     "lemma": "oprichter",
-    "english": "Founder",
+    "english": "founder",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.58,
@@ -33332,7 +33332,7 @@
   {
     "rank": 2210,
     "lemma": "excuus",
-    "english": "I'm",
+    "english": "i'm",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.56,
@@ -33458,7 +33458,7 @@
   {
     "rank": 2219,
     "lemma": "onderneming",
-    "english": "Company",
+    "english": "company",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.56,
@@ -33486,7 +33486,7 @@
   {
     "rank": 2221,
     "lemma": "plat",
-    "english": "Flat",
+    "english": "flat",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.56,
@@ -33500,7 +33500,7 @@
   {
     "rank": 2222,
     "lemma": "senator",
-    "english": "Senator",
+    "english": "senator",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.56,
@@ -33571,7 +33571,7 @@
   {
     "rank": 2227,
     "lemma": "acteur",
-    "english": "Actor",
+    "english": "actor",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.54,
@@ -33627,7 +33627,7 @@
   {
     "rank": 2231,
     "lemma": "fort",
-    "english": "Fort",
+    "english": "fort",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.54,
@@ -33669,7 +33669,7 @@
   {
     "rank": 2234,
     "lemma": "nieuwsgierig",
-    "english": "Curious",
+    "english": "curious",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.54,
@@ -33935,7 +33935,7 @@
   {
     "rank": 2253,
     "lemma": "kampioenschap",
-    "english": "Championship",
+    "english": "championship",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.52,
@@ -33949,7 +33949,7 @@
   {
     "rank": 2254,
     "lemma": "maagd",
-    "english": "Virgin",
+    "english": "virgin",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.52,
@@ -34118,7 +34118,7 @@
   {
     "rank": 2266,
     "lemma": "bezetting",
-    "english": "Number",
+    "english": "number",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.5,
@@ -34146,7 +34146,7 @@
   {
     "rank": 2268,
     "lemma": "keizer",
-    "english": "Emperor",
+    "english": "emperor",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.5,
@@ -34244,7 +34244,7 @@
   {
     "rank": 2275,
     "lemma": "trappen",
-    "english": "Stairs",
+    "english": "stairs",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.5,
@@ -34399,7 +34399,7 @@
   {
     "rank": 2286,
     "lemma": "financiën",
-    "english": "Finance",
+    "english": "finance",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.48,
@@ -34595,7 +34595,7 @@
   {
     "rank": 2300,
     "lemma": "wettelijk",
-    "english": "Legal",
+    "english": "legal",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.46,
@@ -34609,7 +34609,7 @@
   {
     "rank": 2301,
     "lemma": "aanbieding",
-    "english": "Offer",
+    "english": "offer",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.46,
@@ -34805,7 +34805,7 @@
   {
     "rank": 2315,
     "lemma": "protest",
-    "english": "Protest",
+    "english": "protest",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.46,
@@ -34861,7 +34861,7 @@
   {
     "rank": 2319,
     "lemma": "staatssecretaris",
-    "english": "State",
+    "english": "state",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.46,
@@ -34903,7 +34903,7 @@
   {
     "rank": 2322,
     "lemma": "luit",
-    "english": "Lute",
+    "english": "lute",
     "pos": "preposition",
     "level": 4,
     "freq_score": 8.46,
@@ -34918,7 +34918,7 @@
   {
     "rank": 2323,
     "lemma": "arabisch",
-    "english": "Arabic",
+    "english": "arabic",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.44,
@@ -34932,7 +34932,7 @@
   {
     "rank": 2324,
     "lemma": "juridisch",
-    "english": "Legal",
+    "english": "legal",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.44,
@@ -35184,7 +35184,7 @@
   {
     "rank": 2342,
     "lemma": "julia",
-    "english": "Julya",
+    "english": "julya",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.42,
@@ -35520,7 +35520,7 @@
   {
     "rank": 2366,
     "lemma": "ongelofelijk",
-    "english": "Unbelievable.",
+    "english": "unbelievable.",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.4,
@@ -35632,7 +35632,7 @@
   {
     "rank": 2374,
     "lemma": "geruststellen",
-    "english": "Restoration",
+    "english": "restoration",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.4,
@@ -35647,7 +35647,7 @@
   {
     "rank": 2375,
     "lemma": "aangrijpen",
-    "english": "Grabbing",
+    "english": "grabbing",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.4,
@@ -35732,7 +35732,7 @@
   {
     "rank": 2381,
     "lemma": "lef",
-    "english": "Brave",
+    "english": "brave",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.38,
@@ -35858,7 +35858,7 @@
   {
     "rank": 2390,
     "lemma": "zoet",
-    "english": "Sweet",
+    "english": "sweet",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.38,
@@ -35956,7 +35956,7 @@
   {
     "rank": 2397,
     "lemma": "beseffen",
-    "english": "Realize",
+    "english": "realize",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.36,
@@ -35970,7 +35970,7 @@
   {
     "rank": 2398,
     "lemma": "conferentie",
-    "english": "Conference",
+    "english": "conference",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.36,
@@ -36040,7 +36040,7 @@
   {
     "rank": 2403,
     "lemma": "opdrachtgever",
-    "english": "Client",
+    "english": "client",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.36,
@@ -36054,7 +36054,7 @@
   {
     "rank": 2404,
     "lemma": "oprecht",
-    "english": "Honestly.",
+    "english": "honestly.",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.36,
@@ -36138,7 +36138,7 @@
   {
     "rank": 2410,
     "lemma": "vals",
-    "english": "False",
+    "english": "false",
     "pos": "preposition",
     "level": 4,
     "freq_score": 8.34,
@@ -36334,7 +36334,7 @@
   {
     "rank": 2424,
     "lemma": "steven",
-    "english": "Stevens",
+    "english": "stevens",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.34,
@@ -36348,7 +36348,7 @@
   {
     "rank": 2425,
     "lemma": "stiekem",
-    "english": "Sneaky",
+    "english": "sneaky",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.34,
@@ -36376,7 +36376,7 @@
   {
     "rank": 2427,
     "lemma": "walgelijk",
-    "english": "That's",
+    "english": "that's",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.34,
@@ -36404,7 +36404,7 @@
   {
     "rank": 2429,
     "lemma": "stelen",
-    "english": "Stealing",
+    "english": "stealing",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.32,
@@ -36432,7 +36432,7 @@
   {
     "rank": 2431,
     "lemma": "aangenaam",
-    "english": "Nice",
+    "english": "nice",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.32,
@@ -36488,7 +36488,7 @@
   {
     "rank": 2435,
     "lemma": "feitelijk",
-    "english": "Actually",
+    "english": "actually",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.32,
@@ -36502,7 +36502,7 @@
   {
     "rank": 2436,
     "lemma": "koper",
-    "english": "Copper",
+    "english": "copper",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.32,
@@ -36530,7 +36530,7 @@
   {
     "rank": 2438,
     "lemma": "nazi",
-    "english": "Nazi",
+    "english": "nazi",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.32,
@@ -36628,7 +36628,7 @@
   {
     "rank": 2445,
     "lemma": "vertegenwoordiger",
-    "english": "Representative",
+    "english": "representative",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.32,
@@ -36656,7 +36656,7 @@
   {
     "rank": 2447,
     "lemma": "zitting",
-    "english": "Plenary",
+    "english": "plenary",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.32,
@@ -36670,7 +36670,7 @@
   {
     "rank": 2448,
     "lemma": "maatregel",
-    "english": "Measure",
+    "english": "measure",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.3,
@@ -36754,7 +36754,7 @@
   {
     "rank": 2454,
     "lemma": "kardinaal",
-    "english": "Cardinal",
+    "english": "cardinal",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.3,
@@ -36782,7 +36782,7 @@
   {
     "rank": 2456,
     "lemma": "nationaliteit",
-    "english": "Nationality",
+    "english": "nationality",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.3,
@@ -36810,7 +36810,7 @@
   {
     "rank": 2458,
     "lemma": "opmerkelijk",
-    "english": "Remarkable",
+    "english": "remarkable",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.3,
@@ -36880,7 +36880,7 @@
   {
     "rank": 2463,
     "lemma": "who",
-    "english": "Who",
+    "english": "who",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.3,
@@ -36964,7 +36964,7 @@
   {
     "rank": 2469,
     "lemma": "leerkracht",
-    "english": "Teacher",
+    "english": "teacher",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.28,
@@ -36978,7 +36978,7 @@
   {
     "rank": 2470,
     "lemma": "lord",
-    "english": "Lord",
+    "english": "lord",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.28,
@@ -37104,7 +37104,7 @@
   {
     "rank": 2479,
     "lemma": "olympisch",
-    "english": "Olympic",
+    "english": "olympic",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.26,
@@ -37258,7 +37258,7 @@
   {
     "rank": 2490,
     "lemma": "departement",
-    "english": "Department",
+    "english": "department",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.26,
@@ -37272,7 +37272,7 @@
   {
     "rank": 2491,
     "lemma": "divisie",
-    "english": "Division",
+    "english": "division",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.26,
@@ -37328,7 +37328,7 @@
   {
     "rank": 2495,
     "lemma": "journalistiek",
-    "english": "Journalism",
+    "english": "journalism",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.26,
@@ -37440,7 +37440,7 @@
   {
     "rank": 2503,
     "lemma": "uitgeverij",
-    "english": "Publishing",
+    "english": "publishing",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.26,
@@ -37454,7 +37454,7 @@
   {
     "rank": 2504,
     "lemma": "videoclip",
-    "english": "Video",
+    "english": "video",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.26,
@@ -37482,7 +37482,7 @@
   {
     "rank": 2506,
     "lemma": "klappen",
-    "english": "Clap",
+    "english": "clap",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.26,
@@ -37622,7 +37622,7 @@
   {
     "rank": 2516,
     "lemma": "logistiek",
-    "english": "Logistics",
+    "english": "logistics",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.24,
@@ -37874,7 +37874,7 @@
   {
     "rank": 2534,
     "lemma": "ambassade",
-    "english": "Embassy",
+    "english": "embassy",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.22,
@@ -37930,7 +37930,7 @@
   {
     "rank": 2538,
     "lemma": "kamerlid",
-    "english": "Member",
+    "english": "member",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.22,
@@ -38127,7 +38127,7 @@
   {
     "rank": 2552,
     "lemma": "regionaal",
-    "english": "Regional",
+    "english": "regional",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.2,
@@ -38225,7 +38225,7 @@
   {
     "rank": 2559,
     "lemma": "fris",
-    "english": "Fresh",
+    "english": "fresh",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.2,
@@ -38295,7 +38295,7 @@
   {
     "rank": 2564,
     "lemma": "fair",
-    "english": "Fair",
+    "english": "fair",
     "pos": "adjective",
     "level": 4,
     "freq_score": 8.2,
@@ -38337,7 +38337,7 @@
   {
     "rank": 2567,
     "lemma": "golven",
-    "english": "Waves",
+    "english": "waves",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.2,
@@ -38407,7 +38407,7 @@
   {
     "rank": 2572,
     "lemma": "prioriteit",
-    "english": "Priority",
+    "english": "priority",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.2,
@@ -38435,7 +38435,7 @@
   {
     "rank": 2574,
     "lemma": "slaaf",
-    "english": "Slave",
+    "english": "slave",
     "pos": "noun",
     "level": 4,
     "freq_score": 8.2,
@@ -38800,7 +38800,7 @@
   {
     "rank": 2600,
     "lemma": "schatten",
-    "english": "Treasures",
+    "english": "treasures",
     "pos": "verb",
     "level": 4,
     "freq_score": 8.18,
@@ -38814,7 +38814,7 @@
   {
     "rank": 2601,
     "lemma": "klassiek",
-    "english": "Classic",
+    "english": "classic",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.16,
@@ -38842,7 +38842,7 @@
   {
     "rank": 2603,
     "lemma": "wijzigen",
-    "english": "Modify",
+    "english": "modify",
     "pos": "verb",
     "level": 5,
     "freq_score": 8.16,
@@ -38870,7 +38870,7 @@
   {
     "rank": 2605,
     "lemma": "clark",
-    "english": "Clark",
+    "english": "clark",
     "pos": "adjective",
     "level": 5,
     "freq_score": 8.16,
@@ -38884,7 +38884,7 @@
   {
     "rank": 2606,
     "lemma": "dun",
-    "english": "Thin",
+    "english": "thin",
     "pos": "adjective",
     "level": 5,
     "freq_score": 8.16,
@@ -38926,7 +38926,7 @@
   {
     "rank": 2609,
     "lemma": "heus",
-    "english": "Really?",
+    "english": "really?",
     "pos": "adjective",
     "level": 5,
     "freq_score": 8.16,
@@ -38996,7 +38996,7 @@
   {
     "rank": 2614,
     "lemma": "ross",
-    "english": "Red",
+    "english": "red",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.16,
@@ -39024,7 +39024,7 @@
   {
     "rank": 2616,
     "lemma": "schudden",
-    "english": "Shake",
+    "english": "shake",
     "pos": "verb",
     "level": 5,
     "freq_score": 8.16,
@@ -39094,7 +39094,7 @@
   {
     "rank": 2621,
     "lemma": "vaderland",
-    "english": "Country",
+    "english": "country",
     "pos": "adjective",
     "level": 5,
     "freq_score": 8.16,
@@ -39150,7 +39150,7 @@
   {
     "rank": 2625,
     "lemma": "bereiden",
-    "english": "Preparation",
+    "english": "preparation",
     "pos": "verb",
     "level": 5,
     "freq_score": 8.16,
@@ -39291,7 +39291,7 @@
   {
     "rank": 2635,
     "lemma": "klooster",
-    "english": "Monastery",
+    "english": "monastery",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.14,
@@ -39305,7 +39305,7 @@
   {
     "rank": 2636,
     "lemma": "pet",
-    "english": "Cap",
+    "english": "cap",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.14,
@@ -39361,7 +39361,7 @@
   {
     "rank": 2640,
     "lemma": "verplichting",
-    "english": "Obligation",
+    "english": "obligation",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.14,
@@ -39475,7 +39475,7 @@
   {
     "rank": 2648,
     "lemma": "stoer",
-    "english": "Tough",
+    "english": "tough",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.12,
@@ -39517,7 +39517,7 @@
   {
     "rank": 2651,
     "lemma": "echtpaar",
-    "english": "Couples",
+    "english": "couples",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.12,
@@ -39727,7 +39727,7 @@
   {
     "rank": 2666,
     "lemma": "consument",
-    "english": "Consumer",
+    "english": "consumer",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.1,
@@ -39797,7 +39797,7 @@
   {
     "rank": 2671,
     "lemma": "duivel",
-    "english": "Devil",
+    "english": "devil",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.1,
@@ -39853,7 +39853,7 @@
   {
     "rank": 2675,
     "lemma": "godsdienst",
-    "english": "Religion",
+    "english": "religion",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.1,
@@ -39881,7 +39881,7 @@
   {
     "rank": 2677,
     "lemma": "jerry",
-    "english": "Jerry",
+    "english": "jerry",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.1,
@@ -39895,7 +39895,7 @@
   {
     "rank": 2678,
     "lemma": "mededeling",
-    "english": "Communication",
+    "english": "communication",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.1,
@@ -39923,7 +39923,7 @@
   {
     "rank": 2680,
     "lemma": "schamen",
-    "english": "Shame",
+    "english": "shame",
     "pos": "verb",
     "level": 5,
     "freq_score": 8.1,
@@ -39979,7 +39979,7 @@
   {
     "rank": 2684,
     "lemma": "turks",
-    "english": "Turks",
+    "english": "turks",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.08,
@@ -39993,7 +39993,7 @@
   {
     "rank": 2685,
     "lemma": "bloot",
-    "english": "Expanded",
+    "english": "expanded",
     "pos": "adjective",
     "level": 5,
     "freq_score": 8.08,
@@ -40161,7 +40161,7 @@
   {
     "rank": 2697,
     "lemma": "verbouwing",
-    "english": "Remodeling",
+    "english": "remodeling",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.08,
@@ -40175,7 +40175,7 @@
   {
     "rank": 2698,
     "lemma": "wanhopig",
-    "english": "Desperate",
+    "english": "desperate",
     "pos": "adjective",
     "level": 5,
     "freq_score": 8.08,
@@ -40189,7 +40189,7 @@
   {
     "rank": 2699,
     "lemma": "zielig",
-    "english": "Pathetic.",
+    "english": "pathetic.",
     "pos": "adjective",
     "level": 5,
     "freq_score": 8.08,
@@ -40203,7 +40203,7 @@
   {
     "rank": 2700,
     "lemma": "afscheiden",
-    "english": "Separating",
+    "english": "separating",
     "pos": "verb",
     "level": 5,
     "freq_score": 8.07,
@@ -40233,7 +40233,7 @@
   {
     "rank": 2702,
     "lemma": "bevolken",
-    "english": "Popular",
+    "english": "popular",
     "pos": "verb",
     "level": 5,
     "freq_score": 8.07,
@@ -40262,7 +40262,7 @@
   {
     "rank": 2704,
     "lemma": "angel",
-    "english": "Angel",
+    "english": "angel",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.06,
@@ -40276,7 +40276,7 @@
   {
     "rank": 2705,
     "lemma": "billen",
-    "english": "Buttocks",
+    "english": "buttocks",
     "pos": "verb",
     "level": 5,
     "freq_score": 8.06,
@@ -40374,7 +40374,7 @@
   {
     "rank": 2712,
     "lemma": "mam",
-    "english": "Mom",
+    "english": "mom",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.06,
@@ -40416,7 +40416,7 @@
   {
     "rank": 2715,
     "lemma": "owen",
-    "english": "Owen",
+    "english": "owen",
     "pos": "adverb",
     "level": 5,
     "freq_score": 8.06,
@@ -40514,7 +40514,7 @@
   {
     "rank": 2722,
     "lemma": "volhouden",
-    "english": "Hang",
+    "english": "hang",
     "pos": "verb",
     "level": 5,
     "freq_score": 8.06,
@@ -40528,7 +40528,7 @@
   {
     "rank": 2723,
     "lemma": "rondlopen",
-    "english": "Walking",
+    "english": "walking",
     "pos": "verb",
     "level": 5,
     "freq_score": 8.06,
@@ -40585,7 +40585,7 @@
   {
     "rank": 2727,
     "lemma": "binnenland",
-    "english": "Domestic",
+    "english": "domestic",
     "pos": "adverb",
     "level": 5,
     "freq_score": 8.04,
@@ -40655,7 +40655,7 @@
   {
     "rank": 2732,
     "lemma": "ijzer",
-    "english": "Iron",
+    "english": "iron",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.04,
@@ -40781,7 +40781,7 @@
   {
     "rank": 2741,
     "lemma": "spin",
-    "english": "Spider",
+    "english": "spider",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.04,
@@ -40837,7 +40837,7 @@
   {
     "rank": 2745,
     "lemma": "repareren",
-    "english": "Repair",
+    "english": "repair",
     "pos": "verb",
     "level": 5,
     "freq_score": 8.04,
@@ -40851,7 +40851,7 @@
   {
     "rank": 2746,
     "lemma": "elektrisch",
-    "english": "Electric",
+    "english": "electric",
     "pos": "adjective",
     "level": 5,
     "freq_score": 8.02,
@@ -40879,7 +40879,7 @@
   {
     "rank": 2748,
     "lemma": "aanklager",
-    "english": "Prosecutor",
+    "english": "prosecutor",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.02,
@@ -40907,7 +40907,7 @@
   {
     "rank": 2750,
     "lemma": "grof",
-    "english": "Crude",
+    "english": "crude",
     "pos": "adjective",
     "level": 5,
     "freq_score": 8.02,
@@ -41076,7 +41076,7 @@
   {
     "rank": 2762,
     "lemma": "coördinator",
-    "english": "Coordinator",
+    "english": "coordinator",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.0,
@@ -41090,7 +41090,7 @@
   {
     "rank": 2763,
     "lemma": "geleidelijk",
-    "english": "Gradually",
+    "english": "gradually",
     "pos": "adjective",
     "level": 5,
     "freq_score": 8.0,
@@ -41174,7 +41174,7 @@
   {
     "rank": 2769,
     "lemma": "tof",
-    "english": "Cool.",
+    "english": "cool.",
     "pos": "adjective",
     "level": 5,
     "freq_score": 8.0,
@@ -41188,7 +41188,7 @@
   {
     "rank": 2770,
     "lemma": "vuren",
-    "english": "Fire",
+    "english": "fire",
     "pos": "verb",
     "level": 5,
     "freq_score": 8.0,
@@ -41230,7 +41230,7 @@
   {
     "rank": 2773,
     "lemma": "zakenman",
-    "english": "Businessman",
+    "english": "businessman",
     "pos": "noun",
     "level": 5,
     "freq_score": 8.0,
@@ -41272,7 +41272,7 @@
   {
     "rank": 2776,
     "lemma": "vrouwelijk",
-    "english": "Female",
+    "english": "female",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.98,
@@ -41398,7 +41398,7 @@
   {
     "rank": 2785,
     "lemma": "kring",
-    "english": "Circle",
+    "english": "circle",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.98,
@@ -41608,7 +41608,7 @@
   {
     "rank": 2800,
     "lemma": "wereldkampioen",
-    "english": "World",
+    "english": "world",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.98,
@@ -41665,7 +41665,7 @@
   {
     "rank": 2804,
     "lemma": "saus",
-    "english": "Sauce",
+    "english": "sauce",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.98,
@@ -41721,7 +41721,7 @@
   {
     "rank": 2808,
     "lemma": "doelstelling",
-    "english": "Objective",
+    "english": "objective",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.96,
@@ -41791,7 +41791,7 @@
   {
     "rank": 2813,
     "lemma": "bisschop",
-    "english": "Bishop",
+    "english": "bishop",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.96,
@@ -41847,7 +41847,7 @@
   {
     "rank": 2817,
     "lemma": "latijns",
-    "english": "Latin",
+    "english": "latin",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.96,
@@ -41861,7 +41861,7 @@
   {
     "rank": 2818,
     "lemma": "ongelukkig",
-    "english": "Unlucky",
+    "english": "unlucky",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.96,
@@ -42030,7 +42030,7 @@
   {
     "rank": 2830,
     "lemma": "conditie",
-    "english": "Condition",
+    "english": "condition",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.94,
@@ -42086,7 +42086,7 @@
   {
     "rank": 2834,
     "lemma": "grootmoeder",
-    "english": "Grandmother",
+    "english": "grandmother",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.94,
@@ -42100,7 +42100,7 @@
   {
     "rank": 2835,
     "lemma": "klaas",
-    "english": "Class",
+    "english": "class",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.94,
@@ -42226,7 +42226,7 @@
   {
     "rank": 2844,
     "lemma": "touw",
-    "english": "Rope",
+    "english": "rope",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.94,
@@ -42240,7 +42240,7 @@
   {
     "rank": 2845,
     "lemma": "vermaken",
-    "english": "Entertainment",
+    "english": "entertainment",
     "pos": "verb",
     "level": 5,
     "freq_score": 7.94,
@@ -42282,7 +42282,7 @@
   {
     "rank": 2848,
     "lemma": "grieks",
-    "english": "Greek",
+    "english": "greek",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.92,
@@ -42324,7 +42324,7 @@
   {
     "rank": 2851,
     "lemma": "afvallen",
-    "english": "Waste",
+    "english": "waste",
     "pos": "verb",
     "level": 5,
     "freq_score": 7.92,
@@ -42520,7 +42520,7 @@
   {
     "rank": 2865,
     "lemma": "ongelovig",
-    "english": "Infidelity",
+    "english": "infidelity",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.92,
@@ -42647,7 +42647,7 @@
   {
     "rank": 2874,
     "lemma": "minimum",
-    "english": "Minimum",
+    "english": "minimum",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.9,
@@ -42675,7 +42675,7 @@
   {
     "rank": 2876,
     "lemma": "paars",
-    "english": "Purple",
+    "english": "purple",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.9,
@@ -42816,7 +42816,7 @@
   {
     "rank": 2886,
     "lemma": "christelijk",
-    "english": "Christian",
+    "english": "christian",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.88,
@@ -42830,7 +42830,7 @@
   {
     "rank": 2887,
     "lemma": "personage",
-    "english": "Character",
+    "english": "character",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.88,
@@ -43194,7 +43194,7 @@
   {
     "rank": 2913,
     "lemma": "afschuwelijk",
-    "english": "It's",
+    "english": "it's",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.86,
@@ -43264,7 +43264,7 @@
   {
     "rank": 2918,
     "lemma": "hop",
-    "english": "Hops",
+    "english": "hops",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.86,
@@ -43448,7 +43448,7 @@
   {
     "rank": 2931,
     "lemma": "neuk",
-    "english": "Fuck",
+    "english": "fuck",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.84,
@@ -43462,7 +43462,7 @@
   {
     "rank": 2932,
     "lemma": "vluchteling",
-    "english": "Refugee",
+    "english": "refugee",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.84,
@@ -43476,7 +43476,7 @@
   {
     "rank": 2933,
     "lemma": "hollands",
-    "english": "Dutch",
+    "english": "dutch",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.84,
@@ -43490,7 +43490,7 @@
   {
     "rank": 2934,
     "lemma": "gemeenschappelijk",
-    "english": "Common",
+    "english": "common",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.84,
@@ -43644,7 +43644,7 @@
   {
     "rank": 2945,
     "lemma": "gewest",
-    "english": "Region",
+    "english": "region",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.84,
@@ -43686,7 +43686,7 @@
   {
     "rank": 2948,
     "lemma": "juf",
-    "english": "Miss",
+    "english": "miss",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.84,
@@ -43742,7 +43742,7 @@
   {
     "rank": 2952,
     "lemma": "ongemakkelijk",
-    "english": "Uncomfortable",
+    "english": "uncomfortable",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.84,
@@ -43770,7 +43770,7 @@
   {
     "rank": 2954,
     "lemma": "opmaken",
-    "english": "Formatting",
+    "english": "formatting",
     "pos": "verb",
     "level": 5,
     "freq_score": 7.84,
@@ -43854,7 +43854,7 @@
   {
     "rank": 2960,
     "lemma": "waardeloos",
-    "english": "Worthless.",
+    "english": "worthless.",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.84,
@@ -43980,7 +43980,7 @@
   {
     "rank": 2969,
     "lemma": "jasper",
-    "english": "Jasper",
+    "english": "jasper",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.82,
@@ -44148,7 +44148,7 @@
   {
     "rank": 2981,
     "lemma": "mannelijk",
-    "english": "Male",
+    "english": "male",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.8,
@@ -44204,7 +44204,7 @@
   {
     "rank": 2985,
     "lemma": "willekeurig",
-    "english": "Random",
+    "english": "random",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.8,
@@ -44386,7 +44386,7 @@
   {
     "rank": 2998,
     "lemma": "overduidelijk",
-    "english": "Clearly",
+    "english": "clearly",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.8,
@@ -44400,7 +44400,7 @@
   {
     "rank": 2999,
     "lemma": "rotonde",
-    "english": "Roundabout",
+    "english": "roundabout",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.8,
@@ -44414,7 +44414,7 @@
   {
     "rank": 3000,
     "lemma": "slepen",
-    "english": "Drag",
+    "english": "drag",
     "pos": "verb",
     "level": 5,
     "freq_score": 7.8,
@@ -44540,7 +44540,7 @@
   {
     "rank": 3009,
     "lemma": "eenzaam",
-    "english": "Lonely",
+    "english": "lonely",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.78,
@@ -44582,7 +44582,7 @@
   {
     "rank": 3012,
     "lemma": "color",
-    "english": "Color",
+    "english": "color",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.78,
@@ -44610,7 +44610,7 @@
   {
     "rank": 3014,
     "lemma": "dapper",
-    "english": "Brave",
+    "english": "brave",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.78,
@@ -44666,7 +44666,7 @@
   {
     "rank": 3018,
     "lemma": "hoofddoek",
-    "english": "Head",
+    "english": "head",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.78,
@@ -44876,7 +44876,7 @@
   {
     "rank": 3033,
     "lemma": "vertaler",
-    "english": "Translator",
+    "english": "translator",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.78,
@@ -44904,7 +44904,7 @@
   {
     "rank": 3035,
     "lemma": "vlammen",
-    "english": "Flames",
+    "english": "flames",
     "pos": "verb",
     "level": 5,
     "freq_score": 7.78,
@@ -45058,7 +45058,7 @@
   {
     "rank": 3046,
     "lemma": "hertog",
-    "english": "Duke",
+    "english": "duke",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.76,
@@ -45086,7 +45086,7 @@
   {
     "rank": 3048,
     "lemma": "ingenieur",
-    "english": "Engineer",
+    "english": "engineer",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.76,
@@ -45170,7 +45170,7 @@
   {
     "rank": 3054,
     "lemma": "schijnbaar",
-    "english": "Appearance",
+    "english": "appearance",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.76,
@@ -45254,7 +45254,7 @@
   {
     "rank": 3060,
     "lemma": "industrieel",
-    "english": "Industrial",
+    "english": "industrial",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.74,
@@ -45366,7 +45366,7 @@
   {
     "rank": 3068,
     "lemma": "briljant",
-    "english": "Brilliant",
+    "english": "brilliant",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.74,
@@ -45464,7 +45464,7 @@
   {
     "rank": 3075,
     "lemma": "pier",
-    "english": "Pier",
+    "english": "pier",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.74,
@@ -45604,7 +45604,7 @@
   {
     "rank": 3085,
     "lemma": "wijf",
-    "english": "Bitch",
+    "english": "bitch",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.74,
@@ -45632,7 +45632,7 @@
   {
     "rank": 3087,
     "lemma": "jee",
-    "english": "Oh",
+    "english": "oh",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.72,
@@ -45688,7 +45688,7 @@
   {
     "rank": 3091,
     "lemma": "fraai",
-    "english": "Beautiful.",
+    "english": "beautiful.",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.72,
@@ -45716,7 +45716,7 @@
   {
     "rank": 3093,
     "lemma": "battle",
-    "english": "Battle",
+    "english": "battle",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.72,
@@ -45744,7 +45744,7 @@
   {
     "rank": 3095,
     "lemma": "diamant",
-    "english": "Diamond",
+    "english": "diamond",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.72,
@@ -45786,7 +45786,7 @@
   {
     "rank": 3098,
     "lemma": "haai",
-    "english": "Shark",
+    "english": "shark",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.72,
@@ -45926,7 +45926,7 @@
   {
     "rank": 3108,
     "lemma": "richtlijn",
-    "english": "Directive",
+    "english": "directive",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.72,
@@ -45940,7 +45940,7 @@
   {
     "rank": 3109,
     "lemma": "sander",
-    "english": "Sander",
+    "english": "sander",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.72,
@@ -45982,7 +45982,7 @@
   {
     "rank": 3112,
     "lemma": "verpleegster",
-    "english": "Nurse",
+    "english": "nurse",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.72,
@@ -46010,7 +46010,7 @@
   {
     "rank": 3114,
     "lemma": "islamitisch",
-    "english": "Islamic",
+    "english": "islamic",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.7,
@@ -46024,7 +46024,7 @@
   {
     "rank": 3115,
     "lemma": "elektronisch",
-    "english": "Electronic",
+    "english": "electronic",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.7,
@@ -46150,7 +46150,7 @@
   {
     "rank": 3124,
     "lemma": "hoorzitting",
-    "english": "Hearing",
+    "english": "hearing",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.7,
@@ -46206,7 +46206,7 @@
   {
     "rank": 3128,
     "lemma": "lood",
-    "english": "Lead",
+    "english": "lead",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.7,
@@ -46318,7 +46318,7 @@
   {
     "rank": 3136,
     "lemma": "worst",
-    "english": "Sausages",
+    "english": "sausages",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.7,
@@ -46332,7 +46332,7 @@
   {
     "rank": 3137,
     "lemma": "jood",
-    "english": "Jew",
+    "english": "jew",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.68,
@@ -46346,7 +46346,7 @@
   {
     "rank": 3138,
     "lemma": "statistiek",
-    "english": "Statistics",
+    "english": "statistics",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.68,
@@ -46374,7 +46374,7 @@
   {
     "rank": 3140,
     "lemma": "vrucht",
-    "english": "Fruit",
+    "english": "fruit",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.68,
@@ -46416,7 +46416,7 @@
   {
     "rank": 3143,
     "lemma": "apotheek",
-    "english": "Pharmacy",
+    "english": "pharmacy",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.68,
@@ -46584,7 +46584,7 @@
   {
     "rank": 3155,
     "lemma": "movie",
-    "english": "Movie",
+    "english": "movie",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.68,
@@ -46612,7 +46612,7 @@
   {
     "rank": 3157,
     "lemma": "ongewoon",
-    "english": "Uncommon",
+    "english": "uncommon",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.68,
@@ -46626,7 +46626,7 @@
   {
     "rank": 3158,
     "lemma": "onvoorstelbaar",
-    "english": "Unbelievable.",
+    "english": "unbelievable.",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.68,
@@ -46640,7 +46640,7 @@
   {
     "rank": 3159,
     "lemma": "organisator",
-    "english": "Promoter",
+    "english": "promoter",
     "pos": "verb",
     "level": 5,
     "freq_score": 7.68,
@@ -46949,7 +46949,7 @@
   {
     "rank": 3181,
     "lemma": "deelstaat",
-    "english": "Land",
+    "english": "land",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.66,
@@ -47033,7 +47033,7 @@
   {
     "rank": 3187,
     "lemma": "ontkomen",
-    "english": "Get",
+    "english": "get",
     "pos": "verb",
     "level": 5,
     "freq_score": 7.66,
@@ -47047,7 +47047,7 @@
   {
     "rank": 3188,
     "lemma": "politieman",
-    "english": "Policeman",
+    "english": "policeman",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.66,
@@ -47089,7 +47089,7 @@
   {
     "rank": 3191,
     "lemma": "smakelijk",
-    "english": "Tasty",
+    "english": "tasty",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.66,
@@ -47103,7 +47103,7 @@
   {
     "rank": 3192,
     "lemma": "soepel",
-    "english": "Smooth",
+    "english": "smooth",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.66,
@@ -47187,7 +47187,7 @@
   {
     "rank": 3198,
     "lemma": "wreed",
-    "english": "Cruel",
+    "english": "cruel",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.66,
@@ -47215,7 +47215,7 @@
   {
     "rank": 3200,
     "lemma": "bewoner",
-    "english": "Resident",
+    "english": "resident",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.64,
@@ -47523,7 +47523,7 @@
   {
     "rank": 3222,
     "lemma": "willems",
-    "english": "Willems",
+    "english": "willems",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.64,
@@ -47607,7 +47607,7 @@
   {
     "rank": 3228,
     "lemma": "bizar",
-    "english": "It's",
+    "english": "it's",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.62,
@@ -47621,7 +47621,7 @@
   {
     "rank": 3229,
     "lemma": "kar",
-    "english": "Cart",
+    "english": "cart",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.62,
@@ -47677,7 +47677,7 @@
   {
     "rank": 3233,
     "lemma": "gedeputeerde",
-    "english": "Deputy",
+    "english": "deputy",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.62,
@@ -47733,7 +47733,7 @@
   {
     "rank": 3237,
     "lemma": "onvermijdelijk",
-    "english": "Inevitably",
+    "english": "inevitably",
     "pos": "adjective",
     "level": 5,
     "freq_score": 7.62,
@@ -47803,7 +47803,7 @@
   {
     "rank": 3242,
     "lemma": "schrappen",
-    "english": "Delete",
+    "english": "delete",
     "pos": "verb",
     "level": 5,
     "freq_score": 7.62,
@@ -47831,7 +47831,7 @@
   {
     "rank": 3244,
     "lemma": "verschijning",
-    "english": "Appearance",
+    "english": "appearance",
     "pos": "noun",
     "level": 5,
     "freq_score": 7.62,
@@ -47845,7 +47845,7 @@
   {
     "rank": 3245,
     "lemma": "vrijgezel",
-    "english": "Single",
+    "english": "single",
     "pos": "verb",
     "level": 5,
     "freq_score": 7.62,
@@ -47929,7 +47929,7 @@
   {
     "rank": 3251,
     "lemma": "flikker",
-    "english": "Fucking",
+    "english": "fucking",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.6,
@@ -48069,7 +48069,7 @@
   {
     "rank": 3261,
     "lemma": "uitdelen",
-    "english": "Distribute",
+    "english": "distribute",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.6,
@@ -48111,7 +48111,7 @@
   {
     "rank": 3264,
     "lemma": "veer",
-    "english": "Springs",
+    "english": "springs",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.58,
@@ -48237,7 +48237,7 @@
   {
     "rank": 3273,
     "lemma": "korps",
-    "english": "Corps",
+    "english": "corps",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.58,
@@ -48251,7 +48251,7 @@
   {
     "rank": 3274,
     "lemma": "motorfiets",
-    "english": "Motorcycle",
+    "english": "motorcycle",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.58,
@@ -48377,7 +48377,7 @@
   {
     "rank": 3283,
     "lemma": "woest",
-    "english": "Pissed",
+    "english": "pissed",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.58,
@@ -48462,7 +48462,7 @@
   {
     "rank": 3289,
     "lemma": "structureel",
-    "english": "Structural",
+    "english": "structural",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.56,
@@ -48518,7 +48518,7 @@
   {
     "rank": 3293,
     "lemma": "geniaal",
-    "english": "Genius",
+    "english": "genius",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.56,
@@ -48602,7 +48602,7 @@
   {
     "rank": 3299,
     "lemma": "meijer",
-    "english": "May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-May-",
+    "english": "may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-may-",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.56,
@@ -48644,7 +48644,7 @@
   {
     "rank": 3302,
     "lemma": "onterecht",
-    "english": "Wrong",
+    "english": "wrong",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.56,
@@ -48686,7 +48686,7 @@
   {
     "rank": 3305,
     "lemma": "peuter",
-    "english": "Toddler",
+    "english": "toddler",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.56,
@@ -48742,7 +48742,7 @@
   {
     "rank": 3309,
     "lemma": "weekblad",
-    "english": "Weekly",
+    "english": "weekly",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.56,
@@ -48770,7 +48770,7 @@
   {
     "rank": 3311,
     "lemma": "zalig",
-    "english": "Delicious",
+    "english": "delicious",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.56,
@@ -48798,7 +48798,7 @@
   {
     "rank": 3313,
     "lemma": "slopen",
-    "english": "Demolition",
+    "english": "demolition",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.56,
@@ -48882,7 +48882,7 @@
   {
     "rank": 3319,
     "lemma": "ruw",
-    "english": "Crude",
+    "english": "crude",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.54,
@@ -48910,7 +48910,7 @@
   {
     "rank": 3321,
     "lemma": "boren",
-    "english": "Boring",
+    "english": "boring",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.54,
@@ -48994,7 +48994,7 @@
   {
     "rank": 3327,
     "lemma": "kazerne",
-    "english": "Barracks",
+    "english": "barracks",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.54,
@@ -49008,7 +49008,7 @@
   {
     "rank": 3328,
     "lemma": "ketel",
-    "english": "Boiler",
+    "english": "boiler",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.54,
@@ -49092,7 +49092,7 @@
   {
     "rank": 3334,
     "lemma": "predikant",
-    "english": "Preacher",
+    "english": "preacher",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.54,
@@ -49106,7 +49106,7 @@
   {
     "rank": 3335,
     "lemma": "schandalig",
-    "english": "Shame",
+    "english": "shame",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.54,
@@ -49120,7 +49120,7 @@
   {
     "rank": 3336,
     "lemma": "smerig",
-    "english": "Dirty",
+    "english": "dirty",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.54,
@@ -49190,7 +49190,7 @@
   {
     "rank": 3341,
     "lemma": "poetsen",
-    "english": "Polishing",
+    "english": "polishing",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.54,
@@ -49330,7 +49330,7 @@
   {
     "rank": 3351,
     "lemma": "boekhandel",
-    "english": "Bookstore",
+    "english": "bookstore",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.52,
@@ -49470,7 +49470,7 @@
   {
     "rank": 3361,
     "lemma": "opdoen",
-    "english": "Put",
+    "english": "put",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.52,
@@ -49582,7 +49582,7 @@
   {
     "rank": 3369,
     "lemma": "valk",
-    "english": "Falcon",
+    "english": "falcon",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.52,
@@ -49638,7 +49638,7 @@
   {
     "rank": 3373,
     "lemma": "aziatisch",
-    "english": "Asian",
+    "english": "asian",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.5,
@@ -49722,7 +49722,7 @@
   {
     "rank": 3379,
     "lemma": "begeleider",
-    "english": "Accompanier",
+    "english": "accompanier",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.5,
@@ -49792,7 +49792,7 @@
   {
     "rank": 3384,
     "lemma": "gozer",
-    "english": "Dude.",
+    "english": "dude.",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.5,
@@ -49820,7 +49820,7 @@
   {
     "rank": 3386,
     "lemma": "hybride",
-    "english": "Hybrid",
+    "english": "hybrid",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.5,
@@ -49834,7 +49834,7 @@
   {
     "rank": 3387,
     "lemma": "kameroen",
-    "english": "Kameron",
+    "english": "kameron",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.5,
@@ -49890,7 +49890,7 @@
   {
     "rank": 3391,
     "lemma": "paraplu",
-    "english": "Umbrella",
+    "english": "umbrella",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.5,
@@ -50001,7 +50001,7 @@
   {
     "rank": 3399,
     "lemma": "bewaker",
-    "english": "Guard",
+    "english": "guard",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.48,
@@ -50015,7 +50015,7 @@
   {
     "rank": 3400,
     "lemma": "kleden",
-    "english": "Clothes",
+    "english": "clothes",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.48,
@@ -50043,7 +50043,7 @@
   {
     "rank": 3402,
     "lemma": "braaf",
-    "english": "Good",
+    "english": "good",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.48,
@@ -50099,7 +50099,7 @@
   {
     "rank": 3406,
     "lemma": "verlicht",
-    "english": "Illuminated",
+    "english": "illuminated",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.48,
@@ -50183,7 +50183,7 @@
   {
     "rank": 3412,
     "lemma": "discussiëren",
-    "english": "Discuss",
+    "english": "discuss",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.48,
@@ -50197,7 +50197,7 @@
   {
     "rank": 3413,
     "lemma": "drastisch",
-    "english": "Difficulty",
+    "english": "difficulty",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.48,
@@ -50239,7 +50239,7 @@
   {
     "rank": 3416,
     "lemma": "hemd",
-    "english": "Shirt",
+    "english": "shirt",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.48,
@@ -50351,7 +50351,7 @@
   {
     "rank": 3424,
     "lemma": "pater",
-    "english": "Father",
+    "english": "father",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.48,
@@ -50519,7 +50519,7 @@
   {
     "rank": 3436,
     "lemma": "ondergronds",
-    "english": "Underground",
+    "english": "underground",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.46,
@@ -50631,7 +50631,7 @@
   {
     "rank": 3444,
     "lemma": "cornelis",
-    "english": "Cornelis",
+    "english": "cornelis",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.46,
@@ -50673,7 +50673,7 @@
   {
     "rank": 3447,
     "lemma": "evangelie",
-    "english": "Gospel",
+    "english": "gospel",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.46,
@@ -50743,7 +50743,7 @@
   {
     "rank": 3452,
     "lemma": "hunt",
-    "english": "Hunt",
+    "english": "hunt",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.46,
@@ -50799,7 +50799,7 @@
   {
     "rank": 3456,
     "lemma": "meegaan",
-    "english": "Come",
+    "english": "come",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.46,
@@ -50911,7 +50911,7 @@
   {
     "rank": 3464,
     "lemma": "schipper",
-    "english": "Skipper",
+    "english": "skipper",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.46,
@@ -50939,7 +50939,7 @@
   {
     "rank": 3466,
     "lemma": "slager",
-    "english": "Butcher",
+    "english": "butcher",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.46,
@@ -50953,7 +50953,7 @@
   {
     "rank": 3467,
     "lemma": "spoorlijn",
-    "english": "Railway",
+    "english": "railway",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.46,
@@ -50995,7 +50995,7 @@
   {
     "rank": 3470,
     "lemma": "voordelig",
-    "english": "Inexpensive",
+    "english": "inexpensive",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.46,
@@ -51037,7 +51037,7 @@
   {
     "rank": 3473,
     "lemma": "huishoudelijk",
-    "english": "Domestic",
+    "english": "domestic",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.44,
@@ -51107,7 +51107,7 @@
   {
     "rank": 3478,
     "lemma": "banaan",
-    "english": "Banana",
+    "english": "banana",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.44,
@@ -51135,7 +51135,7 @@
   {
     "rank": 3480,
     "lemma": "contant",
-    "english": "Cash",
+    "english": "cash",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.44,
@@ -51261,7 +51261,7 @@
   {
     "rank": 3489,
     "lemma": "populatie",
-    "english": "Population",
+    "english": "population",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.44,
@@ -51275,7 +51275,7 @@
   {
     "rank": 3490,
     "lemma": "realisatie",
-    "english": "Realisation",
+    "english": "realisation",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.44,
@@ -51345,7 +51345,7 @@
   {
     "rank": 3495,
     "lemma": "waanzinnig",
-    "english": "It's",
+    "english": "it's",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.44,
@@ -51359,7 +51359,7 @@
   {
     "rank": 3496,
     "lemma": "stichten",
-    "english": "Founding",
+    "english": "founding",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.44,
@@ -51444,7 +51444,7 @@
   {
     "rank": 3502,
     "lemma": "balen",
-    "english": "Bales",
+    "english": "bales",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.42,
@@ -51486,7 +51486,7 @@
   {
     "rank": 3505,
     "lemma": "handboek",
-    "english": "Handbook",
+    "english": "handbook",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.42,
@@ -51500,7 +51500,7 @@
   {
     "rank": 3506,
     "lemma": "huiselijk",
-    "english": "Domestic",
+    "english": "domestic",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.42,
@@ -51514,7 +51514,7 @@
   {
     "rank": 3507,
     "lemma": "kleed",
-    "english": "Of",
+    "english": "of",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.42,
@@ -51598,7 +51598,7 @@
   {
     "rank": 3513,
     "lemma": "oudheid",
-    "english": "Antiquity",
+    "english": "antiquity",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.42,
@@ -51640,7 +51640,7 @@
   {
     "rank": 3516,
     "lemma": "stichter",
-    "english": "Founder",
+    "english": "founder",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.42,
@@ -51654,7 +51654,7 @@
   {
     "rank": 3517,
     "lemma": "still",
-    "english": "Still",
+    "english": "still",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.42,
@@ -51668,7 +51668,7 @@
   {
     "rank": 3518,
     "lemma": "tang",
-    "english": "Pliers",
+    "english": "pliers",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.42,
@@ -51696,7 +51696,7 @@
   {
     "rank": 3520,
     "lemma": "verordening",
-    "english": "Regulation",
+    "english": "regulation",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.42,
@@ -51710,7 +51710,7 @@
   {
     "rank": 3521,
     "lemma": "zinvol",
-    "english": "Makes",
+    "english": "makes",
     "pos": "adverb",
     "level": 6,
     "freq_score": 7.42,
@@ -51724,7 +51724,7 @@
   {
     "rank": 3522,
     "lemma": "daniël",
-    "english": "Daniel",
+    "english": "daniel",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.42,
@@ -51738,7 +51738,7 @@
   {
     "rank": 3523,
     "lemma": "chemisch",
-    "english": "Chemical",
+    "english": "chemical",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.4,
@@ -51780,7 +51780,7 @@
   {
     "rank": 3526,
     "lemma": "agrarisch",
-    "english": "Agricultural",
+    "english": "agricultural",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.4,
@@ -51836,7 +51836,7 @@
   {
     "rank": 3530,
     "lemma": "bekendmaking",
-    "english": "Publication",
+    "english": "publication",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.4,
@@ -51850,7 +51850,7 @@
   {
     "rank": 3531,
     "lemma": "bomaanslag",
-    "english": "Bomb",
+    "english": "bomb",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.4,
@@ -51864,7 +51864,7 @@
   {
     "rank": 3532,
     "lemma": "brother",
-    "english": "Brother",
+    "english": "brother",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.4,
@@ -52144,7 +52144,7 @@
   {
     "rank": 3552,
     "lemma": "werkgroep",
-    "english": "Working",
+    "english": "working",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.4,
@@ -52172,7 +52172,7 @@
   {
     "rank": 3554,
     "lemma": "federaal",
-    "english": "Federal",
+    "english": "federal",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.38,
@@ -52200,7 +52200,7 @@
   {
     "rank": 3556,
     "lemma": "zweeds",
-    "english": "Swedish",
+    "english": "swedish",
     "pos": "adverb",
     "level": 6,
     "freq_score": 7.38,
@@ -52214,7 +52214,7 @@
   {
     "rank": 3557,
     "lemma": "servisch",
-    "english": "Servic",
+    "english": "servic",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.38,
@@ -52242,7 +52242,7 @@
   {
     "rank": 3559,
     "lemma": "fundamenteel",
-    "english": "Basic",
+    "english": "basic",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.38,
@@ -52256,7 +52256,7 @@
   {
     "rank": 3560,
     "lemma": "mager",
-    "english": "Skin",
+    "english": "skin",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.38,
@@ -52368,7 +52368,7 @@
   {
     "rank": 3568,
     "lemma": "muts",
-    "english": "Hat",
+    "english": "hat",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.38,
@@ -52522,7 +52522,7 @@
   {
     "rank": 3579,
     "lemma": "rauw",
-    "english": "Raw",
+    "english": "raw",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.36,
@@ -52648,7 +52648,7 @@
   {
     "rank": 3588,
     "lemma": "eikel",
-    "english": "Son",
+    "english": "son",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.36,
@@ -52662,7 +52662,7 @@
   {
     "rank": 3589,
     "lemma": "importeren",
-    "english": "Import",
+    "english": "import",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.36,
@@ -52676,7 +52676,7 @@
   {
     "rank": 3590,
     "lemma": "kanon",
-    "english": "Cannon",
+    "english": "cannon",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.36,
@@ -52704,7 +52704,7 @@
   {
     "rank": 3592,
     "lemma": "krankzinnig",
-    "english": "Insane.",
+    "english": "insane.",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.36,
@@ -52774,7 +52774,7 @@
   {
     "rank": 3597,
     "lemma": "samenkomen",
-    "english": "Come",
+    "english": "come",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.36,
@@ -52816,7 +52816,7 @@
   {
     "rank": 3600,
     "lemma": "vegetarisch",
-    "english": "Vegetarian",
+    "english": "vegetarian",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.36,
@@ -52984,7 +52984,7 @@
   {
     "rank": 3612,
     "lemma": "decreet",
-    "english": "Decree",
+    "english": "decree",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.34,
@@ -53096,7 +53096,7 @@
   {
     "rank": 3620,
     "lemma": "neger",
-    "english": "Negro",
+    "english": "negro",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.34,
@@ -53264,7 +53264,7 @@
   {
     "rank": 3632,
     "lemma": "universeel",
-    "english": "Universal",
+    "english": "universal",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.32,
@@ -53306,7 +53306,7 @@
   {
     "rank": 3635,
     "lemma": "boeddha",
-    "english": "Buddha",
+    "english": "buddha",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.32,
@@ -53376,7 +53376,7 @@
   {
     "rank": 3640,
     "lemma": "loods",
-    "english": "Of",
+    "english": "of",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.32,
@@ -53446,7 +53446,7 @@
   {
     "rank": 3645,
     "lemma": "spijkerbroek",
-    "english": "Men's",
+    "english": "men's",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.32,
@@ -53502,7 +53502,7 @@
   {
     "rank": 3649,
     "lemma": "wereldkampioenschap",
-    "english": "World",
+    "english": "world",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.32,
@@ -53530,7 +53530,7 @@
   {
     "rank": 3651,
     "lemma": "fascineren",
-    "english": "Fascinating",
+    "english": "fascinating",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.32,
@@ -53559,7 +53559,7 @@
   {
     "rank": 3653,
     "lemma": "haken",
-    "english": "Hooks",
+    "english": "hooks",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.32,
@@ -53601,7 +53601,7 @@
   {
     "rank": 3656,
     "lemma": "mexicaans",
-    "english": "Mexican",
+    "english": "mexican",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.3,
@@ -53671,7 +53671,7 @@
   {
     "rank": 3661,
     "lemma": "kwijtraken",
-    "english": "Losing",
+    "english": "losing",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.3,
@@ -53755,7 +53755,7 @@
   {
     "rank": 3667,
     "lemma": "fluiten",
-    "english": "Whistle",
+    "english": "whistle",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.3,
@@ -53909,7 +53909,7 @@
   {
     "rank": 3678,
     "lemma": "onbegrijpelijk",
-    "english": "I",
+    "english": "i",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.3,
@@ -54021,7 +54021,7 @@
   {
     "rank": 3686,
     "lemma": "indiaas",
-    "english": "Indian",
+    "english": "indian",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.28,
@@ -54203,7 +54203,7 @@
   {
     "rank": 3699,
     "lemma": "dieptepunt",
-    "english": "Bottom",
+    "english": "bottom",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.28,
@@ -54217,7 +54217,7 @@
   {
     "rank": 3700,
     "lemma": "dwerg",
-    "english": "Pygmy",
+    "english": "pygmy",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.28,
@@ -54231,7 +54231,7 @@
   {
     "rank": 3701,
     "lemma": "haalbaar",
-    "english": "_BAR_",
+    "english": "_bar_",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.28,
@@ -54371,7 +54371,7 @@
   {
     "rank": 3711,
     "lemma": "tropisch",
-    "english": "Turmeric",
+    "english": "turmeric",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.26,
@@ -54455,7 +54455,7 @@
   {
     "rank": 3717,
     "lemma": "ambacht",
-    "english": "Handicrafts",
+    "english": "handicrafts",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.26,
@@ -54497,7 +54497,7 @@
   {
     "rank": 3720,
     "lemma": "bokser",
-    "english": "Boxer",
+    "english": "boxer",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.26,
@@ -54525,7 +54525,7 @@
   {
     "rank": 3722,
     "lemma": "bundelen",
-    "english": "Merge",
+    "english": "merge",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.26,
@@ -54721,7 +54721,7 @@
   {
     "rank": 3736,
     "lemma": "vloek",
-    "english": "Curse",
+    "english": "curse",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.26,
@@ -54749,7 +54749,7 @@
   {
     "rank": 3738,
     "lemma": "zwerver",
-    "english": "Wanderer",
+    "english": "wanderer",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.26,
@@ -54833,7 +54833,7 @@
   {
     "rank": 3744,
     "lemma": "bestuurlijk",
-    "english": "Administrative",
+    "english": "administrative",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.24,
@@ -54973,7 +54973,7 @@
   {
     "rank": 3754,
     "lemma": "pittig",
-    "english": "Spicy",
+    "english": "spicy",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.24,
@@ -55169,7 +55169,7 @@
   {
     "rank": 3768,
     "lemma": "maritiem",
-    "english": "Maritime",
+    "english": "maritime",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.24,
@@ -55183,7 +55183,7 @@
   {
     "rank": 3769,
     "lemma": "merkwaardig",
-    "english": "I",
+    "english": "i",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.24,
@@ -55211,7 +55211,7 @@
   {
     "rank": 3771,
     "lemma": "ontdoen",
-    "english": "Get",
+    "english": "get",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.24,
@@ -55295,7 +55295,7 @@
   {
     "rank": 3777,
     "lemma": "schelden",
-    "english": "Shouting",
+    "english": "shouting",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.24,
@@ -55323,7 +55323,7 @@
   {
     "rank": 3779,
     "lemma": "tovenaar",
-    "english": "Wizard",
+    "english": "wizard",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.24,
@@ -55337,7 +55337,7 @@
   {
     "rank": 3780,
     "lemma": "verleidelijk",
-    "english": "Tempting",
+    "english": "tempting",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.24,
@@ -55505,7 +55505,7 @@
   {
     "rank": 3792,
     "lemma": "adelaar",
-    "english": "Eagle",
+    "english": "eagle",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.22,
@@ -55603,7 +55603,7 @@
   {
     "rank": 3799,
     "lemma": "corner",
-    "english": "Corner",
+    "english": "corner",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.22,
@@ -55701,7 +55701,7 @@
   {
     "rank": 3806,
     "lemma": "onderbroek",
-    "english": "Pantyhose",
+    "english": "pantyhose",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.22,
@@ -55757,7 +55757,7 @@
   {
     "rank": 3810,
     "lemma": "peper",
-    "english": "Pepper",
+    "english": "pepper",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.22,
@@ -55995,7 +55995,7 @@
   {
     "rank": 3827,
     "lemma": "rechtvaardigen",
-    "english": "Reasons",
+    "english": "reasons",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.2,
@@ -56023,7 +56023,7 @@
   {
     "rank": 3829,
     "lemma": "belastingbetaler",
-    "english": "Taxpayer",
+    "english": "taxpayer",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.2,
@@ -56135,7 +56135,7 @@
   {
     "rank": 3837,
     "lemma": "lijm",
-    "english": "Glues",
+    "english": "glues",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.2,
@@ -56163,7 +56163,7 @@
   {
     "rank": 3839,
     "lemma": "massief",
-    "english": "Solid",
+    "english": "solid",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.2,
@@ -56205,7 +56205,7 @@
   {
     "rank": 3842,
     "lemma": "rechercheur",
-    "english": "Detective.",
+    "english": "detective.",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.2,
@@ -56275,7 +56275,7 @@
   {
     "rank": 3847,
     "lemma": "ven",
-    "english": "Of",
+    "english": "of",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.2,
@@ -56485,7 +56485,7 @@
   {
     "rank": 3862,
     "lemma": "fractievoorzitter",
-    "english": "Chairman",
+    "english": "chairman",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.18,
@@ -56513,7 +56513,7 @@
   {
     "rank": 3864,
     "lemma": "jaargang",
-    "english": "Volume",
+    "english": "volume",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.18,
@@ -56639,7 +56639,7 @@
   {
     "rank": 3873,
     "lemma": "pyjama",
-    "english": "Pajamas",
+    "english": "pajamas",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.18,
@@ -56695,7 +56695,7 @@
   {
     "rank": 3877,
     "lemma": "verhoor",
-    "english": "Interrogation",
+    "english": "interrogation",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.18,
@@ -56779,7 +56779,7 @@
   {
     "rank": 3883,
     "lemma": "dynamisch",
-    "english": "Dynamic",
+    "english": "dynamic",
     "pos": "adjective",
     "level": 6,
     "freq_score": 7.16,
@@ -56793,7 +56793,7 @@
   {
     "rank": 3884,
     "lemma": "groepering",
-    "english": "Grouping",
+    "english": "grouping",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.16,
@@ -56905,7 +56905,7 @@
   {
     "rank": 3892,
     "lemma": "boterham",
-    "english": "Sandwiches",
+    "english": "sandwiches",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.16,
@@ -56975,7 +56975,7 @@
   {
     "rank": 3897,
     "lemma": "glijden",
-    "english": "Slide",
+    "english": "slide",
     "pos": "verb",
     "level": 6,
     "freq_score": 7.16,
@@ -57017,7 +57017,7 @@
   {
     "rank": 3900,
     "lemma": "kameraad",
-    "english": "Comrade",
+    "english": "comrade",
     "pos": "noun",
     "level": 6,
     "freq_score": 7.16,
@@ -57031,7 +57031,7 @@
   {
     "rank": 3901,
     "lemma": "leefbaar",
-    "english": "Livable",
+    "english": "livable",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.16,
@@ -57101,7 +57101,7 @@
   {
     "rank": 3906,
     "lemma": "poep",
-    "english": "Poop",
+    "english": "poop",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.16,
@@ -57115,7 +57115,7 @@
   {
     "rank": 3907,
     "lemma": "problematisch",
-    "english": "Problem",
+    "english": "problem",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.16,
@@ -57129,7 +57129,7 @@
   {
     "rank": 3908,
     "lemma": "rekken",
-    "english": "Stretch",
+    "english": "stretch",
     "pos": "verb",
     "level": 7,
     "freq_score": 7.16,
@@ -57171,7 +57171,7 @@
   {
     "rank": 3911,
     "lemma": "spandoek",
-    "english": "Banner",
+    "english": "banner",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.16,
@@ -57255,7 +57255,7 @@
   {
     "rank": 3917,
     "lemma": "vuurwapen",
-    "english": "Firearm",
+    "english": "firearm",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.16,
@@ -57269,7 +57269,7 @@
   {
     "rank": 3918,
     "lemma": "israëlisch",
-    "english": "Israelian",
+    "english": "israelian",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.14,
@@ -57311,7 +57311,7 @@
   {
     "rank": 3921,
     "lemma": "overstroming",
-    "english": "Flooding",
+    "english": "flooding",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.14,
@@ -57339,7 +57339,7 @@
   {
     "rank": 3923,
     "lemma": "vloeibaar",
-    "english": "Liquid",
+    "english": "liquid",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.14,
@@ -57437,7 +57437,7 @@
   {
     "rank": 3930,
     "lemma": "hendriks",
-    "english": "Hendriks",
+    "english": "hendriks",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.14,
@@ -57479,7 +57479,7 @@
   {
     "rank": 3933,
     "lemma": "kwalitatief",
-    "english": "Quality",
+    "english": "quality",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.14,
@@ -57507,7 +57507,7 @@
   {
     "rank": 3935,
     "lemma": "martelaar",
-    "english": "Martyr",
+    "english": "martyr",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.14,
@@ -57591,7 +57591,7 @@
   {
     "rank": 3941,
     "lemma": "opzeggen",
-    "english": "Unsubscribe",
+    "english": "unsubscribe",
     "pos": "verb",
     "level": 7,
     "freq_score": 7.14,
@@ -57633,7 +57633,7 @@
   {
     "rank": 3944,
     "lemma": "schaamteloos",
-    "english": "Shameless",
+    "english": "shameless",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.14,
@@ -57730,7 +57730,7 @@
   {
     "rank": 3951,
     "lemma": "marokkaans",
-    "english": "Marokkaan",
+    "english": "marokkaan",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.12,
@@ -58010,7 +58010,7 @@
   {
     "rank": 3971,
     "lemma": "koppig",
-    "english": "Stubborn",
+    "english": "stubborn",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.12,
@@ -58094,7 +58094,7 @@
   {
     "rank": 3977,
     "lemma": "razendsnel",
-    "english": "Very",
+    "english": "very",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.12,
@@ -58178,7 +58178,7 @@
   {
     "rank": 3983,
     "lemma": "waarmaken",
-    "english": "_Receive",
+    "english": "_receive",
     "pos": "verb",
     "level": 7,
     "freq_score": 7.12,
@@ -58192,7 +58192,7 @@
   {
     "rank": 3984,
     "lemma": "achtig",
-    "english": "Ice",
+    "english": "ice",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.1,
@@ -58248,7 +58248,7 @@
   {
     "rank": 3988,
     "lemma": "inslaan",
-    "english": "Bottoms",
+    "english": "bottoms",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.1,
@@ -58290,7 +58290,7 @@
   {
     "rank": 3991,
     "lemma": "bombarderen",
-    "english": "Bombing",
+    "english": "bombing",
     "pos": "verb",
     "level": 7,
     "freq_score": 7.1,
@@ -58346,7 +58346,7 @@
   {
     "rank": 3995,
     "lemma": "jochie",
-    "english": "Kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kid",
+    "english": "kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kiddy-kid",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.1,
@@ -58374,7 +58374,7 @@
   {
     "rank": 3997,
     "lemma": "melodie",
-    "english": "Melody",
+    "english": "melody",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.1,
@@ -58402,7 +58402,7 @@
   {
     "rank": 3999,
     "lemma": "spoken",
-    "english": "Ghosts",
+    "english": "ghosts",
     "pos": "verb",
     "level": 7,
     "freq_score": 7.1,
@@ -58444,7 +58444,7 @@
   {
     "rank": 4002,
     "lemma": "zweven",
-    "english": "Floating",
+    "english": "floating",
     "pos": "verb",
     "level": 7,
     "freq_score": 7.1,
@@ -58458,7 +58458,7 @@
   {
     "rank": 4003,
     "lemma": "koelen",
-    "english": "Cooling",
+    "english": "cooling",
     "pos": "verb",
     "level": 7,
     "freq_score": 7.1,
@@ -58472,7 +58472,7 @@
   {
     "rank": 4004,
     "lemma": "rotten",
-    "english": "Rotate",
+    "english": "rotate",
     "pos": "verb",
     "level": 7,
     "freq_score": 7.1,
@@ -58780,7 +58780,7 @@
   {
     "rank": 4026,
     "lemma": "egyptisch",
-    "english": "Egyptian",
+    "english": "egyptian",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.06,
@@ -58850,7 +58850,7 @@
   {
     "rank": 4031,
     "lemma": "kristal",
-    "english": "Crystal",
+    "english": "crystal",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.06,
@@ -58906,7 +58906,7 @@
   {
     "rank": 4035,
     "lemma": "apotheker",
-    "english": "Pharmacist",
+    "english": "pharmacist",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.06,
@@ -58990,7 +58990,7 @@
   {
     "rank": 4041,
     "lemma": "kano",
-    "english": "Canoe",
+    "english": "canoe",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.06,
@@ -59060,7 +59060,7 @@
   {
     "rank": 4046,
     "lemma": "somber",
-    "english": "Dream",
+    "english": "dream",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.06,
@@ -59102,7 +59102,7 @@
   {
     "rank": 4049,
     "lemma": "tie",
-    "english": "The",
+    "english": "the",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.06,
@@ -59186,7 +59186,7 @@
   {
     "rank": 4055,
     "lemma": "kruisen",
-    "english": "Cross",
+    "english": "cross",
     "pos": "verb",
     "level": 7,
     "freq_score": 7.06,
@@ -59255,7 +59255,7 @@
   {
     "rank": 4060,
     "lemma": "mechanisch",
-    "english": "Mechanical",
+    "english": "mechanical",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.04,
@@ -59339,7 +59339,7 @@
   {
     "rank": 4066,
     "lemma": "aanbieder",
-    "english": "Provider",
+    "english": "provider",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.04,
@@ -59381,7 +59381,7 @@
   {
     "rank": 4069,
     "lemma": "eervol",
-    "english": "Honorable",
+    "english": "honorable",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.04,
@@ -59423,7 +59423,7 @@
   {
     "rank": 4072,
     "lemma": "grondlegger",
-    "english": "Founder",
+    "english": "founder",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.04,
@@ -59437,7 +59437,7 @@
   {
     "rank": 4073,
     "lemma": "lion",
-    "english": "Lion",
+    "english": "lion",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.04,
@@ -59689,7 +59689,7 @@
   {
     "rank": 4091,
     "lemma": "laars",
-    "english": "Boots",
+    "english": "boots",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.02,
@@ -59801,7 +59801,7 @@
   {
     "rank": 4099,
     "lemma": "boogschutter",
-    "english": "Archer",
+    "english": "archer",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.02,
@@ -59815,7 +59815,7 @@
   {
     "rank": 4100,
     "lemma": "capsule",
-    "english": "Capsule",
+    "english": "capsule",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.02,
@@ -59885,7 +59885,7 @@
   {
     "rank": 4105,
     "lemma": "griet",
-    "english": "Brilliant",
+    "english": "brilliant",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.02,
@@ -59941,7 +59941,7 @@
   {
     "rank": 4109,
     "lemma": "joker",
-    "english": "Joker",
+    "english": "joker",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.02,
@@ -59955,7 +59955,7 @@
   {
     "rank": 4110,
     "lemma": "miljonair",
-    "english": "Millionaire",
+    "english": "millionaire",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.02,
@@ -60011,7 +60011,7 @@
   {
     "rank": 4114,
     "lemma": "productief",
-    "english": "Productive",
+    "english": "productive",
     "pos": "adjective",
     "level": 7,
     "freq_score": 7.02,
@@ -60248,7 +60248,7 @@
   {
     "rank": 4131,
     "lemma": "cowboy",
-    "english": "Cowboy",
+    "english": "cowboy",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.0,
@@ -60318,7 +60318,7 @@
   {
     "rank": 4136,
     "lemma": "machinist",
-    "english": "Engineer",
+    "english": "engineer",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.0,
@@ -60360,7 +60360,7 @@
   {
     "rank": 4139,
     "lemma": "plateau",
-    "english": "Plateau",
+    "english": "plateau",
     "pos": "noun",
     "level": 7,
     "freq_score": 7.0,
@@ -60458,7 +60458,7 @@
   {
     "rank": 4146,
     "lemma": "liefhebben",
-    "english": "Love",
+    "english": "love",
     "pos": "verb",
     "level": 7,
     "freq_score": 7.0,
@@ -60501,7 +60501,7 @@
   {
     "rank": 4149,
     "lemma": "gruwelijk",
-    "english": "Horrible.",
+    "english": "horrible.",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.98,
@@ -60571,7 +60571,7 @@
   {
     "rank": 4154,
     "lemma": "vreedzaam",
-    "english": "Peaceful",
+    "english": "peaceful",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.98,
@@ -60599,7 +60599,7 @@
   {
     "rank": 4156,
     "lemma": "bever",
-    "english": "Beaver",
+    "english": "beaver",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.98,
@@ -60669,7 +60669,7 @@
   {
     "rank": 4161,
     "lemma": "gaar",
-    "english": "Cooked",
+    "english": "cooked",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.98,
@@ -60683,7 +60683,7 @@
   {
     "rank": 4162,
     "lemma": "halfuur",
-    "english": "Half",
+    "english": "half",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.98,
@@ -60697,7 +60697,7 @@
   {
     "rank": 4163,
     "lemma": "klaver",
-    "english": "Clover",
+    "english": "clover",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.98,
@@ -60725,7 +60725,7 @@
   {
     "rank": 4165,
     "lemma": "oppervlakkig",
-    "english": "Shallow",
+    "english": "shallow",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.98,
@@ -60753,7 +60753,7 @@
   {
     "rank": 4167,
     "lemma": "pont",
-    "english": "Of",
+    "english": "of",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.98,
@@ -61033,7 +61033,7 @@
   {
     "rank": 4187,
     "lemma": "burcht",
-    "english": "Castle",
+    "english": "castle",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.96,
@@ -61117,7 +61117,7 @@
   {
     "rank": 4193,
     "lemma": "hoopvol",
-    "english": "Hopeful",
+    "english": "hopeful",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.96,
@@ -61145,7 +61145,7 @@
   {
     "rank": 4195,
     "lemma": "kinderachtig",
-    "english": "Childish",
+    "english": "childish",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.96,
@@ -61159,7 +61159,7 @@
   {
     "rank": 4196,
     "lemma": "koptelefoon",
-    "english": "Headphones",
+    "english": "headphones",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.96,
@@ -61201,7 +61201,7 @@
   {
     "rank": 4199,
     "lemma": "panty",
-    "english": "Pantyhose",
+    "english": "pantyhose",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.96,
@@ -61313,7 +61313,7 @@
   {
     "rank": 4207,
     "lemma": "oostelijk",
-    "english": "Eastern",
+    "english": "eastern",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.94,
@@ -61341,7 +61341,7 @@
   {
     "rank": 4209,
     "lemma": "goddelijk",
-    "english": "Divine",
+    "english": "divine",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.94,
@@ -61383,7 +61383,7 @@
   {
     "rank": 4212,
     "lemma": "kerkelijk",
-    "english": "Church",
+    "english": "church",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.94,
@@ -61397,7 +61397,7 @@
   {
     "rank": 4213,
     "lemma": "socialist",
-    "english": "Socialist",
+    "english": "socialist",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.94,
@@ -61411,7 +61411,7 @@
   {
     "rank": 4214,
     "lemma": "angstaanjagend",
-    "english": "Terrifying.",
+    "english": "terrifying.",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.94,
@@ -61439,7 +61439,7 @@
   {
     "rank": 4216,
     "lemma": "eekhoorn",
-    "english": "Squirrel",
+    "english": "squirrel",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.94,
@@ -61467,7 +61467,7 @@
   {
     "rank": 4218,
     "lemma": "invaller",
-    "english": "Substituter",
+    "english": "substituter",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.94,
@@ -61481,7 +61481,7 @@
   {
     "rank": 4219,
     "lemma": "kansloos",
-    "english": "Not",
+    "english": "not",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.94,
@@ -61551,7 +61551,7 @@
   {
     "rank": 4224,
     "lemma": "onnozel",
-    "english": "Stupid.",
+    "english": "stupid.",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.94,
@@ -61705,7 +61705,7 @@
   {
     "rank": 4235,
     "lemma": "verwezenlijken",
-    "english": "Achieve",
+    "english": "achieve",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.94,
@@ -61719,7 +61719,7 @@
   {
     "rank": 4236,
     "lemma": "vuilnisbak",
-    "english": "Trash",
+    "english": "trash",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.94,
@@ -61775,7 +61775,7 @@
   {
     "rank": 4240,
     "lemma": "bouwkundig",
-    "english": "Of",
+    "english": "of",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.92,
@@ -61831,7 +61831,7 @@
   {
     "rank": 4244,
     "lemma": "geuren",
-    "english": "Scents",
+    "english": "scents",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.92,
@@ -61957,7 +61957,7 @@
   {
     "rank": 4253,
     "lemma": "reinigen",
-    "english": "Cleaning",
+    "english": "cleaning",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.92,
@@ -61971,7 +61971,7 @@
   {
     "rank": 4254,
     "lemma": "braziliaans",
-    "english": "Brazilian",
+    "english": "brazilian",
     "pos": "adverb",
     "level": 7,
     "freq_score": 6.9,
@@ -62027,7 +62027,7 @@
   {
     "rank": 4258,
     "lemma": "kunstmatig",
-    "english": "Artificial",
+    "english": "artificial",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.9,
@@ -62111,7 +62111,7 @@
   {
     "rank": 4264,
     "lemma": "brutaal",
-    "english": "Cheeky.",
+    "english": "cheeky.",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.9,
@@ -62209,7 +62209,7 @@
   {
     "rank": 4271,
     "lemma": "dop",
-    "english": "Cap",
+    "english": "cap",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.9,
@@ -62223,7 +62223,7 @@
   {
     "rank": 4272,
     "lemma": "eenduidig",
-    "english": "Unmistakable",
+    "english": "unmistakable",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.9,
@@ -62391,7 +62391,7 @@
   {
     "rank": 4284,
     "lemma": "viking",
-    "english": "Viking",
+    "english": "viking",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.9,
@@ -62405,7 +62405,7 @@
   {
     "rank": 4285,
     "lemma": "vredig",
-    "english": "Peaceful",
+    "english": "peaceful",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.9,
@@ -62419,7 +62419,7 @@
   {
     "rank": 4286,
     "lemma": "vrijmaken",
-    "english": "Clear",
+    "english": "clear",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.9,
@@ -62447,7 +62447,7 @@
   {
     "rank": 4288,
     "lemma": "indonesisch",
-    "english": "Indonesian",
+    "english": "indonesian",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.88,
@@ -62503,7 +62503,7 @@
   {
     "rank": 4292,
     "lemma": "honderdduizend",
-    "english": "Hundreds",
+    "english": "hundreds",
     "pos": "numeral",
     "level": 7,
     "freq_score": 6.88,
@@ -62517,7 +62517,7 @@
   {
     "rank": 4293,
     "lemma": "vijandig",
-    "english": "Enemy",
+    "english": "enemy",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.88,
@@ -62531,7 +62531,7 @@
   {
     "rank": 4294,
     "lemma": "perzisch",
-    "english": "Persian",
+    "english": "persian",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.88,
@@ -62559,7 +62559,7 @@
   {
     "rank": 4296,
     "lemma": "vellen",
-    "english": "Sheets",
+    "english": "sheets",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.88,
@@ -62657,7 +62657,7 @@
   {
     "rank": 4303,
     "lemma": "goochelaar",
-    "english": "Magician",
+    "english": "magician",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.88,
@@ -62727,7 +62727,7 @@
   {
     "rank": 4308,
     "lemma": "loket",
-    "english": "Window",
+    "english": "window",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.88,
@@ -62825,7 +62825,7 @@
   {
     "rank": 4315,
     "lemma": "schenking",
-    "english": "Gift",
+    "english": "gift",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.88,
@@ -62895,7 +62895,7 @@
   {
     "rank": 4320,
     "lemma": "mysterieus",
-    "english": "Mysterious",
+    "english": "mysterious",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.86,
@@ -62909,7 +62909,7 @@
   {
     "rank": 4321,
     "lemma": "nucleair",
-    "english": "Nuclear",
+    "english": "nuclear",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.86,
@@ -63091,7 +63091,7 @@
   {
     "rank": 4334,
     "lemma": "kanjer",
-    "english": "Nice",
+    "english": "nice",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.86,
@@ -63119,7 +63119,7 @@
   {
     "rank": 4336,
     "lemma": "lullig",
-    "english": "Fucking",
+    "english": "fucking",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.86,
@@ -63203,7 +63203,7 @@
   {
     "rank": 4342,
     "lemma": "redder",
-    "english": "Savior",
+    "english": "savior",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.86,
@@ -63217,7 +63217,7 @@
   {
     "rank": 4343,
     "lemma": "sar",
-    "english": "Sar",
+    "english": "sar",
     "pos": "pronoun",
     "level": 7,
     "freq_score": 6.86,
@@ -63245,7 +63245,7 @@
   {
     "rank": 4345,
     "lemma": "specialisatie",
-    "english": "Specialization",
+    "english": "specialization",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.86,
@@ -63273,7 +63273,7 @@
   {
     "rank": 4347,
     "lemma": "wijngaard",
-    "english": "Vineyard",
+    "english": "vineyard",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.86,
@@ -63287,7 +63287,7 @@
   {
     "rank": 4348,
     "lemma": "wonderbaarlijk",
-    "english": "Mm-hmm.",
+    "english": "mm-hmm.",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.86,
@@ -63301,7 +63301,7 @@
   {
     "rank": 4349,
     "lemma": "zwaargewond",
-    "english": "Seriously",
+    "english": "seriously",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.86,
@@ -63385,7 +63385,7 @@
   {
     "rank": 4355,
     "lemma": "volwaardig",
-    "english": "Full",
+    "english": "full",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.84,
@@ -63455,7 +63455,7 @@
   {
     "rank": 4360,
     "lemma": "vleermuis",
-    "english": "Bats",
+    "english": "bats",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.84,
@@ -63497,7 +63497,7 @@
   {
     "rank": 4363,
     "lemma": "georgisch",
-    "english": "Georgian",
+    "english": "georgian",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.84,
@@ -63511,7 +63511,7 @@
   {
     "rank": 4364,
     "lemma": "breien",
-    "english": "Knitting",
+    "english": "knitting",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.84,
@@ -63567,7 +63567,7 @@
   {
     "rank": 4368,
     "lemma": "kabouter",
-    "english": "Leprechaun",
+    "english": "leprechaun",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.84,
@@ -63791,7 +63791,7 @@
   {
     "rank": 4384,
     "lemma": "voorloper",
-    "english": "Forerunner",
+    "english": "forerunner",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.84,
@@ -63861,7 +63861,7 @@
   {
     "rank": 4389,
     "lemma": "magnetisch",
-    "english": "Magnetic",
+    "english": "magnetic",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.82,
@@ -63917,7 +63917,7 @@
   {
     "rank": 4393,
     "lemma": "statuut",
-    "english": "Staff",
+    "english": "staff",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.82,
@@ -63959,7 +63959,7 @@
   {
     "rank": 4396,
     "lemma": "multinational",
-    "english": "Multinational",
+    "english": "multinational",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.82,
@@ -63973,7 +63973,7 @@
   {
     "rank": 4397,
     "lemma": "proppen",
-    "english": "Stuffing",
+    "english": "stuffing",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.82,
@@ -64001,7 +64001,7 @@
   {
     "rank": 4399,
     "lemma": "verkiezingsprogramma",
-    "english": "Election",
+    "english": "election",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.82,
@@ -64029,7 +64029,7 @@
   {
     "rank": 4401,
     "lemma": "stabiliseren",
-    "english": "Stabilise",
+    "english": "stabilise",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.82,
@@ -64043,7 +64043,7 @@
   {
     "rank": 4402,
     "lemma": "noors",
-    "english": "Norwegians",
+    "english": "norwegians",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.8,
@@ -64071,7 +64071,7 @@
   {
     "rank": 4404,
     "lemma": "geografisch",
-    "english": "Geographic",
+    "english": "geographic",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.8,
@@ -64141,7 +64141,7 @@
   {
     "rank": 4409,
     "lemma": "klinisch",
-    "english": "Clinical",
+    "english": "clinical",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.8,
@@ -64169,7 +64169,7 @@
   {
     "rank": 4411,
     "lemma": "holt",
-    "english": "Holt",
+    "english": "holt",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.8,
@@ -64211,7 +64211,7 @@
   {
     "rank": 4414,
     "lemma": "belemmeren",
-    "english": "Obstacles",
+    "english": "obstacles",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.8,
@@ -64267,7 +64267,7 @@
   {
     "rank": 4418,
     "lemma": "farao",
-    "english": "Pharaoh",
+    "english": "pharaoh",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.8,
@@ -64281,7 +64281,7 @@
   {
     "rank": 4419,
     "lemma": "kerstdag",
-    "english": "Christmas",
+    "english": "christmas",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.8,
@@ -64337,7 +64337,7 @@
   {
     "rank": 4423,
     "lemma": "periodiek",
-    "english": "Periodic",
+    "english": "periodic",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.8,
@@ -64407,7 +64407,7 @@
   {
     "rank": 4428,
     "lemma": "kers",
-    "english": "Chrysanthemums",
+    "english": "chrysanthemums",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.8,
@@ -64421,7 +64421,7 @@
   {
     "rank": 4429,
     "lemma": "len",
-    "english": "Lens",
+    "english": "lens",
     "pos": "preposition",
     "level": 7,
     "freq_score": 6.78,
@@ -64449,7 +64449,7 @@
   {
     "rank": 4431,
     "lemma": "nederlandstalig",
-    "english": "English",
+    "english": "english",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.78,
@@ -64477,7 +64477,7 @@
   {
     "rank": 4433,
     "lemma": "spoorweg",
-    "english": "Railway",
+    "english": "railway",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.78,
@@ -64491,7 +64491,7 @@
   {
     "rank": 4434,
     "lemma": "draadloos",
-    "english": "Wireless",
+    "english": "wireless",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.78,
@@ -64547,7 +64547,7 @@
   {
     "rank": 4438,
     "lemma": "betogen",
-    "english": "Please",
+    "english": "please",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.78,
@@ -64603,7 +64603,7 @@
   {
     "rank": 4442,
     "lemma": "col",
-    "english": "Col",
+    "english": "col",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.78,
@@ -64659,7 +64659,7 @@
   {
     "rank": 4446,
     "lemma": "latino",
-    "english": "Latino",
+    "english": "latino",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.78,
@@ -64743,7 +64743,7 @@
   {
     "rank": 4452,
     "lemma": "sexfilm",
-    "english": "Sex",
+    "english": "sex",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.78,
@@ -64785,7 +64785,7 @@
   {
     "rank": 4455,
     "lemma": "trekpleister",
-    "english": "Tractor",
+    "english": "tractor",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.78,
@@ -64855,7 +64855,7 @@
   {
     "rank": 4460,
     "lemma": "trakteren",
-    "english": "Of",
+    "english": "of",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.78,
@@ -64980,7 +64980,7 @@
   {
     "rank": 4469,
     "lemma": "statistisch",
-    "english": "Statistical",
+    "english": "statistical",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.76,
@@ -65008,7 +65008,7 @@
   {
     "rank": 4471,
     "lemma": "laar",
-    "english": "Lap",
+    "english": "lap",
     "pos": "pronoun",
     "level": 7,
     "freq_score": 6.76,
@@ -65022,7 +65022,7 @@
   {
     "rank": 4472,
     "lemma": "komisch",
-    "english": "Come",
+    "english": "come",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.76,
@@ -65050,7 +65050,7 @@
   {
     "rank": 4474,
     "lemma": "aanvoer",
-    "english": "Landing",
+    "english": "landing",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.76,
@@ -65064,7 +65064,7 @@
   {
     "rank": 4475,
     "lemma": "coöperatie",
-    "english": "Co-operative",
+    "english": "co-operative",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.76,
@@ -65078,7 +65078,7 @@
   {
     "rank": 4476,
     "lemma": "gezang",
-    "english": "Singing",
+    "english": "singing",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.76,
@@ -65106,7 +65106,7 @@
   {
     "rank": 4478,
     "lemma": "maud",
-    "english": "Maud",
+    "english": "maud",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.76,
@@ -65176,7 +65176,7 @@
   {
     "rank": 4483,
     "lemma": "openhartig",
-    "english": "Honestly",
+    "english": "honestly",
     "pos": "adjective",
     "level": 7,
     "freq_score": 6.76,
@@ -65204,7 +65204,7 @@
   {
     "rank": 4485,
     "lemma": "reanimeren",
-    "english": "CPR",
+    "english": "cpr",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.76,
@@ -65218,7 +65218,7 @@
   {
     "rank": 4486,
     "lemma": "rocket",
-    "english": "Rocket",
+    "english": "rocket",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.76,
@@ -65302,7 +65302,7 @@
   {
     "rank": 4492,
     "lemma": "handschoen",
-    "english": "Glove",
+    "english": "glove",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.74,
@@ -65330,7 +65330,7 @@
   {
     "rank": 4494,
     "lemma": "toeslag",
-    "english": "Supplement",
+    "english": "supplement",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.74,
@@ -65344,7 +65344,7 @@
   {
     "rank": 4495,
     "lemma": "betoging",
-    "english": "Demonstration",
+    "english": "demonstration",
     "pos": "noun",
     "level": 7,
     "freq_score": 6.74,
@@ -65400,7 +65400,7 @@
   {
     "rank": 4499,
     "lemma": "exporteren",
-    "english": "Export",
+    "english": "export",
     "pos": "verb",
     "level": 7,
     "freq_score": 6.74,

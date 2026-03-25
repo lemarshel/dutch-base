@@ -44,7 +44,7 @@ def normalize_gloss(gloss):
         return ''
     gloss = gloss.strip()
     gloss = re.sub(r'\s+', ' ', gloss)
-    return gloss
+    return gloss.lower()
 
 def single_word_gloss(gloss):
     gloss = normalize_gloss(gloss)
@@ -56,7 +56,7 @@ def single_word_gloss(gloss):
     gloss = re.split(r'[;,/]', gloss)[0].strip()
     # keep only first word if multiword remains
     gloss = gloss.split()[0] if gloss else ''
-    return gloss
+    return gloss.lower()
 
 
 def main():

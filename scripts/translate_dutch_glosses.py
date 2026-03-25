@@ -22,7 +22,7 @@ tokenizer = MarianTokenizer.from_pretrained(model_name)
 def normalize_gloss(gloss: str) -> str:
     gloss = gloss.strip()
     gloss = re.sub(r'\s+', ' ', gloss)
-    return gloss
+    return gloss.lower()
 
 
 def single_word_gloss(gloss: str) -> str:
@@ -32,7 +32,7 @@ def single_word_gloss(gloss: str) -> str:
     gloss = re.sub(r'^(to\s+)', '', gloss, flags=re.IGNORECASE)
     gloss = re.split(r'[;,/]', gloss)[0].strip()
     gloss = gloss.split()[0] if gloss else ''
-    return gloss
+    return gloss.lower()
 
 BATCH = 64
 
