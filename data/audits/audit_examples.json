@@ -1,0 +1,14 @@
+{
+  "summary": {
+    "missing_example": 0,
+    "length_out_of_range": 0,
+    "lemma_missing": 0,
+    "duplicate_example": 0
+  },
+  "issues": {
+    "missing_example": [],
+    "length_out_of_range": [],
+    "lemma_missing": [],
+    "duplicate_example": []
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "summary": {
+    "invalid_english": 0,
+    "low_english_zipf": 4,
+    "non_alpha_english": 0,
+    "mismatch_translation": 21,
+    "invalid_dutch": 0
+  },
+  "issues": {
+    "invalid_english": [],
+    "low_english_zipf": [
+      {
+        "lemma": "polder",
+        "english": "polder",
+        "zipf": 1.85
+      },
+      {
+        "lemma": "hendriks",
+        "english": "hendriks",
+        "zipf": 1.88
+      },
+      {
+        "lemma": "aart",
+        "english": "aart",
+        "zipf": 1.44
+      },
+      {
+        "lemma": "jonker",
+        "english": "jonker",
+        "zipf": 1.87
+      }
+    ],
+    "non_alpha_english": [],
+    "mismatch_translation": [
+      {
+        "lemma": "een",
+        "english": "a",
+        "argos": "one"
+      },
+      {
+        "lemma": "die",
+        "english": "that",
+        "argos": "which"
+      },
+      {
+        "lemma": "de",
+        "english": "the",
+        "argos": "in"
+      },
+      {
+        "lemma": "voor",
+        "english": "for",
+        "argos": "before"
+      },
+      {
+        "lemma": "te",
+        "english": "to",
+        "argos": "te"
+      },
+      {
+        "lemma": "er",
+        "english": "there",
+        "argos": "ed"
+      },
+      {
+        "lemma": "uit",
+        "english": "out",
+        "argos": "off"
+      },
+      {
+        "lemma": "bij",
+        "english": "at",
+        "argos": "by"
+      },
+      {
+        "lemma": "wel",
+        "english": "well",
+        "argos": "yes"
+      },
+      {
+        "lemma": "geus",
+        "english": "rebel",
+        "argos": "geus"
+      },
+      {
+        "lemma": "julia",
+        "english": "julia",
+        "argos": "julya"
+      },
+      {
+        "lemma": "webshop",
+        "english": "online shop",
+        "argos": "webshop"
+      },
+      {
+        "lemma": "andré",
+        "english": "andre",
+        "argos": "andré"
+      },
+      {
+        "lemma": "kamerlid",
+        "english": "member",
+        "argos": "mp"
+      },
+      {
+        "lemma": "sexdate",
+        "english": "sex date",
+        "argos": "sexdate"
+      },
+      {
+        "lemma": "lyon",
+        "english": "lyon",
+        "argos": "lyone"
+      },
+      {
+        "lemma": "willems",
+        "english": "willems",
+        "argos": "wilms"
+      },
+      {
+        "lemma": "syrisch",
+        "english": "syrian",
+        "argos": "syric"
+      },
+      {
+        "lemma": "dragon",
+        "english": "dragon",
+        "argos": "dragone"
+      },
+      {
+        "lemma": "hendriks",
+        "english": "hendriks",
+        "argos": "handdriks"
+      },
+      {
+        "lemma": "kuil",
+        "english": "pit",
+        "argos": "codend"
+      }
+    ],
+    "invalid_dutch": []
+  }
+}

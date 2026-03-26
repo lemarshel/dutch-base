@@ -65,6 +65,12 @@ function renderTable() {
         </div>
       </td>
       <td class="col-english">${state.showEnglish ? (item.english || '') : ''}</td>
+      <td class="example-cell">
+        <div class="wordcell">
+          <button class="tts-btn" data-exrank="${item.rank}" data-extext="${item.example || ''}">▶</button>
+          <span>${item.example || ''}</span>
+        </div>
+      </td>
       <td>${posLabels[item.pos] || item.pos}</td>
       <td>${item.level}</td>
     `;
@@ -75,6 +81,12 @@ function renderTable() {
     btn.addEventListener('click', (e) => {
       const text = btn.getAttribute('data-tts');
       const rank = parseInt(btn.getAttribute('data-rank') || '0', 10);
+      const exText = btn.getAttribute('data-extext');
+      const exRank = parseInt(btn.getAttribute('data-exrank') || '0', 10);
+      if (exRank && exText) {
+        playExampleAudio(exRank, exText);
+        return;
+      }
       if (!text) return;
       playAudio(rank, text);
     });
@@ -84,6 +96,11 @@ function renderTable() {
 function audioFilename(rank) {
   const safeRank = String(rank || 0).padStart(4, '0');
   return `audio/${safeRank}.mp3`;
+}
+
+function exampleAudioFilename(rank) {
+  const safeRank = String(rank || 0).padStart(4, '0');
+  return `audio_examples/${safeRank}.mp3`;
 }
 
 function playAudio(rank, text) {
@@ -103,6 +120,26 @@ function playAudio(rank, text) {
   audio.volume = state.volume;
   audio.play().catch(() => {
     console.warn('Audio missing for', text, url);
+  });
+}
+
+function playExampleAudio(rank, text) {
+  const url = exampleAudioFilename(rank);
+  let audio = audioCache.get(url);
+  if (!audio) {
+    audio = new Audio(url);
+    audio.preload = 'auto';
+    audioCache.set(url, audio);
+  }
+  if (currentAudio && currentAudio !== audio) {
+    currentAudio.pause();
+  }
+  currentAudio = audio;
+  audio.currentTime = 0;
+  audio.playbackRate = state.rate;
+  audio.volume = state.volume;
+  audio.play().catch(() => {
+    console.warn('Example audio missing for', text, url);
   });
 }
 

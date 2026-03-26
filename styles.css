@@ -235,6 +235,10 @@ tbody td {
   color: var(--muted);
 }
 
+.example-cell {
+  color: var(--text);
+}
+
 @media (max-width: 900px) {
   .topbar {
     flex-direction: column;
